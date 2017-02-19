@@ -16,7 +16,7 @@ if (place_meeting(obj_shake.x, obj_shake.y, obj_placeholder)) {  //check if the 
     }
 }
 
-if (place_meeting(obj_coffee.x, obj_coffee.y, obj_placeholder)) {  //check if the player is colliding with the item
+else if (place_meeting(obj_coffee.x, obj_coffee.y, obj_placeholder)) {  //check if the player is colliding with the item
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
@@ -33,7 +33,7 @@ if (place_meeting(obj_coffee.x, obj_coffee.y, obj_placeholder)) {  //check if th
     }
 }
 
-if (place_meeting(obj_roids.x, obj_roids.y, obj_placeholder)) {  //check if the player is colliding with the item
+else if (place_meeting(obj_roids.x, obj_roids.y, obj_placeholder)) {  //check if the player is colliding with the item
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 

@@ -240,60 +240,66 @@
     </objects>
     <objects name="Items">
       <object>objects\obj_item</object>
+      <object>objects\obj_block</object>
       <object>objects\obj_keycard</object>
       <object>objects\obj_bro_coin</object>
       <object>objects\obj_roids</object>
       <object>objects\obj_coffee</object>
       <object>objects\obj_shake</object>
       <object>objects\obj_key</object>
-      <object>objects\object59</object>
       <object>objects\obj_towel</object>
       <object>objects\obj_button</object>
       <object>objects\obj_paint</object>
     </objects>
-    <object>objects\obj_block</object>
-    <object>objects\obj_text</object>
-    <object>objects\obj_chat</object>
-    <object>objects\obj_store</object>
+    <objects name="Puzzle">
+      <object>objects\obj_poster</object>
+      <object>objects\obj_poster_correct</object>
+      <object>objects\obj_vib_tile</object>
+      <object>objects\obj_arrow_up</object>
+      <object>objects\obj_arrow_down</object>
+      <object>objects\obj_arrow_right</object>
+      <object>objects\obj_arrow_left</object>
+      <object>objects\obj_lock_num_1</object>
+      <object>objects\obj_lock_num_2</object>
+      <object>objects\obj_lock_num_3</object>
+      <object>objects\obj_bro_combo</object>
+      <object>objects\obj_locker_combo</object>
+      <object>objects\obj_lock_screen</object>
+      <object>objects\obj_revolt</object>
+      <object>objects\obj_lock_num_4</object>
+    </objects>
     <object>objects\obj_wall</object>
-    <object>objects\obj_arrow</object>
-    <object>objects\obj_inv</object>
-    <object>objects\obj_minigame</object>
-    <object>objects\obj_minigmae_3</object>
-    <object>objects\obj_minigame_2</object>
     <object>objects\obj_gate</object>
     <object>objects\obj_door</object>
     <object>objects\obj_treadmill</object>
     <object>objects\obj_bench_press</object>
     <object>objects\obj_curl_rack</object>
-    <object>objects\obj_bro_combo</object>
-    <object>objects\obj_poster</object>
-    <object>objects\obj_poster_correct</object>
-    <object>objects\obj_vib_tile</object>
-    <object>objects\obj_arrow_up</object>
-    <object>objects\obj_arrow_down</object>
-    <object>objects\obj_arrow_right</object>
-    <object>objects\obj_arrow_left</object>
-    <object>objects\obj_male</object>
-    <object>objects\obj_female</object>
-    <object>objects\obj_chars</object>
-    <object>objects\obj_locker_combo</object>
-    <object>objects\obj_lock_screen</object>
-    <object>objects\obj_lock_num_1</object>
-    <object>objects\obj_lock_num_2</object>
-    <object>objects\obj_lock_num_3</object>
-    <object>objects\obj_lock_num_4</object>
-    <object>objects\obj_revolt</object>
+    <objects name="UI">
+      <object>objects\obj_arrow</object>
+      <object>objects\obj_next_level</object>
+      <object>objects\obj_store</object>
+      <object>objects\obj_text</object>
+      <object>objects\obj_chat</object>
+      <object>objects\obj_chars</object>
+      <object>objects\obj_inv</object>
+      <object>objects\obj_female</object>
+      <object>objects\obj_male</object>
+    </objects>
+    <objects name="Minigame">
+      <object>objects\obj_minigame</object>
+      <object>objects\obj_minigame_2</object>
+      <object>objects\obj_minigmae_3</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\character_select</room>
     <room>rooms\Level_1</room>
-    <room>rooms\test_room</room>
     <room>rooms\Level_2</room>
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Store_room</room>
+    <room>rooms\test_room</room>
     <room>rooms\room8</room>
   </rooms>
   <help>
