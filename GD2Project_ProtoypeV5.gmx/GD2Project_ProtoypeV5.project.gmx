@@ -120,6 +120,11 @@
       <sprite>sprites\spr_lock_screen</sprite>
       <sprite>sprites\spr_left_arrow</sprite>
     </sprites>
+    <sprites name="MainMenu">
+      <sprite>sprites\Credits_Button</sprite>
+      <sprite>sprites\Instruction_Button</sprite>
+      <sprite>sprites\Start_Button</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -146,6 +151,8 @@
     <background>background\Wall_Template_new</background>
     <background>background\Water</background>
     <background>background\yellow_new</background>
+    <background>background\Credits</background>
+    <background>background\TitleCard</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_dance_puzzle</path>
@@ -212,6 +219,7 @@
       <script>scripts\scrp_tweak_puzzle_chat.gml</script>
       <script>scripts\scrp_change_music.gml</script>
     </scripts>
+    <script>scripts\scr_menu.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_chat</font>
@@ -300,16 +308,23 @@
       <object>objects\obj_minigame_3</object>
       <object>objects\obj_pool_mini</object>
     </objects>
+    <object>objects\credits_exit</object>
+    <object>objects\Credits_obj</object>
+    <object>objects\Instructions</object>
+    <object>objects\MenuSelect</object>
+    <object>objects\Start</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Menu</room>
     <room>rooms\character_select</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
     <room>rooms\Tutorial</room>
-    <room>rooms\test_room</room>
+    <room>rooms\credits_rm</room>
     <room>rooms\Store_room</room>
+    <room>rooms\test_room</room>
     <room>rooms\room8</room>
   </rooms>
   <help>
