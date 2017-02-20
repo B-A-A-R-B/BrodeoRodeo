@@ -1,10 +1,7 @@
 var inst;
 //dropping an item
-if (distance_to_object(obj_block) > 15) {
-    if (global.qq == 1) {
-        instance_create(obj_block.x - 96, obj_block.y - 64, obj_shake);   
-    }
-/*if (global.selected == 0) { //if first slot is selected
+if (place_meeting(obj_placeholder.x, obj_placeholder.y, obj_block)) {
+if (global.selected == 0) { //if first slot is selected
     if (global.backpack[0] == obj_shake) { //check if first slot has something in it
         instance_create(obj_block.x, obj_block.y, obj_shake);
         global.backpack[0] = 0;
@@ -56,5 +53,5 @@ else if (global.selected == 2) {
     else {
         show_message("No item selected to drop");
     }
-}*/
+}
 }

@@ -1,5 +1,3 @@
-draw_sprite(spr_inv, -1, view_xview[0], view_yview[0] + 180);
-depth = -5010;
 for (var i = 0; i < 3; i++) { //draw sprites in inventory
     if (i == 0) { //check each item to find what is in the first slot
     if(global.backpack[i] == obj_shake) {

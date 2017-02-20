@@ -83,6 +83,7 @@ if !(place_meeting(obj_arrow_right.x, obj_arrow_right.y, obj_placeholder)) {
 }
 else if (global.dance_puzzle == 7) {
     global.dance_puzzle = 15;
+    global.puzzle_code_1++;
     global.pressed_right = 1;
 }
 
