@@ -13,6 +13,7 @@
     <sound>sound\snd_store</sound>
     <sound>sound\snd_main_menu</sound>
     <sound>sound\snd_placement</sound>
+    <sound>sound\MainMenu</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
