@@ -16,3 +16,34 @@ else if (distance_to_object(obj_tanning_bro) < 15) {
     scrp_tanning_bro_chat();
 }
 
+else if (distance_to_object(obj_dad_bro) < 15) {
+    scrp_gym_father_chat();
+}
+else if (distance_to_object(obj_mom_bro) < 15) {
+    scrp_gym_mother_chat();
+}
+else if (distance_to_object(obj_quote_bro_1) < 15) {
+    scrp_quote_bro_1_chat();
+}
+else if (distance_to_object(obj_quote_bro_2) < 15) {
+    scrp_quote_bro_2_chat();
+}
+else if (distance_to_object(obj_quote_bro_3) < 15) {
+    scrp_quote_bro_3_chat();
+}
+else if (distance_to_object(obj_quote_bro_4) < 15) {
+    scrp_quote_bro_4_chat();
+}
+else if (distance_to_object(obj_quote_bro_5) < 15) {
+    scrp_quote_bro_5_chat();
+}
+else if (distance_to_object(obj_quote_bro_6) < 15) {
+    scrp_quote_bro_6_chat();
+}
+else if (distance_to_object(obj_L3_word_puzzle_bro) < 15) {
+    scrp_L3_word_puzzle_bro_chat();
+}
+else if (distance_to_object(obj_broflex_bro) < 15) {
+    scrp_broflex_bro_chat();
+}
+

@@ -180,7 +180,14 @@
       <script>scripts\scrp_lifeguard_bro_chat.gml</script>
       <script>scripts\scrp_puzzle_bro_chat.gml</script>
       <script>scripts\scrp_gym_mother_chat.gml</script>
+      <script>scripts\scrp_L3_word_puzzle_bro_chat.gml</script>
       <script>scripts\scrp_gym_father_chat.gml</script>
+      <script>scripts\scrp_quote_bro_1_chat.gml</script>
+      <script>scripts\scrp_quote_bro_2_chat.gml</script>
+      <script>scripts\scrp_quote_bro_3_chat.gml</script>
+      <script>scripts\scrp_quote_bro_4_chat.gml</script>
+      <script>scripts\scrp_quote_bro_5_chat.gml</script>
+      <script>scripts\scrp_quote_bro_6_chat.gml</script>
       <script>scripts\scrp_baby_bro_chat.gml</script>
       <script>scripts\scrp_broflex_bro_chat.gml</script>
       <script>scripts\scrp_nerds_chat.gml</script>
@@ -217,6 +224,7 @@
       <script>scripts\scrp_locker_puzzle.gml</script>
       <script>scripts\scrp_lock_check.gml</script>
       <script>scripts\scrp_tweak_puzzle_chat.gml</script>
+      <script>scripts\script51.gml</script>
       <script>scripts\scrp_change_music.gml</script>
     </scripts>
     <script>scripts\scr_menu.gml</script>
@@ -231,20 +239,30 @@
     <objects name="Bros">
       <object>objects\BroClone</object>
       <object>objects\obj_bro_1</object>
+      <object>objects\obj_quote_bro_3</object>
       <object>objects\obj_bro_2</object>
+      <object>objects\obj_quote_bro_5</object>
+      <object>objects\obj_dad_bro</object>
       <object>objects\obj_bro_dancer</object>
       <object>objects\obj_bro_3</object>
+      <object>objects\obj_quote_bro_6</object>
+      <object>objects\obj_quote_bro_4</object>
       <object>objects\obj_tanning_bro</object>
       <object>objects\obj_bro_4</object>
       <object>objects\obj_arm_bro</object>
+      <object>objects\obj_L3_word_puzzle_bro</object>
       <object>objects\obj_bro_temp</object>
+      <object>objects\obj_broflex_bro</object>
       <object>objects\obj_tweak</object>
       <object>objects\obj_leg_bro</object>
       <object>objects\obj_brobi</object>
       <object>objects\obj_fembro_1</object>
       <object>objects\obj_fembro_2</object>
+      <object>objects\obj_mom_bro</object>
       <object>objects\obj_fembro_3</object>
+      <object>objects\obj_quote_bro_1</object>
       <object>objects\obj_fembro_4</object>
+      <object>objects\obj_quote_bro_2</object>
       <object>objects\obj_old_man</object>
       <object>objects\obj_pool_lady</object>
       <object>objects\obj_bro_baby</object>
@@ -258,6 +276,9 @@
       <object>objects\obj_bro_coin</object>
       <object>objects\obj_roids</object>
       <object>objects\obj_coffee</object>
+      <object>objects\object75</object>
+      <object>objects\obj_lollipop_2</object>
+      <object>objects\obj_lollipop_1</object>
       <object>objects\obj_shake</object>
       <object>objects\obj_key</object>
       <object>objects\obj_towel</object>

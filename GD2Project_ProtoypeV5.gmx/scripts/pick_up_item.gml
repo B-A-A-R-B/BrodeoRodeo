@@ -49,3 +49,38 @@ else if (distance_to_object(obj_roids) < 15) {  //check if the player is collidi
         show_message("No room in backpack for that item"); //if no room in inventory, display message
     }
 }
+else if (distance_to_object(obj_lollipop_1) < 15) {  //check if the player is colliding with the item
+    for (var i = 0; i < 3; i++) { //check the inventory
+        if (global.backpack[i] == 0) { //look for an empty slot
+            q = 0; 
+            global.backpack[i] = obj_lollipop_1.id; //add to inventory
+            global.lollipop_puzzle++;
+            i = 3;
+            global.pik = 1;
+        }
+        else {
+            q = 1;
+        }
+    }
+    if (q == 1) {
+        show_message("No room in backpack for that item"); //if no room in inventory, display message
+    }
+}
+
+else if (distance_to_object(obj_lollipop_2) < 15) {  //check if the player is colliding with the item
+    for (var i = 0; i < 3; i++) { //check the inventory
+        if (global.backpack[i] == 0) { //look for an empty slot
+            q = 0; 
+            global.lollipop_puzzle++;
+            global.backpack[i] = obj_lollipop_2.id; //add to inventory
+            i = 3;
+            global.pik = 1;
+        }
+        else {
+            q = 1;
+        }
+    }
+    if (q == 1) {
+        show_message("No room in backpack for that item"); //if no room in inventory, display message
+    }
+}
