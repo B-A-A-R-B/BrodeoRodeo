@@ -1,9 +1,9 @@
 var q = 0;
-if (place_meeting(obj_shake.x, obj_shake.y, obj_placeholder)) {  //check if the player is colliding with the item
+if (distance_to_object(obj_shake) < 15) {  //check if the player is colliding with the item
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_shake; //add to inventory
+            global.backpack[i] = obj_shake.id; //add to inventory
             i = 3;
             global.pik = 1;
         }
@@ -16,11 +16,11 @@ if (place_meeting(obj_shake.x, obj_shake.y, obj_placeholder)) {  //check if the 
     }
 }
 
-else if (place_meeting(obj_coffee.x, obj_coffee.y, obj_placeholder)) {  //check if the player is colliding with the item
+else if (distance_to_object(obj_coffee) < 15) {  //check if the player is colliding with the item
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_coffee; //add to inventory
+            global.backpack[i] = obj_coffee.id; //add to inventory
             i = 3;
             global.pik = 1;
         }
@@ -33,11 +33,11 @@ else if (place_meeting(obj_coffee.x, obj_coffee.y, obj_placeholder)) {  //check 
     }
 }
 
-else if (place_meeting(obj_roids.x, obj_roids.y, obj_placeholder)) {  //check if the player is colliding with the item
+else if (distance_to_object(obj_roids) < 15) {  //check if the player is colliding with the item
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_roids; //add to inventory
+            global.backpack[i] = obj_roids.id; //add to inventory
             i = 3;
             global.pik = 1;
         }
