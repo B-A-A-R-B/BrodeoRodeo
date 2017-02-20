@@ -111,6 +111,7 @@
       <sprite>sprites\spr_inv</sprite>
       <sprite>sprites\spr_num</sprite>
       <sprite>sprites\spr_up_arrow</sprite>
+      <sprite>sprites\spr_z</sprite>
       <sprite>sprites\spr_ex</sprite>
       <sprite>sprites\spr_space</sprite>
       <sprite>sprites\spr_down_arrow</sprite>
@@ -126,6 +127,7 @@
       <sprite>sprites\Instruction_Button</sprite>
       <sprite>sprites\Start_Button</sprite>
     </sprites>
+    <sprite>sprites\locker_self</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -195,6 +197,8 @@
       <script>scripts\scrp_character_chat.gml</script>
       <script>scripts\scrp_desk_bro_chat.gml</script>
       <script>scripts\scrp_painter_chat.gml</script>
+      <script>scripts\scrp_brotien_salesman.gml</script>
+      <script>scripts\scrp_tmp_brobi1.gml</script>
     </scripts>
     <scripts name="Store">
       <script>scripts\scrp_shop_items.gml</script>
@@ -239,13 +243,16 @@
     <object>objects\obj_music_control</object>
     <objects name="Bros">
       <object>objects\BroClone</object>
+      <object>objects\obj_brotien_salesman</object>
       <object>objects\obj_bro_1</object>
       <object>objects\obj_quote_bro_3</object>
       <object>objects\obj_bro_2</object>
+      <object>objects\bro_service_desk</object>
       <object>objects\obj_quote_bro_5</object>
       <object>objects\obj_dad_bro</object>
       <object>objects\obj_bro_dancer</object>
       <object>objects\obj_bro_3</object>
+      <object>objects\obj_locker_bro</object>
       <object>objects\obj_quote_bro_6</object>
       <object>objects\obj_quote_bro_4</object>
       <object>objects\obj_tanning_bro</object>
@@ -273,6 +280,7 @@
     <objects name="Items">
       <object>objects\obj_item</object>
       <object>objects\obj_block</object>
+      <object>objects\obj_brotien_stand</object>
       <object>objects\obj_keycard</object>
       <object>objects\obj_bro_coin</object>
       <object>objects\obj_roids</object>
@@ -281,6 +289,7 @@
       <object>objects\obj_lollipop_2</object>
       <object>objects\obj_lollipop_1</object>
       <object>objects\obj_shake</object>
+      <object>objects\obj_brotienshake</object>
       <object>objects\obj_key</object>
       <object>objects\obj_towel</object>
       <object>objects\obj_button</object>
@@ -306,8 +315,10 @@
       <object>objects\obj_no_pool</object>
       <object>objects\obj_locker_puz</object>
       <object>objects\obj_lock_num_4</object>
+      <object>objects\locker_unblocked</object>
     </objects>
     <object>objects\obj_wall</object>
+    <object>objects\obj_locker_bro_walls</object>
     <object>objects\obj_gate</object>
     <object>objects\obj_door</object>
     <object>objects\obj_treadmill</object>
@@ -334,16 +345,23 @@
     <object>objects\Credits_obj</object>
     <object>objects\Instructions</object>
     <object>objects\MenuSelect</object>
+    <object>objects\up_control</object>
     <object>objects\Start</object>
+    <object>objects\down_control</object>
+    <object>objects\right_control</object>
+    <object>objects\left_control</object>
+    <object>objects\control_z</object>
+    <object>objects\interact_z</object>
+    <object>objects\control_x</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\character_select</room>
+    <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
-    <room>rooms\Tutorial</room>
     <room>rooms\credits_rm</room>
     <room>rooms\Store_room</room>
     <room>rooms\test_room</room>
