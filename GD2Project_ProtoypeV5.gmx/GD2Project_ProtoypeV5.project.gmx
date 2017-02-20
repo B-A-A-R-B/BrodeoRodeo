@@ -102,6 +102,8 @@
       <sprite>sprites\spr_lollipop</sprite>
       <sprite>sprites\spr_lollipop_dumbell</sprite>
       <sprite>sprites\spr_towel</sprite>
+      <sprite>sprites\spr_CD</sprite>
+      <sprite>sprites\spr_music_player</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_arrow</sprite>
@@ -193,11 +195,11 @@
     </scripts>
     <scripts name="Minigame">
       <script>scripts\scrp_minigame.gml</script>
+      <script>scripts\scrp_minigame_2.gml</script>
       <script>scripts\scrp_minigame_3.gml</script>
       <script>scripts\scrp_minigame_bar.gml</script>
       <script>scripts\scrp_minigame_bar_2.gml</script>
       <script>scripts\scrp_minimage_bar_3.gml</script>
-      <script>scripts\scrp_minigame_2.gml</script>
     </scripts>
     <scripts name="Items and Inventory">
       <script>scripts\inventory.gml</script>
@@ -215,6 +217,7 @@
       <script>scripts\scrp_locker_puzzle.gml</script>
       <script>scripts\scrp_lock_check.gml</script>
       <script>scripts\scrp_tweak_puzzle_chat.gml</script>
+      <script>scripts\scrp_change_music.gml</script>
     </scripts>
     <script>scripts\scr_menu.gml</script>
   </scripts>
@@ -224,12 +227,14 @@
   <objects name="objects">
     <object>objects\obj_placeholder</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_music_control</object>
     <objects name="Bros">
       <object>objects\BroClone</object>
       <object>objects\obj_bro_1</object>
       <object>objects\obj_bro_2</object>
       <object>objects\obj_bro_dancer</object>
       <object>objects\obj_bro_3</object>
+      <object>objects\obj_tanning_bro</object>
       <object>objects\obj_bro_4</object>
       <object>objects\obj_arm_bro</object>
       <object>objects\obj_bro_temp</object>
@@ -258,6 +263,8 @@
       <object>objects\obj_towel</object>
       <object>objects\obj_button</object>
       <object>objects\obj_paint</object>
+      <object>objects\obj_CD</object>
+      <object>objects\obj_music_player</object>
     </objects>
     <objects name="Puzzle">
       <object>objects\obj_poster</object>
@@ -274,6 +281,8 @@
       <object>objects\obj_locker_combo</object>
       <object>objects\obj_lock_screen</object>
       <object>objects\obj_revolt</object>
+      <object>objects\obj_no_pool</object>
+      <object>objects\obj_locker_puz</object>
       <object>objects\obj_lock_num_4</object>
     </objects>
     <object>objects\obj_wall</object>
@@ -296,7 +305,8 @@
     <objects name="Minigame">
       <object>objects\obj_minigame</object>
       <object>objects\obj_minigame_2</object>
-      <object>objects\obj_minigmae_3</object>
+      <object>objects\obj_minigame_3</object>
+      <object>objects\obj_pool_mini</object>
     </objects>
     <object>objects\Start</object>
     <object>objects\Instructions</object>
@@ -312,9 +322,14 @@
     <room>rooms\Level_2</room>
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
+<<<<<<< HEAD
     <room>rooms\Store_room</room>
     <room>rooms\credits_rm</room>
+=======
+    <room>rooms\Tutorial</room>
+>>>>>>> refs/remotes/origin/master
     <room>rooms\test_room</room>
+    <room>rooms\Store_room</room>
     <room>rooms\room8</room>
   </rooms>
   <help>
