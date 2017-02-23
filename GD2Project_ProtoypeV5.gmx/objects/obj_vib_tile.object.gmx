@@ -81,7 +81,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text_box("You have found Tweak's secret stash!", 0.5, x, y);
+            <string>text_box("You have found Tweak's secret stash!", 4, x, y);
 global.stash = 1;
 </string>
           </argument>

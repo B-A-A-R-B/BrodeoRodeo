@@ -11,5 +11,5 @@ if (global.mini_health <= 0) {
     with(obj_minigame) {
         instance_destroy();
     }
-    text_box("You did the thing, congratz!", 0.5, obj_placeholder.x - 25, obj_placeholder.y - 50);
+    text_box("You did the thing, congratz!", 3.5, obj_placeholder.x - 25, obj_placeholder.y - 50);
 }

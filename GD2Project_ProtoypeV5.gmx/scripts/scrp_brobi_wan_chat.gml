@@ -1,17 +1,17 @@
 //text for when the player selects gender
 if (tuto != 1){
-text_box("Are you male or female?", 0.5, obj_brobi.x, obj_brobi.y +128); 
+text_box("Are you male or female?", 3.5, obj_brobi.x, obj_brobi.y +128); 
 instance_create(obj_brobi.x - 32, obj_brobi.y + 192, obj_arrow);
 instance_create(obj_brobi.x, obj_brobi.y + 192, obj_male);
 instance_create(obj_brobi.x + 96, obj_brobi.y + 192, obj_female);
 }
 //tutorial text
 if (tuto == 1) {
-chat_box("Yo! I see you’re new here!  Allow me to show you around! Just let me grab something out of my locker.", 0.5, x, y);
-chat_box("Aw JEEEEZ! That dude is SWOL! You’re gonna see this allllllll the time!", 0.5, x, y);
-chat_box("I know what we can do! Be a dear and go grab one of those  bro-tein shakes from the lobby would ya?", 0.5, x, y);
-chat_box("You got it!? Sweeet! Alright...go place it on the round table in the corner ", 0.5, x, y);
-chat_box("now go get change at your locker, yeah the middle one in top row.", 0.5, x, y);
+chat_box("Yo! I see you’re new here!  Allow me to show you around! Just let me grab something out of my locker.", 3.5, view_xview[0],view_yview[0] + 300);
+chat_box("Aw JEEEEZ! That dude is SWOL! You’re gonna see this allllllll the time!", 3.5, view_xview[0],view_yview[0] + 300);
+chat_box("I know what we can do! Be a dear and go grab one of those  bro-tein shakes from the lobby would ya?", 3.5, view_xview[0],view_yview[0] + 300);
+chat_box("You got it!? Sweeet! Alright...go place it on the round table in the corner ", 3.5, view_xview[0],view_yview[0] + 300);
+chat_box("now go get change at your locker, yeah the middle one in top row.", 3.5, view_xview[0],view_yview[0] + 300);
 //chat_box("WAIT! Before you go, you gotta do a before selfie to check your progress!", 0.5, x, y);
 //chat_box("EVERYONE does a before selfie, otherwise how will other people know your progress? ", 0.5, x, y);
 }

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text_box("Found a life guard's suit", 0.5, x, y);
+            <string>text_box("Found a life guard's suit", 3.5, x, y);
 </string>
           </argument>
         </arguments>

@@ -71,7 +71,7 @@
 global.quote_puzzle++;
 
 if (global.more_text == 0) {
-    chat_box("Wohooo! got to my locker, I can feel the gainz already! and i havn't even lifted yet!", 1, x, y);
+    chat_box("Wohooo! got to my locker, I can feel the gainz already! and i havn't even lifted yet!", 1, view_xview[0],view_yview[0] + 300);
 }
 
 else {

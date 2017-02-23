@@ -12,7 +12,7 @@ if (distance_to_object(obj_shake) < 15) {  //check if the player is colliding wi
         }
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
 
@@ -29,7 +29,7 @@ else if (distance_to_object(obj_coffee) < 15) {  //check if the player is collid
         }
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
 
@@ -46,7 +46,7 @@ else if (distance_to_object(obj_roids) < 15) {  //check if the player is collidi
         }
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
 else if (distance_to_object(obj_lollipop_1) < 15) {  //check if the player is colliding with the item
@@ -63,7 +63,7 @@ else if (distance_to_object(obj_lollipop_1) < 15) {  //check if the player is co
         }
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
 
@@ -81,7 +81,7 @@ else if (distance_to_object(obj_lollipop_2) < 15) {  //check if the player is co
         }
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
 else if (distance_to_object(obj_keycard) < 15) {  //check if the player is colliding with the item
@@ -96,7 +96,7 @@ else if (distance_to_object(obj_keycard) < 15) {  //check if the player is colli
         }
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
 else if (distance_to_object(obj_brotienshake) < 15) {  //check if the player is colliding with the item
@@ -115,6 +115,6 @@ else if (distance_to_object(obj_brotienshake) < 15) {  //check if the player is 
         }    
     }
     if (q == 1) {
-        show_message("No room in backpack for that item"); //if no room in inventory, display message
+        text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }

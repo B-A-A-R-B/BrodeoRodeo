@@ -438,7 +438,7 @@
           <argument>
             <kind>1</kind>
             <string>
-text_box("You didn't do your warmup stretches before getting in the pool, now you're drowning, perform a quick minigame to save yourself", 0.5, x, y);
+text_box("You didn't do your warmup stretches before getting in the pool, now you're drowning, perform a quick minigame to save yourself", 3.5, view_xview[0],view_yview[0] + 300);
 
 </string>
           </argument>
@@ -718,7 +718,7 @@ text_box("You didn't do your warmup stretches before getting in the pool, now yo
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text_box("Hey bro, you can't, like, go in the pool yet", 0.5, x, y);
+            <string>text_box("Hey bro, you can't, like, go in the pool yet", 3.5, x, y);
 </string>
           </argument>
         </arguments>
@@ -810,10 +810,10 @@ text_box("You didn't do your warmup stretches before getting in the pool, now yo
             <string>///message of revolt when in view of old naked men
 var r = floor(random_range(0,2));
 if (r == 0) {
-text_box("I don't want to go in there, too many naked old men!", 0.8, x, y);
+    text_box("I don't want to go in there, too many naked old men!", 3.5, x, y);
 }
 if (r == 1) {
-    text_box("MY EYES!", 0.5, x, y);
+    text_box("MY EYES!", 3.5, x, y);
 }
 </string>
           </argument>
