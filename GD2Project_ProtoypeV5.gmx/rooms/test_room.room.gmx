@@ -147,6 +147,8 @@
     <instance objName="obj_roids" x="32" y="448" name="inst_ED641BD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coffee" x="192" y="448" name="inst_DC7A3BF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shake" x="288" y="448" name="inst_7EC66C23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_pool" x="544" y="160" name="inst_F809F6FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_pool" x="544" y="192" name="inst_9790B308" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="locker" x="128" y="320" w="32" h="32" xo="0" yo="0" id="10000001" name="inst_49E03482" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

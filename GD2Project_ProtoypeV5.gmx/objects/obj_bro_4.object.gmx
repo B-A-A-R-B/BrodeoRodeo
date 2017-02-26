@@ -124,7 +124,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_roids">
+    <event eventtype="4" ename="obj_block">
       <action>
         <libid>1</libid>
         <id>201</id>

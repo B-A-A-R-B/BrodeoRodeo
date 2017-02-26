@@ -364,8 +364,8 @@
     <room>rooms\Level_4</room>
     <room>rooms\credits_rm</room>
     <room>rooms\Store_room</room>
-    <room>rooms\test_room</room>
     <room>rooms\room8</room>
+    <room>rooms\test_room</room>
     <room>rooms\Overworld</room>
   </rooms>
   <help>

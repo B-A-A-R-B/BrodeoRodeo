@@ -3,7 +3,7 @@ if (distance_to_object(obj_shake) < 15) {  //check if the player is colliding wi
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_shake.id; //add to inventory
+            global.backpack[i] = obj_shake; //add to inventory
             i = 3;
             global.pik = 1;
         }
@@ -20,7 +20,7 @@ else if (distance_to_object(obj_coffee) < 15) {  //check if the player is collid
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_coffee.id; //add to inventory
+            global.backpack[i] = obj_coffee; //add to inventory
             i = 3;
             global.pik = 1;
         }
@@ -37,7 +37,7 @@ else if (distance_to_object(obj_roids) < 15) {  //check if the player is collidi
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_roids.id; //add to inventory
+            global.backpack[i] = obj_roids; //add to inventory
             i = 3;
             global.pik = 1;
         }
@@ -53,7 +53,7 @@ else if (distance_to_object(obj_lollipop_1) < 15) {  //check if the player is co
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_lollipop_1.id; //add to inventory
+            global.backpack[i] = obj_lollipop_1; //add to inventory
             global.lollipop_puzzle++;
             i = 3;
             global.pik = 1;
@@ -72,7 +72,7 @@ else if (distance_to_object(obj_lollipop_2) < 15) {  //check if the player is co
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 
             global.lollipop_puzzle++;
-            global.backpack[i] = obj_lollipop_2.id; //add to inventory
+            global.backpack[i] = obj_lollipop_2; //add to inventory
             i = 3;
             global.pik = 1;
         }
@@ -103,7 +103,7 @@ else if (distance_to_object(obj_brotienshake) < 15) {  //check if the player is 
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0 && global.brobucks >= 5) { //look for an empty slot
             q = 0; 
-            global.backpack[i] = obj_brotienshake.id; //add to inventory
+            global.backpack[i] = obj_brotienshake; //add to inventory
             i = 3;
             global.pik = 1;
         }

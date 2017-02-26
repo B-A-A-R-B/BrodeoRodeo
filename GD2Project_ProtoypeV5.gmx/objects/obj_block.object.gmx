@@ -60,7 +60,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_shake">
+    <event eventtype="4" ename="obj_roids">
       <action>
         <libid>1</libid>
         <id>611</id>
