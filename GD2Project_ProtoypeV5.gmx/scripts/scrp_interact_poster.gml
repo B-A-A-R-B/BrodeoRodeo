@@ -4,6 +4,7 @@ if(place_meeting(obj_placeholder.x, obj_placeholder.y, obj_poster)) {
 }
 if(place_meeting(obj_placeholder.x, obj_placeholder.y, obj_poster_correct)) {
     text_box("I found an item behind this poster", 3.5, obj_placeholder.x, obj_placeholder.y + 32);
+    audio_play_sound(snd_interaction, 15, false);
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0) { //look for an empty slot
             q = 0; 

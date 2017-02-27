@@ -6,6 +6,7 @@ if (distance_to_object(obj_shake) < 15) {  //check if the player is colliding wi
             global.backpack[i] = obj_shake; //add to inventory
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 15, false);
         }
         else {
             q = 1;
@@ -23,6 +24,7 @@ else if (distance_to_object(obj_coffee) < 15) {  //check if the player is collid
             global.backpack[i] = obj_coffee; //add to inventory
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 15, false);
         }
         else {
             q = 1;
@@ -40,6 +42,7 @@ else if (distance_to_object(obj_roids) < 15) {  //check if the player is collidi
             global.backpack[i] = obj_roids; //add to inventory
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 15, false);
         }
         else {
             q = 1;
@@ -57,6 +60,7 @@ else if (distance_to_object(obj_lollipop_1) < 15) {  //check if the player is co
             global.lollipop_puzzle++;
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 10, false);
         }
         else {
             q = 1;
@@ -75,6 +79,7 @@ else if (distance_to_object(obj_lollipop_2) < 15) {  //check if the player is co
             global.backpack[i] = obj_lollipop_2; //add to inventory
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 10, false);
         }
         else {
             q = 1;
@@ -90,6 +95,7 @@ else if (distance_to_object(obj_keycard) < 15) {  //check if the player is colli
             q = 0; 
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 15, false);
         }
         else {
             q = 1;
@@ -106,6 +112,7 @@ else if (distance_to_object(obj_brotienshake) < 15) {  //check if the player is 
             global.backpack[i] = obj_brotienshake; //add to inventory
             i = 3;
             global.pik = 1;
+            audio_play_sound(snd_pickup, 15, false);
         }
         else if(global.brobucks >= 5) {
             q = 1;

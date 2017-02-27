@@ -164,6 +164,7 @@
     <script>scripts\draw_sprites.gml</script>
     <script>scripts\distract_bro.gml</script>
     <script>scripts\scrp_select_char.gml</script>
+    <script>scripts\scrp_select_motto.gml</script>
     <script>scripts\scrp_movement.gml</script>
     <scripts name="Chat">
       <script>scripts\chat_box.gml</script>
@@ -229,7 +230,6 @@
       <script>scripts\scrp_locker_puzzle.gml</script>
       <script>scripts\scrp_lock_check.gml</script>
       <script>scripts\scrp_tweak_puzzle_chat.gml</script>
-      <script>scripts\script51.gml</script>
       <script>scripts\scrp_change_music.gml</script>
     </scripts>
     <script>scripts\scr_menu.gml</script>
