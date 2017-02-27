@@ -14,6 +14,9 @@
     <sound>sound\snd_main_menu</sound>
     <sound>sound\snd_placement</sound>
     <sound>sound\MainMenu</sound>
+    <sound>sound\snd_level_2</sound>
+    <sound>sound\snd_level_3</sound>
+    <sound>sound\snd_level_4</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
@@ -156,6 +159,7 @@
     <background>background\yellow_new</background>
     <background>background\Credits</background>
     <background>background\TitleCard</background>
+    <background>background\Instructions_back</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_dance_puzzle</path>
@@ -326,7 +330,13 @@
     <object>objects\obj_curl_rack</object>
     <objects name="UI">
       <object>objects\obj_arrow</object>
-      <object>objects\obj_next_level</object>
+      <object>objects\obj_tutorial_entrance</object>
+      <object>objects\obj_level_1_entrance</object>
+      <object>objects\obj_level_2_entrance</object>
+      <object>objects\obj_level_3_entrance</object>
+      <object>objects\obj_level_4_entrance</object>
+      <object>objects\obj_tutorial_flr_tele</object>
+      <object>objects\obj_flr_down_tele</object>
       <object>objects\obj_store</object>
       <object>objects\obj_text</object>
       <object>objects\obj_chat</object>
@@ -353,6 +363,7 @@
     <object>objects\control_z</object>
     <object>objects\interact_z</object>
     <object>objects\control_x</object>
+    <object>objects\space_bar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
@@ -363,6 +374,7 @@
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
     <room>rooms\credits_rm</room>
+    <room>rooms\Instructions_rm</room>
     <room>rooms\Store_room</room>
     <room>rooms\room8</room>
     <room>rooms\test_room</room>
