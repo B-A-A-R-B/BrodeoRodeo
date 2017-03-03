@@ -5,7 +5,16 @@ if (distance_to_object(obj_music_player) < 15) {
         with(obj_pool_lady) {
             instance_destroy();
         }
-        with(obj_no_pool) {
+        with(obj_pool_up) {
+            instance_destroy();
+        }
+        with (obj_pool_down) {
+            instance_destroy();
+        }
+        with (obj_pool_right) {
+            instance_destroy();
+        }
+        with (obj_pool_left) {
             instance_destroy();
         }
     }

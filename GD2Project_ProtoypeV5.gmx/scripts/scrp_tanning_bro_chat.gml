@@ -18,7 +18,7 @@ else {
 if (global.puzzle_code_2 == 2) {
     text_box("Bro! I would pay you but all I have is this towel! Take it if ya want!", 3.5, x, y);
     global.towel++;
-    global.puzzle_code_2++;
+    global.puzzle_code_2 += 1;
     instance_create(288, 96, obj_minigame_2);
     instance_create(480,96, obj_locker_puz);
 }

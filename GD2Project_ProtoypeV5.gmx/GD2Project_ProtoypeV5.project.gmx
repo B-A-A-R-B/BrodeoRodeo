@@ -316,7 +316,10 @@
       <object>objects\obj_locker_combo</object>
       <object>objects\obj_lock_screen</object>
       <object>objects\obj_revolt</object>
-      <object>objects\obj_no_pool</object>
+      <object>objects\obj_pool_up</object>
+      <object>objects\obj_pool_down</object>
+      <object>objects\obj_pool_left</object>
+      <object>objects\obj_pool_right</object>
       <object>objects\obj_locker_puz</object>
       <object>objects\obj_lock_num_4</object>
       <object>objects\locker_unblocked</object>
