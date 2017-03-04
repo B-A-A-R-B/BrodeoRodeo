@@ -93,11 +93,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_roids.x</string>
+            <string>obj_block.x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_roids.y</string>
+            <string>obj_block.y</string>
           </argument>
           <argument>
             <kind>0</kind>

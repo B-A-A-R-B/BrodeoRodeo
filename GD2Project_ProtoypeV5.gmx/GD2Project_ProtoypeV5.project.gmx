@@ -80,6 +80,7 @@
         <sprite>sprites\spr_old_man_towel</sprite>
         <sprite>sprites\spr_pool_lady</sprite>
       </sprites>
+      <sprite>sprites\spr_nerd</sprite>
     </sprites>
     <sprites name="Workout Machines">
       <sprite>sprites\spr_bench_press</sprite>
@@ -237,6 +238,8 @@
       <script>scripts\scrp_change_music.gml</script>
     </scripts>
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scrp_throw_nerd.gml</script>
+    <script>scripts\scrp_nerd_workout.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_chat</font>
@@ -280,6 +283,9 @@
       <object>objects\obj_bro_baby</object>
       <object>objects\obj_bro_life</object>
       <object>objects\obj_painter</object>
+      <object>objects\obj_nerd_1</object>
+      <object>objects\obj_nerd_2</object>
+      <object>objects\obj_nerd_3</object>
     </objects>
     <objects name="Items">
       <object>objects\obj_item</object>
