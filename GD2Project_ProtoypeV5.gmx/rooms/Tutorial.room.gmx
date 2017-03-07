@@ -240,15 +240,15 @@
     <instance objName="obj_wall" x="448" y="672" name="inst_8F52B3E9" locked="0" code="" scaleX="1" scaleY="-0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="480" y="672" name="inst_30B9DCA7" locked="0" code="" scaleX="1" scaleY="-0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_music_control" x="128" y="416" name="inst_85C11190" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="up_control" x="928" y="736" name="inst_DC3FF72F" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="down_control" x="928" y="768" name="inst_641F4801" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="right_control" x="960" y="768" name="inst_A6CCA407" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="left_control" x="896" y="768" name="inst_84B32B18" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="up_control" x="928" y="736" name="inst_DC3FF72F" locked="0" code="" scaleX="0.333333343267441" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
+    <instance objName="down_control" x="928" y="768" name="inst_641F4801" locked="0" code="" scaleX="0.333333343267441" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
+    <instance objName="right_control" x="960" y="768" name="inst_A6CCA407" locked="0" code="" scaleX="0.333333343267441" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
+    <instance objName="left_control" x="896" y="768" name="inst_84B32B18" locked="0" code="" scaleX="0.333333343267441" scaleY="0.333333343267441" colour="4294967295" rotation="0"/>
     <instance objName="control_z" x="896" y="640" name="inst_6DAEFCAD" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="bro_service_desk" x="752" y="608" name="inst_F650DA0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locker_bro" x="320" y="240" name="inst_6C5349FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="interact_z" x="704" y="576" name="inst_F83DBB0C" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_brotienshake" x="448" y="648" name="inst_1BF9D6FA" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_brotienshake" x="448" y="648" name="inst_1BF9D6FA" locked="0" code="" scaleX="1" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_brotien_salesman" x="464" y="640" name="inst_E0B397AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brotien_stand" x="224" y="480" name="inst_4D07DF1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brotien_stand" x="1024" y="0" name="inst_C8F96936" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

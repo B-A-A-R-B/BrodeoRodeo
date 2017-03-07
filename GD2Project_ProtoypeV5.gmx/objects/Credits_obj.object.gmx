@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(mpos == 2){
+            <string>if(mpos == 1){
     image_index = 1;
 }
-if(mpos != 2){
+if(mpos != 1){
     image_index = 0;    
 }    
 </string>

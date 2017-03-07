@@ -57,10 +57,10 @@ if (move != 0){
     
     mpos -= move;
     if (mpos &lt; 0){
-         mpos = 2;
+         mpos = 1;
     
     }
-    if (mpos &gt; 2){
+    if (mpos &gt; 1){
          mpos = 0;
         
     }
