@@ -17,6 +17,12 @@ else {
 //after puzzle
 if (global.puzzle_code_2 == 2) {
     text_box("Bro! I would pay you but all I have is this towel! Take it if ya want!", 3.5, x, y);
+    for (var t = 0; t < 3; t++) {
+        if (global.backpack[t] == obj_paint) {
+            global.backpack[t] = 0;
+            t = 3;
+        }
+    }
     global.towel++;
     global.puzzle_code_2 += 1;
     instance_create(288, 96, obj_minigame_2);

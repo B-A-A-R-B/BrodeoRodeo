@@ -25,30 +25,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.brobucks</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>global.pik</string>
           </argument>
           <argument>
@@ -545,6 +521,54 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.brobucks</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.tutorial_puzzle</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -755,6 +779,105 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///draw currently selected item in top left corner of screen
+if (global.selected == 0) {
+   if (global.backpack[0] == obj_shake) {
+        draw_sprite(spr_shake_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[0] == obj_coffee) {
+        draw_sprite(spr_cup_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[0] == obj_roids) {
+        draw_sprite(spr_roids_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[0] == obj_lollipop_1) {
+        draw_sprite(spr_lollipop, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+    else if (global.backpack[0] == obj_lollipop_2) {
+        draw_sprite(spr_lollipop, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[0] == obj_paint) {
+        draw_sprite(spr_paint, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[0] == obj_CD) {
+        draw_sprite(spr_CD, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[0] == obj_brotienshake) {
+        draw_sprite(spr_shake_icon, -1, view_xview[0] + 5, view_yview[0] + 5);
+    }
+}
+else if (global.selected == 1) {
+   if (global.backpack[1] == obj_shake) {
+        draw_sprite(spr_shake_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[1] == obj_coffee) {
+        draw_sprite(spr_cup_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[1] == obj_roids) {
+        draw_sprite(spr_roids_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[1] == obj_lollipop_1) {
+        draw_sprite(spr_lollipop, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+    else if (global.backpack[1] == obj_lollipop_2) {
+        draw_sprite(spr_lollipop, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[1] == obj_paint) {
+        draw_sprite(spr_paint, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[1] == obj_CD) {
+        draw_sprite(spr_CD, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[1] == obj_brotienshake) {
+        draw_sprite(spr_shake_icon, -1, view_xview[0] + 5, view_yview[0] + 5);
+    }
+}
+else if (global.selected == 2) {
+   if (global.backpack[2] == obj_shake) {
+        draw_sprite(spr_shake_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[2] == obj_coffee) {
+        draw_sprite(spr_cup_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[2] == obj_roids) {
+        draw_sprite(spr_roids_icon, -1, view_xview[0] + 5, view_yview[0] + 5); 
+   }
+   else if (global.backpack[2] == obj_lollipop_1) {
+        draw_sprite(spr_lollipop, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+    else if (global.backpack[2] == obj_lollipop_2) {
+        draw_sprite(spr_lollipop, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[2] == obj_paint) {
+        draw_sprite(spr_paint, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[2] == obj_CD) {
+        draw_sprite(spr_CD, -1, view_xview[0] + 5, view_yview[0] + 5);
+   }
+   else if (global.backpack[2] == obj_brotienshake) {
+        draw_sprite(spr_shake_icon, -1, view_xview[0] + 5, view_yview[0] + 5);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>524</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -854,6 +977,38 @@
           <argument>
             <kind>0</kind>
             <string>view_yview[0]</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>501</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_sprite</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>spr_ui</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview[0]</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_yview[0]</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-1</string>
           </argument>
         </arguments>
       </action>
@@ -966,38 +1121,6 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>501</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_sprite</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>5</kind>
-            <sprite>spr_ui</sprite>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>view_xview[0]</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>view_yview[0]</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-1</string>
-          </argument>
-        </arguments>
       </action>
       <action>
         <libid>1</libid>

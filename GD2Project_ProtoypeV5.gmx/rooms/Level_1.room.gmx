@@ -304,7 +304,7 @@
     <instance objName="obj_coffee" x="864" y="1344" name="inst_9484F034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_roids" x="576" y="1312" name="inst_2D767ED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_music_control" x="32" y="0" name="inst_21688A01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_towel" x="928" y="224" name="inst_0CC0A866" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_towel" x="928" y="224" name="inst_0CC0A866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locker_combo" x="192" y="192" name="inst_D9AE9A82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="160" name="inst_9129389A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_entrance" x="992" y="448" name="inst_C60C08A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -313,6 +313,15 @@
     <instance objName="obj_wall" x="1024" y="480" name="inst_5500E888" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1024" y="512" name="inst_AF7C5B08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1024" y="416" name="inst_4AB2DC37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="864" y="352" name="inst_4B23583F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="864" y="224" name="inst_234BF042" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="480" y="160" name="inst_9A57DB99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="352" y="160" name="inst_F52297B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="256" y="288" name="inst_514F0C27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="256" y="416" name="inst_D0CDB462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="96" y="672" name="inst_99176568" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="800" y="480" name="inst_BDCC67A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="704" y="640" name="inst_C4C27738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="736" y="320" w="32" h="32" xo="0" yo="0" id="10003241" name="inst_888B8CC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

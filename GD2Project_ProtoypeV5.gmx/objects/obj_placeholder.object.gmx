@@ -496,10 +496,18 @@ if ( boxx == 4) {
     obj_placeholder.x += 0.9;
     b0i += 1.5;
 }
+if ( boxx == 5) {
+    obj_placeholder.x += 0.9;
+    b0i += 2;
+}
 
 if (b0i == 60) {
     boxx = 0;
     text_box("Dude, you can't like, go in the pool yet!", 3.0, x, y);
+    b0i = 0;
+}
+if (b0i &gt; 60) {
+    boxx = 0;
     b0i = 0;
 }
 </string>
@@ -1173,25 +1181,49 @@ xxx = 1;
       </action>
       <action>
         <libid>1</libid>
-        <id>109</id>
-        <kind>0</kind>
+        <id>611</id>
+        <kind>6</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_to</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>obj_placeholder.x + 32</string>
+            <kind>1</kind>
+            <string>boxx</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_placeholder.y</string>
+            <string>5</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -1336,7 +1368,7 @@ if (r == 1) {
           <argument>
             <kind>1</kind>
             <string>with (obj_old_man){
-    image_index = 0;
+    sprite_index = 0;
 }
 with(obj_revolt) {
     instance_destroy();
@@ -1358,32 +1390,6 @@ with(obj_revolt) {
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_keycard">
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.keycard</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
       </action>
     </event>
     <event eventtype="5" enumb="27">

@@ -95,6 +95,7 @@ else if (distance_to_object(obj_keycard) < 15) {  //check if the player is colli
             q = 0; 
             i = 3;
             global.pik = 1;
+            global.keycard = 1;
             audio_play_sound(snd_pickup, 15, false);
         }
         else {
@@ -109,19 +110,40 @@ else if (distance_to_object(obj_brotienshake) < 15) {  //check if the player is 
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0 && global.brobucks >= 5) { //look for an empty slot
             q = 0; 
+            global.brobucks -= 5;
             global.backpack[i] = obj_brotienshake; //add to inventory
             i = 3;
             global.pik = 1;
             audio_play_sound(snd_pickup, 15, false);
         }
-        else if(global.brobucks >= 5) {
-            q = 1;
+        else if (global.brobucks < 5) {
+        
         }
-        else{
-            q = 0;
+        else {
+            q = 1;
         }    
     }
     if (q == 1) {
         text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
+}
+
+else if (distance_to_object(obj_CD) < 15) {
+    for (var i = 0; i < 3; i++) {
+        if (global.backpack[i] == 0) {
+            q = 0;
+            global.backpack[i] = obj_CD;
+            global.puzzle_code_2++;
+            i = 3;
+            global.pik = 1;
+            audio_play_sound(snd_pickup, 15, false);
+        }
+        else {
+            q = 1;
+        }
+    }
+    if (q == 1) {
+        text_box("No room in backpack for that item", 3.5, x, y);
+    }
+
 }

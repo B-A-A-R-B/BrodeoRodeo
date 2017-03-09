@@ -7,7 +7,7 @@ if (global.more_text == 0) {
         global.brobucks += 5;
     }
     else if (global.tutorial_puzzle < 1){
-        chat_box("I gave ya the money Bro, go get the Brotien!", 3.5, view_xview[0],view_yview[0] + 300);
+        chat_box("I gave ya the money Bro, go get the Brotien shake!", 3.5, view_xview[0],view_yview[0] + 300);
     }
     else if (global.tutorial_puzzle == 1){
         chat_box("Sweet! now go put it on the stand over there in the corner, yeah with the wierd floating X over it.", 3.5, view_xview[0],view_yview[0] + 300);
