@@ -21,6 +21,16 @@ if (global.selected == 0 && distance_to_object(obj_block) < 15) { //if first slo
         global.backpack[0] = 0;
         audio_play_sound(snd_placement, 15, false);
     }
+    else if (global.backpack[0] == obj_brotienshake) {
+        instance_create(obj_block.x, obj_block.y, obj_brotienshake);
+        global.backpack[0] = 0;
+        audio_play_sound(snd_placement, 15, false);
+    }
+    else if (global.backpack[0] == obj_brotienshake) {
+        instance_create(obj_brotien_stand.x, obj_brotien_stand.y, obj_brotienshake);
+        global.backpack[0] = 0;
+        audio_play_sound(snd_placement, 15, false);
+    }
     else {
         show_message("No item selected to drop");
     }
@@ -42,6 +52,16 @@ else if (global.selected == 1 && distance_to_object(obj_block) < 15) {
         global.backpack[1] = 0;
         audio_play_sound(snd_placement, 15, false);
     }
+    else if (global.backpack[1] == obj_brotienshake) {
+        instance_create(obj_block.x, obj_block.y, obj_brotienshake);
+        global.backpack[1] = 0;
+        audio_play_sound(snd_placement, 15, false);
+    }
+    else if (global.backpack[1] == obj_brotienshake) {
+        instance_create(obj_brotien_stand.x, obj_brotien_stand.y, obj_brotienshake);
+        global.backpack[1] = 0;
+        audio_play_sound(snd_placement, 15, false);
+    }
     else {
         show_message("No item selected to drop");
     }
@@ -60,6 +80,16 @@ else if (global.selected == 2 && distance_to_object(obj_block) < 15) {
     }
     else if (global.backpack[2] == obj_roids) {
         instance_create(obj_block.x, obj_block.y, obj_shake);
+        global.backpack[2] = 0;
+        audio_play_sound(snd_placement, 15, false);
+    }
+    else if (global.backpack[2] == obj_brotienshake) {
+        instance_create(obj_block.x, obj_block.y, obj_brotienshake);
+        global.backpack[2] = 0;
+        audio_play_sound(snd_placement, 15, false);
+    }
+    else if (global.backpack[2] == obj_brotienshake) {
+        instance_create(obj_brotien_stand.x, obj_brotien_stand.y, obj_brotienshake);
         global.backpack[2] = 0;
         audio_play_sound(snd_placement, 15, false);
     }

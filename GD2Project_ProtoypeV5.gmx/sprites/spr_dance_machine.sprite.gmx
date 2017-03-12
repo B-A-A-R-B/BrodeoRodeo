@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>639</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>639</bbox_bottom>
+  <bbox_left>178</bbox_left>
+  <bbox_right>473</bbox_right>
+  <bbox_top>176</bbox_top>
+  <bbox_bottom>435</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -28,5 +28,13 @@
     <frame index="5">images\spr_dance_machine_5.png</frame>
     <frame index="6">images\spr_dance_machine_6.png</frame>
     <frame index="7">images\spr_dance_machine_7.png</frame>
+    <frame index="8">images\spr_dance_machine_8.png</frame>
+    <frame index="9">images\spr_dance_machine_9.png</frame>
+    <frame index="10">images\spr_dance_machine_10.png</frame>
+    <frame index="11">images\spr_dance_machine_11.png</frame>
+    <frame index="12">images\spr_dance_machine_12.png</frame>
+    <frame index="13">images\spr_dance_machine_13.png</frame>
+    <frame index="14">images\spr_dance_machine_14.png</frame>
+    <frame index="15">images\spr_dance_machine_15.png</frame>
   </frames>
 </sprite>
