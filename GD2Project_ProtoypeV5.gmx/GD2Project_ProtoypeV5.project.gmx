@@ -126,6 +126,7 @@
       <sprite>sprites\spr_right_arrow</sprite>
       <sprite>sprites\spr_lock_screen</sprite>
       <sprite>sprites\spr_left_arrow</sprite>
+      <sprite>sprites\spr_sparkle</sprite>
     </sprites>
     <sprites name="MainMenu">
       <sprite>sprites\Credits_Button</sprite>
@@ -359,6 +360,7 @@
       <object>objects\obj_female</object>
       <object>objects\obj_male</object>
       <object>objects\obj_L3_arrow</object>
+      <object>objects\obj_sparkle</object>
     </objects>
     <objects name="Minigame">
       <object>objects\obj_minigame</object>
