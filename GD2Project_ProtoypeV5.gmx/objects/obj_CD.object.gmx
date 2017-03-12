@@ -8,7 +8,6 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-<<<<<<< HEAD
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
@@ -101,42 +100,21 @@
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
         <functionname></functionname>
-=======
-    <event eventtype="4" ename="obj_placeholder">
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
->>>>>>> origin/master
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-<<<<<<< HEAD
             <kind>1</kind>
             <string>global.pik</string>
           </argument>
           <argument>
             <kind>0</kind>
-=======
-            <kind>6</kind>
-            <sound>snd_pickup</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
->>>>>>> origin/master
             <string>0</string>
           </argument>
         </arguments>
       </action>
-<<<<<<< HEAD
       <action>
         <libid>1</libid>
         <id>424</id>
@@ -151,8 +129,6 @@
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
-=======
->>>>>>> origin/master
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>

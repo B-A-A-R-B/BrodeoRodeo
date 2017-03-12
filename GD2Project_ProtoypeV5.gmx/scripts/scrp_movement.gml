@@ -1,6 +1,5 @@
 if (global.can_move == 1) {
 if (global.char == 0) {
-
 if keyboard_check(vk_left) {
     sprite_index = spr_left;
     x -= 5;

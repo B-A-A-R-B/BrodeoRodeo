@@ -73,11 +73,3 @@ else if (distance_to_object(obj_brobi) < 15) {
     scrp_tmp_brobi1();
     
 }
-else if (distance_to_object(obj_bro_1) < 15) {
-    audio_play_sound(snd_interaction, 15, false);
-    scrp_steroids_bro_chat();
-}
-if (distance_to_object(obj_bro_4) < 15) {
-    audio_play_sound(snd_interaction, 15, false);
-    scrp_tutorial_locker_blocker();
-}

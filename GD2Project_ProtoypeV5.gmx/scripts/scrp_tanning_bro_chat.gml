@@ -1,13 +1,12 @@
 global.more_text++;
-var r = floor(random_range(0,3));
 if (global.puzzle_code_2 == 0) {
-if (global.more_text == 0 && r = 0) {
+if (global.more_text == 0) {
     chat_box("Bro! I need to get my bronze on. But the booth is all outta bronze.", 3.5, view_xview[0],view_yview[0] + 300);
 }
-else if (global.more_text == 1 && r = 1) {
+else if (global.more_text == 1) {
     chat_box("Dude find me some bronze. This is really harshing my vibes", 3.5, view_xview[0],view_yview[0] + 300);
 }
-else if (global.more_text == 2 && r = 2) {
+else if (global.more_text == 2) {
     chat_box("I can feel myself getting paler by the second", 3.5, view_xview[0],view_yview[0] + 300);
 }
 else {
