@@ -1,5 +1,6 @@
 var inst;
 //dropping an item
+audio_play_sound(snd_placement, 10, false);
 if (distance_to_object(obj_brotien_stand) < 15 && global.tutorial_puzzle == 1) {
 
        global.backpack[0] = 0; 

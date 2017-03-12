@@ -17,6 +17,12 @@
     <sound>sound\snd_level_2</sound>
     <sound>sound\snd_level_3</sound>
     <sound>sound\snd_level_4</sound>
+    <sound>sound\snd_footstep</sound>
+    <sound>sound\snd_watersfx</sound>
+    <sound>sound\sound14</sound>
+    <sound>sound\snd_brobuck_pickup</sound>
+    <sound>sound\snd_door_creak</sound>
+    <sound>sound\snd_door_close</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
@@ -207,6 +213,7 @@
       <script>scripts\scrp_desk_bro_chat.gml</script>
       <script>scripts\scrp_painter_chat.gml</script>
       <script>scripts\scrp_brotien_salesman.gml</script>
+      <script>scripts\scrp_tutorial_locker_blocker.gml</script>
       <script>scripts\scrp_tmp_brobi1.gml</script>
     </scripts>
     <scripts name="Store">
