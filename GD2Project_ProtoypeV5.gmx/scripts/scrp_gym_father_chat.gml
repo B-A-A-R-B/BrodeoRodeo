@@ -14,6 +14,15 @@ if(global.lollipop_puzzle != 2){
 else if(global.lollipop_puzzle == 2){
     if (global.more_text == 0) {
     global.level_3_puzzle++;
+    for (var i = 0; i < 3; i++) {
+        if (global.backpack[i] == obj_lollipop_1) {
+            global.backpack[i] = 0;
+        }
+        if (global.backpack[i] == obj_lollipop_2) {
+            global.backpack[i] = 0;
+        }
+        
+    }
         chat_box("THANKS MY MAN! NOW MY BABY BOY CAN GET HIS PUMP ON!", 3.5, view_xview[0],view_yview[0] + 300);
     }
     else {
