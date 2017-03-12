@@ -498,7 +498,7 @@ if ( boxx == 4) {
 }
 if ( boxx == 5) {
     obj_placeholder.x += 0.9;
-    b0i += 2;
+    b0i += 50;
 }
 
 if (b0i == 60) {
@@ -506,7 +506,7 @@ if (b0i == 60) {
     text_box("Dude, you can't like, go in the pool yet!", 3.0, x, y);
     b0i = 0;
 }
-if (b0i &gt; 60) {
+if (b0i == 1000) {
     boxx = 0;
     b0i = 0;
 }

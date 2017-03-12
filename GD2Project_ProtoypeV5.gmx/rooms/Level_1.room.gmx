@@ -259,8 +259,8 @@
     <instance objName="obj_curl_rack" x="32" y="128" name="inst_7EC2A5E0" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_curl_rack" x="32" y="320" name="inst_B952B450" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_curl_rack" x="32" y="416" name="inst_8336D6FB" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_combo" x="96" y="384" name="inst_2C22AAC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_1" x="128" y="384" name="inst_C092CC0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_combo" x="224" y="352" name="inst_2C22AAC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_1" x="224" y="320" name="inst_C092CC0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treadmill" x="352" y="256" name="inst_1991FAF6" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_treadmill" x="352" y="320" name="inst_08CA71C1" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_treadmill" x="352" y="384" name="inst_BAE36B67" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
