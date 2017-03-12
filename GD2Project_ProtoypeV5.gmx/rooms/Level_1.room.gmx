@@ -101,8 +101,6 @@
     <instance objName="obj_wall" x="736" y="512" name="inst_6FFCA656" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="736" y="544" name="inst_6BA16796" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="704" y="544" name="inst_402630B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="672" y="544" name="inst_4C40520A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="640" y="544" name="inst_8BD5FFAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="544" name="inst_1B8540CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="576" y="544" name="inst_09EE45A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="544" y="544" name="inst_5492482F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -271,10 +269,17 @@
     <instance objName="obj_wall" x="896" y="288" name="inst_A2A285D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="928" y="288" name="inst_B053A282" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="960" y="288" name="inst_D0E47959" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_arrow_up" x="576" y="576" name="inst_813DA8C6" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_down" x="576" y="672" name="inst_79037264" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_right" x="640" y="640" name="inst_22C83686" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_left" x="544" y="640" name="inst_2F1635C7" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_arrow_up" x="652" y="566" name="inst_813DA8C6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_arrow_down" x="652" y="660" name="inst_79037264" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_arrow_right" x="715" y="618" name="inst_22C83686" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_arrow_left" x="600" y="618" name="inst_2F1635C7" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+>>>>>>> origin/master
     <instance objName="obj_bro_3" x="288" y="160" name="inst_8312B621" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_3" x="544" y="320" name="inst_3F94DC42" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_4" x="704" y="192" name="inst_9A732F6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -316,13 +321,18 @@
     <instance objName="obj_bro_coin" x="864" y="352" name="inst_4B23583F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_coin" x="864" y="224" name="inst_234BF042" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_coin" x="480" y="160" name="inst_9A57DB99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="352" y="160" name="inst_F52297B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="256" y="288" name="inst_514F0C27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="352" y="64" name="inst_F52297B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bro_coin" x="192" y="288" name="inst_514F0C27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_coin" x="256" y="416" name="inst_D0CDB462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_coin" x="96" y="672" name="inst_99176568" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_coin" x="800" y="480" name="inst_BDCC67A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_bro_coin" x="704" y="640" name="inst_C4C27738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dance_machine" x="416" y="480" name="inst_ABA38951" locked="0" code="" scaleX="0.550000011920929" scaleY="0.550000011920929" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_bro_coin" x="800" y="608" name="inst_C4C27738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dance_machine" x="512" y="480" name="inst_ABA38951" locked="0" code="" scaleX="0.550000011920929" scaleY="0.5625" colour="4294967295" rotation="0"/>
+>>>>>>> origin/master
   </instances>
   <tiles>
     <tile bgName="hardwood" x="736" y="320" w="32" h="32" xo="0" yo="0" id="10003241" name="inst_888B8CC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

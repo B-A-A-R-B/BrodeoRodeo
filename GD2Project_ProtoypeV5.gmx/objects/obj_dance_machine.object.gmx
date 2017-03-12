@@ -11,9 +11,15 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+<<<<<<< HEAD
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
+=======
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+>>>>>>> origin/master
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -25,11 +31,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
             <string>image_speed</string>
           </argument>
           <argument>
             <kind>0</kind>
             <string>0.2</string>
+=======
+            <string>image_speed = 0.1;
+</string>
+>>>>>>> origin/master
           </argument>
         </arguments>
       </action>

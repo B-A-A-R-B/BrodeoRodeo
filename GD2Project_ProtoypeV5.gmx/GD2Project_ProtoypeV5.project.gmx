@@ -17,6 +17,12 @@
     <sound>sound\snd_level_2</sound>
     <sound>sound\snd_level_3</sound>
     <sound>sound\snd_level_4</sound>
+    <sound>sound\snd_footstep</sound>
+    <sound>sound\snd_watersfx</sound>
+    <sound>sound\sound14</sound>
+    <sound>sound\snd_brobuck_pickup</sound>
+    <sound>sound\snd_door_creak</sound>
+    <sound>sound\snd_door_close</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
@@ -126,6 +132,7 @@
       <sprite>sprites\spr_right_arrow</sprite>
       <sprite>sprites\spr_lock_screen</sprite>
       <sprite>sprites\spr_left_arrow</sprite>
+      <sprite>sprites\spr_sparkle</sprite>
     </sprites>
     <sprites name="MainMenu">
       <sprite>sprites\Credits_Button</sprite>
@@ -206,6 +213,7 @@
       <script>scripts\scrp_desk_bro_chat.gml</script>
       <script>scripts\scrp_painter_chat.gml</script>
       <script>scripts\scrp_brotien_salesman.gml</script>
+      <script>scripts\scrp_tutorial_locker_blocker.gml</script>
       <script>scripts\scrp_tmp_brobi1.gml</script>
     </scripts>
     <scripts name="Store">
@@ -244,6 +252,7 @@
     <script>scripts\scr_menu.gml</script>
     <script>scripts\scrp_throw_nerd.gml</script>
     <script>scripts\scrp_nerd_workout.gml</script>
+    <script>scripts\script66.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_chat</font>
@@ -305,10 +314,8 @@
       <object>objects\obj_shake</object>
       <object>objects\obj_brotienshake</object>
       <object>objects\obj_key</object>
-      <object>objects\obj_towel</object>
       <object>objects\obj_button</object>
       <object>objects\obj_paint</object>
-      <object>objects\obj_CD</object>
       <object>objects\obj_music_player</object>
     </objects>
     <objects name="Puzzle">
@@ -332,7 +339,6 @@
       <object>objects\obj_pool_right</object>
       <object>objects\obj_locker_puz</object>
       <object>objects\obj_lock_num_4</object>
-      <object>objects\locker_unblocked</object>
     </objects>
     <object>objects\obj_wall</object>
     <object>objects\obj_locker_bro_walls</object>
@@ -341,7 +347,6 @@
     <object>objects\obj_treadmill</object>
     <object>objects\obj_bench_press</object>
     <object>objects\obj_curl_rack</object>
-    <object>objects\obj_dance_machine</object>
     <objects name="UI">
       <object>objects\obj_arrow</object>
       <object>objects\obj_tutorial_entrance</object>
@@ -359,6 +364,7 @@
       <object>objects\obj_female</object>
       <object>objects\obj_male</object>
       <object>objects\obj_L3_arrow</object>
+      <object>objects\obj_sparkle</object>
     </objects>
     <objects name="Minigame">
       <object>objects\obj_minigame</object>
@@ -384,16 +390,6 @@
     <room>rooms\Menu</room>
     <room>rooms\character_select</room>
     <room>rooms\Tutorial</room>
-    <room>rooms\Level_1</room>
-    <room>rooms\Level_2</room>
-    <room>rooms\Level_3</room>
-    <room>rooms\Level_4</room>
-    <room>rooms\credits_rm</room>
-    <room>rooms\Instructions_rm</room>
-    <room>rooms\Store_room</room>
-    <room>rooms\room8</room>
-    <room>rooms\test_room</room>
-    <room>rooms\Overworld</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
