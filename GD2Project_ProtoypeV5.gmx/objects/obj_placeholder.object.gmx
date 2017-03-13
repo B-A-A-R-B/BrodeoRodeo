@@ -638,7 +638,7 @@ if (b0i == 1000) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text_box("You didn't do your warmup stretches before getting in the pool, now you're drowning, perform a quick minigame to save yourself", 3.5, view_xview[0],view_yview[0] + 300);
+            <string>text_box("OH NO I FORGOT HOW TO SWIM...[Press the A and S keys to swim freely]", 3.5, view_xview[0],view_yview[0] + 300);
 xxx = 1;
 
 </string>
@@ -1493,10 +1493,10 @@ xxx = 1;
             <string>///message of revolt when in view of old naked men
 var r = floor(random_range(0,2));
 if (r == 0) {
-    text_box("I don't want to go in there, too many naked old men!", 3.5, x, y);
+    text_box("SO MANY NAKED OLD DUDES! I should find them some towels so I cna use the sauna", 3.5, x, y);
 }
 if (r == 1) {
-    text_box("MY EYES!", 3.5, x, y);
+    text_box("MY EYES!...gotta find those towels...", 3.5, x, y);
 }
 </string>
           </argument>

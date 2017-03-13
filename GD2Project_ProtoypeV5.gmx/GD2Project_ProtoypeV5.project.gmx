@@ -140,10 +140,13 @@
     </sprites>
     <sprite>sprites\locker_self</sprite>
     <sprite>sprites\sprite90</sprite>
-    <sprite>sprites\spr_1_sing</sprite>
+    <sprite>sprites\spr_1_sign</sprite>
     <sprite>sprites\spr_2_sign</sprite>
     <sprite>sprites\spr_3_sign</sprite>
     <sprite>sprites\spr_4_sign</sprite>
+    <sprite>sprites\spr_poster1</sprite>
+    <sprite>sprites\spr_poster2</sprite>
+    <sprite>sprites\spr_poster3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>

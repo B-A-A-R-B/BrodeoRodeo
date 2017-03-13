@@ -31,6 +31,7 @@ else if (global.locker_puzzle == 5) {
     global.puzzles_complete += 1;
      with(obj_lock_screen) {
     instance_destroy();
+    audio_play_sound(snd_small_pickup, 10, false);
 }
 with (obj_lock_num_1) {
     instance_destroy();
