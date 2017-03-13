@@ -93,11 +93,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_block.x</string>
+            <string>obj_block.x + 10</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_block.y</string>
+            <string>obj_block.y + 10</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -124,7 +124,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_block">
+    <event eventtype="4" ename="obj_roids">
       <action>
         <libid>1</libid>
         <id>201</id>

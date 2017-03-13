@@ -1,6 +1,6 @@
 if (global.minigame_3 == 1) { //only check during minigame mode
-    if (keyboard_check_pressed(vk_space)) { //check key released to perform minigame
-           global.mini_3_health -= 0.1;
+    if (keyboard_check(vk_space)) { //check key released to perform minigame
+           global.mini_3_health -= 0.25;
     }
 }
 

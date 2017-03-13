@@ -1,3 +1,4 @@
+depth = -50;
 draw_set_colour(c_red); //first bar as the background for the second
 draw_rectangle(obj_placeholder.x, obj_placeholder.y + 25, obj_placeholder.x + global.mini_3_health, obj_placeholder.y + 50, false);
 
