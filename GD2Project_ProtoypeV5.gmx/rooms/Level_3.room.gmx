@@ -537,8 +537,6 @@
     <tile bgName="Wall_Template" x="864" y="576" w="32" h="32" xo="32" yo="64" id="10006537" name="inst_46BFFFD9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Wall_Template" x="832" y="576" w="32" h="32" xo="32" yo="64" id="10006538" name="inst_6F17944D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Wall_Template" x="800" y="576" w="32" h="32" xo="32" yo="64" id="10006539" name="inst_E5889748" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="hardwood" x="480" y="576" w="32" h="32" xo="0" yo="0" id="10006541" name="inst_1AD08E24" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="hardwood" x="512" y="576" w="32" h="32" xo="0" yo="0" id="10006542" name="inst_C1BA814B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Wall_Template" x="448" y="576" w="32" h="32" xo="0" yo="32" id="10006543" name="inst_F5E92552" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Wall_Template" x="544" y="576" w="32" h="32" xo="64" yo="32" id="10006544" name="inst_DB37A592" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="hardwood" x="544" y="544" w="32" h="32" xo="0" yo="0" id="10006686" name="inst_506F341E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -565,6 +563,8 @@
     <tile bgName="hardwood" x="192" y="544" w="32" h="32" xo="0" yo="0" id="10006707" name="inst_BF52ABED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="hardwood" x="160" y="544" w="32" h="32" xo="0" yo="0" id="10006708" name="inst_AA5D3C1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="hardwood" x="128" y="544" w="32" h="32" xo="0" yo="0" id="10006709" name="inst_F03C52A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="yellow" x="480" y="576" w="32" h="32" xo="0" yo="0" id="10007414" name="inst_E42B3C9D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="yellow" x="512" y="576" w="32" h="32" xo="0" yo="0" id="10007415" name="inst_C008A24D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tredmill" x="384" y="256" w="32" h="32" xo="64" yo="64" id="10006563" name="inst_FBF2989A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>

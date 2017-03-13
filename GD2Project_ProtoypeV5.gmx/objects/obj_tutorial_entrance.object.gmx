@@ -26,24 +26,32 @@
           <argument>
             <kind>1</kind>
             <string>if (room == Level_1) {
+    audio_play_sound(snd_door_creek, 10, false);
+    audio_play_sound(snd_door_close, 10, false);
     room_goto(Tutorial);
     obj_placeholder.x = 320;
     obj_placeholder.y = 608;    
 }
 
 if (room == Level_2) {
+    audio_play_sound(snd_door_creek, 10, false);
+    audio_play_sound(snd_door_close, 10, false);
     room_goto(Tutorial);
     obj_placeholder.x = 160;
     obj_placeholder.y = 1376;
 }
 
 if (room == Level_3) {
+    audio_play_sound(snd_door_creek, 10, false);
+    audio_play_sound(snd_door_close, 10, false);
     room_goto(Tutorial);
     obj_placeholder.x = 256;
     obj_placeholder.y = 1376;
 }
 
 if (room == Level_4) {
+    audio_play_sound(snd_door_creek, 10, false);
+    audio_play_sound(snd_door_close, 10, false);
     room_goto(Tutorial);
     obj_placeholder.x = 384;
     obj_placeholder.y = 800;

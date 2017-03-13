@@ -17,6 +17,11 @@
     <sound>sound\snd_level_2</sound>
     <sound>sound\snd_level_3</sound>
     <sound>sound\snd_level_4</sound>
+    <sound>sound\snd_coin_pickup</sound>
+    <sound>sound\snd_door_creek</sound>
+    <sound>sound\snd_door_close</sound>
+    <sound>sound\snd_water_sfx</sound>
+    <sound>sound\snd_fail</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
@@ -135,6 +140,10 @@
     </sprites>
     <sprite>sprites\locker_self</sprite>
     <sprite>sprites\sprite90</sprite>
+    <sprite>sprites\spr_1_sing</sprite>
+    <sprite>sprites\spr_2_sign</sprite>
+    <sprite>sprites\spr_3_sign</sprite>
+    <sprite>sprites\spr_4_sign</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -187,6 +196,7 @@
       <script>scripts\scrp_maintenance_guy_chat.gml</script>
       <script>scripts\scrp_brobi_wan_chat.gml</script>
       <script>scripts\scrp_tanning_bro_chat.gml</script>
+      <script>scripts\scrp_locker_bro_chat.gml</script>
       <script>scripts\scrp_old_man_chat.gml</script>
       <script>scripts\scrp_pool_ladies_chat.gml</script>
       <script>scripts\scrp_lifeguard_bro_chat.gml</script>
@@ -381,6 +391,10 @@
     <object>objects\interact_z</object>
     <object>objects\control_x</object>
     <object>objects\space_bar</object>
+    <object>objects\obj_1_sign</object>
+    <object>objects\obj_2_sign</object>
+    <object>objects\obj_3_sign</object>
+    <object>objects\obj_4_sign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
