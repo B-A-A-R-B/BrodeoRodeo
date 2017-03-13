@@ -28,8 +28,6 @@ if (global.locker_puzzle != 5) {
 }
 else if (global.locker_puzzle == 5) {
     text_box("Go it", 0.5, x, y);
-    audio_play_sound(snd_small_pickup, 10, false)
-    
     with(obj_lock_screen) {
     instance_destroy();
 }

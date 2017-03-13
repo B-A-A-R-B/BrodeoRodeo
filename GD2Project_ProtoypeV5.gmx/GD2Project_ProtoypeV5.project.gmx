@@ -255,6 +255,7 @@
     <script>scripts\scr_menu.gml</script>
     <script>scripts\scrp_throw_nerd.gml</script>
     <script>scripts\scrp_nerd_workout.gml</script>
+    <script>scripts\script66.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_chat</font>

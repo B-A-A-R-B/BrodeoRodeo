@@ -56,7 +56,7 @@
           <argument>
             <kind>1</kind>
             <string>with (obj_sparkle){
-    if (x == obj_towel.x &amp;&amp; y == obj_towel.y) { 
+    if (x &lt; obj_placeholder.x + 64 &amp;&amp; x &gt; obj_placeholder.x - 64 &amp;&amp; y &lt; obj_placeholder.y + 64 &amp;&amp; y &gt; obj_placeholder.y - 64) { 
         instance_destroy();
     }
 }
