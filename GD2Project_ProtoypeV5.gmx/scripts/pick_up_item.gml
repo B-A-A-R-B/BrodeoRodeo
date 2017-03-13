@@ -106,7 +106,7 @@ else if (distance_to_object(obj_keycard) < 15) {  //check if the player is colli
         text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
     }
 }
-else if (distance_to_object(obj_brotienshake) < 15) {  //check if the player is colliding with the item
+else if (distance_to_object(obj_brotienshake) < 32) {  //check if the player is colliding with the item
     for (var i = 0; i < 3; i++) { //check the inventory
         if (global.backpack[i] == 0 && global.brobucks >= 5) { //look for an empty slot
             q = 0; 

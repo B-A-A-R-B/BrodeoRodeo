@@ -11,6 +11,7 @@ if(place_meeting(obj_placeholder.x, obj_placeholder.y, obj_poster_correct)) {
             global.backpack[i] = obj_shake; //add to inventory
             i = 3;
             global.pik = 1;
+            global.puzzles_complete += 1;
         }
         else {
             q = 1;

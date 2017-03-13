@@ -7,7 +7,8 @@ if (global.more_text == 0) {
 }
 else if (global.more_text == 1 && global.dance_puzzle == 15) {
     chat_box("Those are some sweet dance moves bruh, here you go.", 3.5, view_xview[0], view_yview[0] + 300);
-    global.key = 1;
+     global.puzzles_complete += 1;
+     global.key = 1;
     global.puzzle_code_1++;
     //animation of obtaining an item here
 }

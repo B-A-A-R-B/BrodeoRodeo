@@ -17,7 +17,8 @@ else if(global.lollipop_puzzle == 2){
     for (var i = 0; i < 3; i++) {
         if (global.backpack[i] == obj_lollipop_1) {
             global.backpack[i] = 0;
-        }
+            global.puzzles_complete += 1;
+         }
         if (global.backpack[i] == obj_lollipop_2) {
             global.backpack[i] = 0;
         }

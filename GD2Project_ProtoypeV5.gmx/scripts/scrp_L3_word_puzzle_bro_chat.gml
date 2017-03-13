@@ -21,6 +21,7 @@ else if(global.quote_puzzle == 6 || global.quote_puzzle > 6){
         }
         if(keyboard_check_pressed(vk_space) && global.L3_arrow_pos == 1){
                 chat_box("YOU GOT IT BRO!", 3.5, view_xview[0],view_yview[0] + 300);
+                global.puzzles_complete += 1;
                 global.level_3_puzzle++;
             }
         }

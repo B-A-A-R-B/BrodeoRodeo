@@ -182,6 +182,7 @@
         instance_destroy();
     }
 }
+global.puzzles_complete += 1;
 </string>
           </argument>
         </arguments>
