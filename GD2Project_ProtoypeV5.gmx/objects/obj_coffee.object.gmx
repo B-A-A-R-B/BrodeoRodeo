@@ -226,6 +226,7 @@
         instance_destroy();
     }
 }
+global.createSparkle = 1;
 </string>
           </argument>
         </arguments>
