@@ -307,8 +307,7 @@
     <instance objName="obj_towel" x="928" y="224" name="inst_0CC0A866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locker_combo" x="192" y="192" name="inst_D9AE9A82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="160" name="inst_9129389A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tutorial_entrance" x="992" y="448" name="inst_C60C08A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tutorial_entrance" x="992" y="480" name="inst_A7C573DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tutorial_entrance" x="992" y="448" name="inst_A7C573DC" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1024" y="448" name="inst_F46DB832" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1024" y="480" name="inst_5500E888" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1024" y="512" name="inst_AF7C5B08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
