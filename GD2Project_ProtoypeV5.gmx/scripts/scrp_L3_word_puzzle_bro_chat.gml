@@ -15,15 +15,15 @@ else if(global.quote_puzzle == 6 || global.quote_puzzle > 6){
         scrp_shop_items("Come at me bro!", 0.5, obj_placeholder.x + 32, obj_placeholder.y);
         scrp_shop_items("Real bros let bros skip leg day", 0.5, obj_placeholder.x + 32, obj_placeholder.y + 32);
         scrp_shop_items("Leg day is a bros best bro", 0.5, obj_placeholder.x + 32, obj_placeholder.y + 64);
-        arrow = instance_create(x, y, obj_L3_arrow)
-        if(keyboard_check_pressed(vk_space)&& global.L3_arrow_pos != 1 ){
+        arrow = instance_create(x, y, obj_L3_arrow);
+        /*if(keyboard_check_pressed(vk_space)&& global.L3_arrow_pos != 1 ){
             chat_box("WRONG...idiot.", 3.5, view_xview[0],view_yview[0] + 300);
         }
         if(keyboard_check_pressed(vk_space) && global.L3_arrow_pos == 1){
                 chat_box("YOU GOT IT BRO!", 3.5, view_xview[0],view_yview[0] + 300);
                 global.level_3_puzzle++;
-            }
-        }
+        }*/
+    }
         
     else {
         global.more_text = -1;
