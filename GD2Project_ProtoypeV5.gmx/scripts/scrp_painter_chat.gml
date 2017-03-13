@@ -5,6 +5,10 @@ if (global.more_text == 0) {
 }
 else if (global.more_text == 1) {
     chat_box("Need some paint? I'll need a coffee", 3.5, view_xview[0],view_yview[0] + 300);
+    if (global.createSparkle == 0){
+        instance_create(obj_coffee.x, obj_coffee.y, obj_sparkle);
+        global.createSparkle = 1;
+    }    
 }
 else if (global.more_text == 2 && global.puzzle_code_2 == 1) {
     for (var q = 0; q < 3; q++) {
