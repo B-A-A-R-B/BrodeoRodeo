@@ -37,6 +37,7 @@ else if (global.more_text == 2 && global.puzzle_code_2 == 1) {
 else {
     global.more_text = -1;
     global.can_move = 1;
+    global.portrait = 0;
 }
 
 //add text when you need to trade items

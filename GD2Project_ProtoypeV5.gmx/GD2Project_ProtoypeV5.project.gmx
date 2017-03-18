@@ -57,6 +57,10 @@
         <sprite>sprites\spr_bro_4_left</sprite>
         <sprite>sprites\spr_bro_4_idle_right</sprite>
         <sprite>sprites\spr_bro_4_idle_left</sprite>
+        <sprite>sprites\spr_bro_1_portrait</sprite>
+        <sprite>sprites\spr_bro_2_portrait</sprite>
+        <sprite>sprites\spr_bro_3_portrait</sprite>
+        <sprite>sprites\spr_bro_4_portrait</sprite>
       </sprites>
       <sprites name="Unique Bros">
         <sprite>sprites\spr_arm_bro</sprite>
@@ -70,22 +74,38 @@
         <sprite>sprites\spr_bro_life</sprite>
         <sprite>sprites\spr_painter</sprite>
         <sprite>sprites\spr_brobi_talk</sprite>
+        <sprite>sprites\spr_nerd</sprite>
+        <sprite>sprites\spr_arm_bro_portrait</sprite>
+        <sprite>sprites\spr_bro_temp_portrait</sprite>
+        <sprite>sprites\spr_tweak_portrait</sprite>
+        <sprite>sprites\spr_bro_baby_portrait</sprite>
+        <sprite>sprites\spr_leg_bro_portrait</sprite>
+        <sprite>sprites\spr_brobi_portrait</sprite>
+        <sprite>sprites\spr_bro_life_portrait</sprite>
+        <sprite>sprites\spr_painter_portrait</sprite>
+        <sprite>sprites\spr_nerd_portrait</sprite>
       </sprites>
       <sprites name="FemBro">
         <sprite>sprites\spr_fembro_1_idle_right</sprite>
         <sprite>sprites\spr_fembro_1_idle_left</sprite>
         <sprite>sprites\spr_fembro_1</sprite>
+        <sprite>sprites\spr_fembro_2</sprite>
         <sprite>sprites\spr_fembro_3</sprite>
         <sprite>sprites\spr_fembro_4</sprite>
-        <sprite>sprites\spr_fembro_2</sprite>
+        <sprite>sprites\spr_fembro_1_portrait</sprite>
+        <sprite>sprites\spr_fembro_2_portrait</sprite>
+        <sprite>sprites\spr_fembro_3_portrait</sprite>
+        <sprite>sprites\spr_fembro_4_portrait</sprite>
       </sprites>
       <sprites name="Pool people">
         <sprite>sprites\spr_old_man_naked</sprite>
         <sprite>sprites\spr_old_man</sprite>
         <sprite>sprites\spr_old_man_towel</sprite>
         <sprite>sprites\spr_pool_lady</sprite>
+        <sprite>sprites\spr_pool_lady_portrait</sprite>
+        <sprite>sprites\spr_old_man_portrait</sprite>
+        <sprite>sprites\spr_old_man_naked_portrait</sprite>
       </sprites>
-      <sprite>sprites\spr_nerd</sprite>
     </sprites>
     <sprites name="Workout Machines">
       <sprite>sprites\spr_dance_machine</sprite>

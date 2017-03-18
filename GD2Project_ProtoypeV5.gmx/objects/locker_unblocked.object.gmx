@@ -263,6 +263,7 @@
             <kind>1</kind>
             <string>global.more_text++;
 global.quote_puzzle++;
+global.portrait = 0;
 
 if (global.more_text == 0) {
     chat_box("Wohooo! got to my locker, I can feel the gainz already! and i haven't even lifted yet!", 1, view_xview[0],view_yview[0] + 300);
@@ -271,6 +272,7 @@ if (global.more_text == 0) {
 else {
     global.more_text = -1;
     global.can_move = 1;
+    global.portrait = 0;
 }
 with (obj_sparkle){
     if (x &lt; locker_unblocked.x + 16 &amp;&amp; x &gt; locker_unblocked.x - 16 &amp;&amp; y &lt; locker_unblocked.y + 16 &amp;&amp; y &gt; locker_unblocked.y - 64) { 

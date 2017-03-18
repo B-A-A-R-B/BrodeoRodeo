@@ -12,5 +12,6 @@ if (global.more_text == 0) {
 else {
     global.more_text = -1;
     global.can_move = 1;
+    global.portrait = 0;
 }
 

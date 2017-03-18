@@ -15,5 +15,6 @@ else if (global.more_text == 1 && global.dance_puzzle == 15) {
 else {
     global.more_text = -1;
     global.can_move = 1;
+    global.portrait = 0;
 }
 

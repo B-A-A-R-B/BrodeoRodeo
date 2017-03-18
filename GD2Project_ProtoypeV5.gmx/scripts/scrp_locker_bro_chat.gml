@@ -16,10 +16,12 @@ if (global.locker_puzzle != 5) {
     else {
         global.more_text = -1;
         global.can_move = 1;
+        global.portrait = 0;
     }
 }
 //after puzzle
 else if (global.locker_puzzle == 5) {
     chat_box("AWESOME YOU OPENED IT! THANKS LITTLE BUDDY! You ain't so bad for a NERD!", 3.5, x, y);
     global.can_move = 1;
+    global.portrait = 0;
 }

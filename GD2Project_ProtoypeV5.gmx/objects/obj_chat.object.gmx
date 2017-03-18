@@ -29,6 +29,7 @@
 print = "";
 time = 0;
 depth = depth - instance_number(obj_chat);
+//obj_chat.x +=50;
 </string>
           </argument>
         </arguments>
@@ -90,13 +91,71 @@ draw_set_color(c_white);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
 draw_set_color(c_black);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
+draw_rectangle(x,y,x+100,y+boxheight,1);
+if (global.portrait == bro_service_desk) {
+    draw_sprite(spr_bro_2_portrait, -1, x, y);
+}
+else if (global.portrait == obj_bro_dancer) {
+    draw_sprite(spr_bro_2_portrait, -1, x, y);
+}
+else if (global.portrait == obj_tweak) {
+    draw_sprite(spr_tweak_portrait, -1, x, y);
+}
+else if (global.portrait == obj_painter) {
+    draw_sprite(spr_painter_portrait, -1, x, y);
+}
+else if (global.portrait == obj_tanning_bro) {
+    draw_sprite(spr_bro_3_portrait, -1, x, y);
+}
+else if (global.portrait == obj_dad_bro) {
+    draw_sprite(spr_bro_3_portrait, -1, x, y);
+}
+else if (global.portrait == obj_mom_bro) {
+    draw_sprite(spr_fembro_2_portrait, -1, x, y);
+}
+else if (global.portrait == obj_quote_bro_1) {
+    draw_sprite(spr_fembro_3_portrait, -1, x, y);
+}
+else if (global.portrait == obj_quote_bro_2) {
+    draw_sprite(spr_fembro_4_portrait, -1, x, y);
+}
+else if (global.portrait == obj_quote_bro_3) {
+    draw_sprite(spr_bro_1_portrait, -1, x, y);
+}
+else if (global.portrait == obj_quote_bro_4) {
+    draw_sprite(spr_bro_3_portrait, -1, x, y);
+}
+else if (global.portrait == obj_quote_bro_5) {
+    draw_sprite(spr_bro_2_portrait, -1, x, y);
+}
+else if (global.portrait == obj_quote_bro_6) {
+    draw_sprite(spr_bro_3_portrait, -1, x, y);
+}
+else if (global.portrait == obj_L3_word_puzzle_bro) {
+    draw_sprite(spr_arm_bro_portrait, -1, x, y);
+}
+else if (global.portrait == obj_broflex_bro) {
+    draw_sprite(spr_bro_temp_portrait, -1, x, y);
+}
+else if (global.portrait == obj_brotien_salesman) {
+    draw_sprite(spr_bro_1_portrait, -1, x, y);
+}
+else if (global.portrait == obj_brobi) {
+    draw_sprite(spr_brobi_portrait, -1, x, y);
+}
+else if (global.portrait == obj_bro_1) {
+    draw_sprite(spr_bro_1_portrait, -1, x, y);
+}
+else if (global.portrait == obj_bro_4) {
+    draw_sprite(spr_bro_4_portrait, -1, x, y);
+}
 
 draw_set_color(c_black);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_text_ext
 (
-    x + padding,
+    x + padding + 100,
     y + padding,
     print, 
     font_size+(font_size/2),

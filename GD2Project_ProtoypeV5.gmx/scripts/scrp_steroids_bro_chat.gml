@@ -9,5 +9,6 @@ else if (global.more_text == 1 && global.steroids_placed ==1) {
 }
 else {
     global.more_text = -1;
+    global.portrait = 0;
     global.can_move = 1;
 }
