@@ -27,7 +27,7 @@ if (global.puzzle_code_2 == 2) {
         }
     }
     global.towel++;
-    global.puzzle_code_2 += 1;
+    global.puzzle_code_2++;
     instance_create(288, 96, obj_minigame_2);
     instance_create(480,96, obj_locker_puz);
 }

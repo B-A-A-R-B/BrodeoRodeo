@@ -88,10 +88,10 @@ else {
 
 draw_set_font(font_chat);
 draw_set_color(c_white);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
+draw_rectangle(x,y,x+boxwidth,y+250,0); //white area in text box
 draw_set_color(c_black);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
-draw_rectangle(x,y,x+100,y+boxheight,1);
+draw_rectangle(x,y,x+boxwidth,y+250,1); //black border of text box
+draw_rectangle(x,y,x+100,y+250,1); //box area for NPC portrait
 if (global.portrait == bro_service_desk) {
     draw_sprite(spr_bro_2_portrait, -1, x, y);
 }

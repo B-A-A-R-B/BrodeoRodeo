@@ -27,7 +27,7 @@ if (global.locker_puzzle != 5) {
     global.locker_puzzle = 1;
 }
 else if (global.locker_puzzle == 5) {
-    text_box("Go it", 0.5, x, y);
+    text_box("Got it", 0.5, x, y);
     global.puzzles_complete += 1;
      with(obj_lock_screen) {
     instance_destroy();

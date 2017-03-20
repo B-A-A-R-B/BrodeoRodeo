@@ -1,4 +1,3 @@
-
 timer++;
 if (global.minigame_2 == 1) { //only check during minigame mode
     if (global.array_list[count] == 0) {
@@ -18,7 +17,7 @@ if (global.minigame_2 == 1) { //only check during minigame mode
         instance_create(obj_placeholder.x, obj_placeholder.y - 32, up_control);
         with (up_control) {
             image_xscale = 0.25;
-            image_yscale = 0.25
+            image_yscale = 0.25;
         }
         if (keyboard_check_released(vk_up)) {
             global.mini_2_health -= 4; count++;
@@ -31,7 +30,7 @@ if (global.minigame_2 == 1) { //only check during minigame mode
         instance_create(obj_placeholder.x, obj_placeholder.y - 32, right_control);
         with (right_control) {
             image_xscale = 0.25;
-            image_yscale = 0.25
+            image_yscale = 0.25;
         }
         if(keyboard_check_released(vk_right)) {
             global.mini_2_health -= 4; count++;
@@ -44,7 +43,7 @@ if (global.minigame_2 == 1) { //only check during minigame mode
         instance_create(obj_placeholder.x, obj_placeholder.y - 32, down_control);
         with (down_control) {
             image_xscale = 0.25;
-            image_yscale = 0.25
+            image_yscale = 0.25;
         }
         if (keyboard_check_released(vk_down)) {
             global.mini_2_health -= 4; count++;
@@ -70,5 +69,6 @@ if (global.mini_2_health <= 0) {
     else if (timer/30 > 24) {
         global.reputation += 50;
     }
+    global.mini_2_health = 100;
     //text_box("You did the thing, congratz!", 3.5, obj_placeholder.x - 25, obj_placeholder.y - 50);
 }

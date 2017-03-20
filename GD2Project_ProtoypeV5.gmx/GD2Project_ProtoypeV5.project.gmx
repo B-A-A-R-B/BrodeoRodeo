@@ -427,6 +427,7 @@
     <object>objects\obj_arrow_hint_down</object>
     <object>objects\obj_arrow_hint_left</object>
     <object>objects\obj_arrow_hint_right</object>
+    <object>objects\obj_pool_h</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
