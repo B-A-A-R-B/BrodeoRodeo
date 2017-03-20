@@ -175,6 +175,7 @@
     <sprite>sprites\sprite124</sprite>
     <sprite>sprites\spr_L1_bench</sprite>
     <sprite>sprites\spr_L1_Bro3_treadmill</sprite>
+    <sprite>sprites\spr_treadmill_girl1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -434,6 +435,7 @@
     <object>objects\obj_arrow_hint_left</object>
     <object>objects\obj_arrow_hint_right</object>
     <object>objects\obj_pool_h</object>
+    <object>objects\obj_treadmill_girl1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

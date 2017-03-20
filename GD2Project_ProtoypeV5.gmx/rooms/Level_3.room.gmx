@@ -169,7 +169,6 @@
     <instance objName="obj_wall" x="96" y="544" name="inst_4AC2C589" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="896" y="544" name="inst_CCA145E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_baby" x="256" y="448" name="inst_AC767C62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tweak" x="480" y="256" name="inst_C4ED1C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fembro_4" x="768" y="416" name="inst_A5359472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_entrance" x="480" y="608" name="inst_BF76EE3B" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shake" x="1376" y="1184" name="inst_0F445F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -187,11 +186,6 @@
     <instance objName="obj_quote_bro_6" x="576" y="384" name="inst_1B6E38A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_L3_word_puzzle_bro" x="768" y="320" name="inst_3B9904A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_broflex_bro" x="480" y="96" name="inst_4A23743B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="640" y="512" name="inst_BD1BB030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="704" y="320" name="inst_B916C30C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="192" y="544" name="inst_AF519BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="320" y="224" name="inst_9EB42FEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="544" y="128" name="inst_D86E693C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_hint_right" x="448" y="288" name="inst_081B9EB3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_hint_down" x="608" y="320" name="inst_F717C94D" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_hint_left" x="480" y="352" name="inst_67A9A6B6" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
@@ -567,8 +561,8 @@
     <tile bgName="hardwood" x="192" y="544" w="32" h="32" xo="0" yo="0" id="10006707" name="inst_BF52ABED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="hardwood" x="160" y="544" w="32" h="32" xo="0" yo="0" id="10006708" name="inst_AA5D3C1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="hardwood" x="128" y="544" w="32" h="32" xo="0" yo="0" id="10006709" name="inst_F03C52A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="yellow" x="480" y="576" w="32" h="32" xo="0" yo="0" id="10007414" name="inst_E42B3C9D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="yellow" x="512" y="576" w="32" h="32" xo="0" yo="0" id="10007415" name="inst_C008A24D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="yellow" x="480" y="608" w="32" h="32" xo="0" yo="0" id="10007414" name="inst_E42B3C9D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="yellow" x="512" y="608" w="32" h="32" xo="0" yo="0" id="10007415" name="inst_C008A24D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tredmill" x="384" y="256" w="32" h="32" xo="64" yo="64" id="10006563" name="inst_FBF2989A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
