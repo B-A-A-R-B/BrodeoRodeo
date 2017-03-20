@@ -1,6 +1,11 @@
 global.more_text++;
 if (global.more_text == 0) {
     chat_box("I’ve got something to help you, but you should finish the rest of your workout first!", 4, view_xview[0],view_yview[0] + 300);
+    with (obj_chatMarker){
+        if (x == obj_tweak.x && y < obj_tweak.y && y >= obj_tweak.y - 32) { 
+            instance_destroy();
+        }
+    }
 }
 
 else if (global.more_text == 1 && global.puzzle_code_1 == 3) {

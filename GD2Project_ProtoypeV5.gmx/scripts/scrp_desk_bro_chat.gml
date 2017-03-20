@@ -7,6 +7,11 @@ if (global.more_text == 0) {
     with(interact_z){
         instance_destroy();
     }
+    with (obj_chatMarker){
+        if (x == bro_service_desk.x && y < bro_service_desk.y && y >= bro_service_desk.y - 32) { 
+            instance_destroy();
+        }
+    }
 }
 
 else {

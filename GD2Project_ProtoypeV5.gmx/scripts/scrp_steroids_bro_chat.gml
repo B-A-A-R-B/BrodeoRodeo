@@ -5,6 +5,11 @@ if (global.more_text == 0) {
 }
 else if (global.more_text == 1 && global.steroids_placed ==1) {
     chat_box("OHHH YEAH BOI!", 3.5, view_xview[0], view_yview[0] + 300);
+    with (obj_quest){
+        if (x == obj_bro_4.x && y < obj_bro_4.y && y >= obj_bro_4.y - 32) { 
+            instance_destroy();
+        }
+    }
     //animation of obtaining an item here
 }
 else {

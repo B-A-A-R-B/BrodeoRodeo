@@ -63,7 +63,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_coin_pickup</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>

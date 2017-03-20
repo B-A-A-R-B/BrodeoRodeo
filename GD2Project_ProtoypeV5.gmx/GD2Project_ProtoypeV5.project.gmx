@@ -152,6 +152,8 @@
       <sprite>sprites\spr_lock_screen</sprite>
       <sprite>sprites\spr_left_arrow</sprite>
       <sprite>sprites\spr_sparkle</sprite>
+      <sprite>sprites\spr_quest</sprite>
+      <sprite>sprites\spr_chatMarker</sprite>
     </sprites>
     <sprites name="MainMenu">
       <sprite>sprites\Credits_Button</sprite>
@@ -406,6 +408,8 @@
       <object>objects\obj_male</object>
       <object>objects\obj_L3_arrow</object>
       <object>objects\obj_sparkle</object>
+      <object>objects\obj_chatMarker</object>
+      <object>objects\obj_quest</object>
     </objects>
     <objects name="Minigame">
       <object>objects\obj_minigame</object>

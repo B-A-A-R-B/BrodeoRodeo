@@ -5,6 +5,11 @@ if (global.more_text == 0) {
     if (global.brobucks < 5 && global.tutorial_puzzle < 1){
         chat_box("Hey Bro, I see you are trying to get to your locker behind the big guy. Heres five brobucks, go grab a brotien shake and ill teach you something cool.", 3.5, view_xview[0],view_yview[0] + 300);
         global.brobucks += 5;
+        with (obj_quest){
+            if (x == obj_brobi.x && y < obj_brobi.y && y >= obj_brobi.y - 32) { 
+            instance_destroy();
+            }
+        } 
     }
     else if (global.tutorial_puzzle < 1){
         chat_box("I gave ya the money Bro, go get the Brotien shake!", 3.5, view_xview[0],view_yview[0] + 300);

@@ -7,6 +7,11 @@ if (global.more_text == 0) {
     }
     else{
         chat_box("Here ya go Bro! that'll be 5 brobucks.", 3.5, view_xview[0],view_yview[0] + 300);
+        with (obj_chatMarker){
+            if (x == obj_brotien_salesman.x && y < obj_brotien_salesman.y && y >= obj_brotien_salesman.y - 32) { 
+            instance_destroy();
+            }
+        }
     }
 }
 
