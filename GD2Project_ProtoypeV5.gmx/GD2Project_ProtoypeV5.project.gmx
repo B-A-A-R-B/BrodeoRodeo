@@ -171,6 +171,10 @@
     <sprite>sprites\spr_arrow_hint_down</sprite>
     <sprite>sprites\spr_arrow_hint_left</sprite>
     <sprite>sprites\spr_arrow_hint_right</sprite>
+    <sprite>sprites\spr_tweak_run</sprite>
+    <sprite>sprites\sprite124</sprite>
+    <sprite>sprites\spr_L1_bench</sprite>
+    <sprite>sprites\spr_L1_Bro3_treadmill</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -302,6 +306,8 @@
       <object>objects\obj_dad_bro</object>
       <object>objects\obj_bro_dancer</object>
       <object>objects\obj_bro_3</object>
+      <object>objects\obj_L1_treadmill</object>
+      <object>objects\obj_L1_bench</object>
       <object>objects\obj_locker_bro</object>
       <object>objects\obj_quote_bro_6</object>
       <object>objects\obj_quote_bro_4</object>
