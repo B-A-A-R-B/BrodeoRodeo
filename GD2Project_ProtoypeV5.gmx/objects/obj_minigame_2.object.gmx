@@ -123,7 +123,7 @@
             <kind>1</kind>
             <string>///create array of random numbers
 
-for (var i = 0; i &lt; 24; i++) {
+for (var i = 0; i &lt; 26; i++) {
     global.array_list[i] = floor(random_range(0,4));
 }
 </string>
