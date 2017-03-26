@@ -1,6 +1,9 @@
-draw_sprite(spr_inv, -1, view_xview[0], view_yview[0] + 180);
+draw_sprite(spr_phone_list, -1, view_xview[0] + 443, view_yview[0] + 74);
+if (room == Tutorial) {
+    draw_text(view_xview[0] + 473, view_yview[0] + 123, "Go to my locker");
+}
 depth = -5010;
-if (global.keycard == 1) {
+/*if (global.keycard == 1) {
     draw_sprite(spr_keycard, -1, view_xview[0] + 17, view_yview[0] + 303);
 }
 if (global.towel > 0) {
@@ -86,6 +89,6 @@ for (var i = 0; i < 3; i++) { //draw sprites in inventory
         draw_sprite(spr_shake_icon, -1, view_xview[0] + 165, view_yview[0] + 205);
     }
     }
-}
+}*/
 
 

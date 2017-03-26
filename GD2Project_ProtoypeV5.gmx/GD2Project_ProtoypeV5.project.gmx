@@ -141,6 +141,9 @@
       <sprite>sprites\spr_inv</sprite>
       <sprite>sprites\spr_num</sprite>
       <sprite>sprites\spr_up_arrow</sprite>
+      <sprite>sprites\spr_note_up</sprite>
+      <sprite>sprites\spr_note_right</sprite>
+      <sprite>sprites\spr_note_down</sprite>
       <sprite>sprites\spr_z</sprite>
       <sprite>sprites\spr_ex</sprite>
       <sprite>sprites\spr_space</sprite>
@@ -151,6 +154,7 @@
       <sprite>sprites\spr_right_arrow</sprite>
       <sprite>sprites\spr_lock_screen</sprite>
       <sprite>sprites\spr_left_arrow</sprite>
+      <sprite>sprites\spr_note_left</sprite>
       <sprite>sprites\spr_sparkle</sprite>
       <sprite>sprites\spr_quest</sprite>
       <sprite>sprites\spr_chatMarker</sprite>
@@ -179,6 +183,7 @@
     <sprite>sprites\spr_L1_Bro3_treadmill</sprite>
     <sprite>sprites\spr_treadmill_girl1</sprite>
     <sprite>sprites\spr_phone_list</sprite>
+    <sprite>sprites\spr_minigame_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -218,6 +223,10 @@
     <script>scripts\scrp_select_char.gml</script>
     <script>scripts\scrp_select_motto.gml</script>
     <script>scripts\scrp_movement.gml</script>
+    <script>scripts\scr_menu.gml</script>
+    <script>scripts\scrp_throw_nerd.gml</script>
+    <script>scripts\scrp_nerd_workout.gml</script>
+    <script>scripts\script66.gml</script>
     <scripts name="Chat">
       <script>scripts\chat_box.gml</script>
       <script>scripts\text_box.gml</script>
@@ -267,6 +276,9 @@
       <script>scripts\scrp_minigame_bar.gml</script>
       <script>scripts\scrp_minigame_bar_2.gml</script>
       <script>scripts\scrp_minimage_bar_3.gml</script>
+      <script>scripts\scrp_minigame_note_bar.gml</script>
+      <script>scripts\scrp_minigame_notes.gml</script>
+      <script>scripts\scrp_quick_time_event_boxing.gml</script>
     </scripts>
     <scripts name="Items and Inventory">
       <script>scripts\inventory.gml</script>
@@ -287,10 +299,6 @@
       <script>scripts\scrp_change_music.gml</script>
       <script>scripts\scrp_L3_motto_puzzle.gml</script>
     </scripts>
-    <script>scripts\scr_menu.gml</script>
-    <script>scripts\scrp_throw_nerd.gml</script>
-    <script>scripts\scrp_nerd_workout.gml</script>
-    <script>scripts\script66.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_chat</font>
@@ -383,14 +391,6 @@
       <object>objects\obj_lock_num_4</object>
       <object>objects\locker_unblocked</object>
     </objects>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_locker_bro_walls</object>
-    <object>objects\obj_gate</object>
-    <object>objects\obj_door</object>
-    <object>objects\obj_treadmill</object>
-    <object>objects\obj_bench_press</object>
-    <object>objects\obj_curl_rack</object>
-    <object>objects\obj_dance_machine</object>
     <objects name="UI">
       <object>objects\obj_arrow</object>
       <object>objects\obj_tutorial_entrance</object>
@@ -417,12 +417,29 @@
       <object>objects\obj_minigame_2</object>
       <object>objects\obj_minigame_3</object>
       <object>objects\obj_pool_mini</object>
+      <object>objects\obj_minigame_notes</object>
+      <object>objects\obj_boxing</object>
     </objects>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_locker_bro_walls</object>
+    <object>objects\obj_gate</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_treadmill</object>
+    <object>objects\obj_bench_press</object>
+    <object>objects\obj_curl_rack</object>
+    <object>objects\obj_dance_machine</object>
     <object>objects\credits_exit</object>
     <object>objects\Credits_obj</object>
     <object>objects\Instructions</object>
     <object>objects\MenuSelect</object>
     <object>objects\up_control</object>
+    <objects name="Minigame_Objects">
+      <object>objects\obj_key_note</object>
+      <object>objects\obj_note_up</object>
+      <object>objects\obj_note_down</object>
+      <object>objects\obj_note_left</object>
+      <object>objects\obj_note_right</object>
+    </objects>
     <object>objects\Start</object>
     <object>objects\down_control</object>
     <object>objects\right_control</object>
