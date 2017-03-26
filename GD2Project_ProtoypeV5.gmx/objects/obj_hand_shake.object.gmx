@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_border</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,31 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.mini_health</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>100</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.minigame</string>
+            <string>global.one</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -73,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.bar_control</string>
+            <string>global.two</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -97,11 +73,84 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.hits</string>
+            <string>global.gg</string>
           </argument>
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.hand_shake</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>counter</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///random buttons
+global.one = floor(random_range(0,4));
+global.two = floor(random_range(0,4));
+
+
+</string>
           </argument>
         </arguments>
       </action>
@@ -135,48 +184,6 @@
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>601</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_execute_script</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>9</kind>
-            <script>scrp_minigame</script>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
         <id>612</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -191,7 +198,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.minigame</string>
+            <string>global.hand_shake</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -219,6 +226,30 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>counter</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>601</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -233,7 +264,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scrp_minigame_bar</script>
+            <script>scrp_quick_time_event_boxing</script>
           </argument>
           <argument>
             <kind>0</kind>

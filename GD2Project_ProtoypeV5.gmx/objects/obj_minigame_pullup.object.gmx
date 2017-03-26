@@ -25,31 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.mini_health</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>100</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.minigame</string>
+            <string>global.minigame_pullup</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -73,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.bar_control</string>
+            <string>line</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -97,11 +73,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.hits</string>
+            <string>global.pull_position</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>50</string>
           </argument>
         </arguments>
       </action>
@@ -149,7 +125,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scrp_minigame</script>
+            <script>scrp_minigame_pullup</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -191,7 +167,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.minigame</string>
+            <string>global.minigame_pullup</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -233,7 +209,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scrp_minigame_bar</script>
+            <script>scrp_minigame_pullup_bar</script>
           </argument>
           <argument>
             <kind>0</kind>

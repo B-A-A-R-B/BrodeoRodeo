@@ -97,6 +97,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>global.once</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>xxx</string>
           </argument>
           <argument>
@@ -194,6 +218,33 @@
       </action>
     </event>
     <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.once == 1) {
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>601</id>
@@ -600,7 +651,31 @@ if (b0i == 1000) {
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_boxing">
+    <event eventtype="4" ename="obj_hand_shake">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.hand_shake</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -627,9 +702,9 @@ if (b0i == 1000) {
       </action>
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -641,16 +716,24 @@ if (b0i == 1000) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.boxing</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
+            <string>if (global.hand_shake == 1 &amp;&amp; global.once == 1) {
+    global.once = 6;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.hand_shake == 0 &amp;&amp; global.once == 6) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+
+
+</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_minigame_notes">
+    <event eventtype="4" ename="obj_minigame_pullup">
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -667,7 +750,88 @@ if (b0i == 1000) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.minigame_notes</string>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.minigame_pullup</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if (global.minigame_pullup == 1 &amp;&amp; global.once == 1) {
+    global.once = 4;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_pullup == 0 &amp;&amp; global.once == 4) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_minigame_pool">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.minigame_pool</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -696,6 +860,36 @@ if (b0i == 1000) {
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.minigame_pool == 1 &amp;&amp; global.once == 1) {
+    global.once = 5;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_pool == 0 &amp;&amp; global.once == 5) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -804,6 +998,166 @@ if (b0i == 1000) {
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_boxing">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.boxing</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.boxing == 1 &amp;&amp; global.once == 1) {
+    global.once = 7;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.boxing == 0 &amp;&amp; global.once == 7) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_minigame_notes">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.minigame_notes</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.minigame_notes == 1 &amp;&amp; global.once == 1) {
+    global.once = 8;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_notes == 0 &amp;&amp; global.once == 8) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_pool_mini">
       <action>
         <libid>1</libid>
@@ -894,6 +1248,36 @@ if (b0i == 1000) {
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.minigame_3 == 1 &amp;&amp; global.once == 1) {
+    global.once = 9;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_3 == 0 &amp;&amp; global.once == 9) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -1026,6 +1410,36 @@ xxx = 1;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.minigame_2 == 1 &amp;&amp; global.once = 1) {
+    global.once = 3;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_2 == 0 &amp;&amp; global.once = 3) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+} 
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="obj_minigame">
       <action>
@@ -1073,6 +1487,37 @@ xxx = 1;
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.minigame == 1 &amp;&amp; global.once = 1) {
+    global.once = 2;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame == 0 &amp;&amp; global.once == 2) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+
+</string>
           </argument>
         </arguments>
       </action>

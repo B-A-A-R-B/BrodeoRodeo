@@ -279,6 +279,10 @@
       <script>scripts\scrp_minigame_note_bar.gml</script>
       <script>scripts\scrp_minigame_notes.gml</script>
       <script>scripts\scrp_quick_time_event_boxing.gml</script>
+      <script>scripts\scrp_minigame_pool_bar.gml</script>
+      <script>scripts\scrp_minigame_pool.gml</script>
+      <script>scripts\scrp_minigame_pullup_bar.gml</script>
+      <script>scripts\scrp_minigame_pullup.gml</script>
     </scripts>
     <scripts name="Items and Inventory">
       <script>scripts\inventory.gml</script>
@@ -419,6 +423,16 @@
       <object>objects\obj_pool_mini</object>
       <object>objects\obj_minigame_notes</object>
       <object>objects\obj_boxing</object>
+      <object>objects\obj_hand_shake</object>
+      <object>objects\obj_minigame_pool</object>
+      <object>objects\obj_minigame_pullup</object>
+    </objects>
+    <objects name="Minigame_Objects">
+      <object>objects\obj_key_note</object>
+      <object>objects\obj_note_up</object>
+      <object>objects\obj_note_down</object>
+      <object>objects\obj_note_left</object>
+      <object>objects\obj_note_right</object>
     </objects>
     <object>objects\obj_wall</object>
     <object>objects\obj_locker_bro_walls</object>
@@ -433,13 +447,6 @@
     <object>objects\Instructions</object>
     <object>objects\MenuSelect</object>
     <object>objects\up_control</object>
-    <objects name="Minigame_Objects">
-      <object>objects\obj_key_note</object>
-      <object>objects\obj_note_up</object>
-      <object>objects\obj_note_down</object>
-      <object>objects\obj_note_left</object>
-      <object>objects\obj_note_right</object>
-    </objects>
     <object>objects\Start</object>
     <object>objects\down_control</object>
     <object>objects\right_control</object>
