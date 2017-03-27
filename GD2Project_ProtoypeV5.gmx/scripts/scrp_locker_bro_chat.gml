@@ -2,15 +2,15 @@ global.more_text++;
 var r = floor(random_range(0,3));
 if (global.locker_puzzle != 5) {
     if (r == 0) {
-        chat_box(" Aww man...I cant remember my locker combo!", 3.5, view_xview[0],view_yview[0] + 300);
+        chat_box("Oh no man! I had some super special get-ripped-fast sauce in my locker but I can’t remember the code. If you wanna learn a sweet new workout from me the help me get in my locker!", 3.5, view_xview[0],view_yview[0] + 300);
         global.can_move = 1;
     }
     else if ( r == 1) {
-        chat_box("I know my code had something to do with my WORKOUT ROUTINE", 3.5, view_xview[0],view_yview[0] + 300);
+        chat_box("I know my locker combo had something to do with my workout routine. I did that so I could remember it! Pretty smart eh?", 3.5, view_xview[0],view_yview[0] + 300);
         global.can_move = 1;
     }
     else if (r == 2) {
-        chat_box("Was it 3-3-4-2...no no no....", 3.5, view_xview[0],view_yview[0] + 300);
+        chat_box("If only there were specific numbers that correspond to my workout routine!", 3.5, view_xview[0],view_yview[0] + 300);
         global.can_move = 1;
     }
     else {
@@ -21,7 +21,7 @@ if (global.locker_puzzle != 5) {
 }
 //after puzzle
 else if (global.locker_puzzle == 5) {
-    chat_box("AWESOME YOU OPENED IT! THANKS LITTLE BUDDY! You ain't so bad for a NERD!", 3.5, x, y);
+    chat_box("AWESOME YOU OPENED IT! THANKS LITTLE BUDDY! You ain't so bad for a NERD!...I'll teach you a sweet new workout to help you get SHREDDED now!", 3.5, x, y);
     global.can_move = 1;
     global.portrait = 0;
 }
