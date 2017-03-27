@@ -33,7 +33,7 @@ if (global.selected == 0 && distance_to_object(obj_block) < 15) { //if first slo
         audio_play_sound(snd_placement, 15, false);
     }
     else {
-        show_message("No item selected to drop");
+        text_box("No item selected to drop", 3.5, view_xview[0], view_yview[0] + 300);
     }
 }
 
@@ -64,7 +64,7 @@ else if (global.selected == 1 && distance_to_object(obj_block) < 15) {
         audio_play_sound(snd_placement, 15, false);
     }
     else {
-        show_message("No item selected to drop");
+        text_box("No item selected to drop", 3.5, view_xview[0], view_yview[0] + 300);
     }
 }
 
@@ -95,7 +95,7 @@ else if (global.selected == 2 && distance_to_object(obj_block) < 15) {
         audio_play_sound(snd_placement, 15, false);
     }
     else {
-        show_message("No item selected to drop");
+        text_box("No item selected to drop", 3.5, view_xview[0], view_yview[0] + 300);
     }
 }
 
