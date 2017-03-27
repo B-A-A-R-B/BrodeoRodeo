@@ -308,12 +308,12 @@
     <instance objName="obj_3_sign" x="96" y="332" name="inst_BCF35835" locked="0" code="" scaleX="1" scaleY="1.50793647766113" colour="4294967295" rotation="0"/>
     <instance objName="obj_4_sign" x="96" y="428" name="inst_F4AA6037" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_dance_machine" x="256" y="480" name="inst_FA1D95C3" locked="0" code="" scaleX="0.550000011920929" scaleY="0.550000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_L1_bench" x="224" y="96" name="inst_8A33AB3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_L1_bench" x="238" y="74" name="inst_8A33AB3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_L1_treadmill" x="544" y="320" name="inst_52B1C497" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treadmill_girl1" x="352" y="256" name="inst_3C74FE18" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_L1_bench" x="352" y="96" name="inst_F49F5F52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_L1_bench" x="512" y="96" name="inst_61D61B9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sparkle" x="544" y="576" name="inst_DA674B6A" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chestfly_bluegirl" x="384" y="64" name="inst_94A72A8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shoulder_raises" x="512" y="54" name="inst_EDD85184" locked="0" code="" scaleX="0.200000002980232" scaleY="0.198748037219048" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="736" y="320" w="32" h="32" xo="0" yo="0" id="10003241" name="inst_888B8CC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

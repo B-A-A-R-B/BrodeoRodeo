@@ -184,6 +184,9 @@
     <sprite>sprites\spr_treadmill_girl1</sprite>
     <sprite>sprites\spr_phone_list</sprite>
     <sprite>sprites\spr_minigame_bar</sprite>
+    <sprite>sprites\spr_brobi_exit</sprite>
+    <sprite>sprites\spr_chestfly_bluegirl</sprite>
+    <sprite>sprites\spr_shoulder_raises</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -466,11 +469,12 @@
     <object>objects\obj_pool_h</object>
     <object>objects\obj_treadmill_girl1</object>
     <object>objects\obj_phone_list</object>
+    <object>objects\obj_chestfly_bluegirl</object>
+    <object>objects\obj_shoulder_raises</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\character_select</room>
-    <room>rooms\test_room</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -481,6 +485,7 @@
     <room>rooms\Store_room</room>
     <room>rooms\room8</room>
     <room>rooms\Overworld</room>
+    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
