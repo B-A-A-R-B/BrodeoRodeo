@@ -216,7 +216,7 @@
     <instance objName="obj_wall" x="768" y="0" name="inst_C772100D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="736" y="0" name="inst_E1A409BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="704" y="0" name="inst_480766D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="672" y="0" name="inst_48D77805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="576" y="32" name="inst_48D77805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="640" y="0" name="inst_DF11B105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="0" name="inst_F34CB12D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="32" name="inst_80DB6D69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -236,7 +236,6 @@
     <instance objName="obj_towel" x="672" y="128" name="inst_99AF2CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_entrance" x="992" y="672" name="inst_2B7743DE" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_tanning_bro" x="384" y="64" name="inst_A45EE248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bench_press" x="256" y="32" name="inst_361BD60F" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_coffee" x="256" y="736" name="inst_FE5D2D12" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_pool_up" x="800" y="320" name="inst_01EFB350" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pool_up" x="768" y="320" name="inst_B5513650" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -284,6 +283,7 @@
     <instance objName="obj_pool_mini" x="448" y="352" name="inst_AD3B9D67" locked="0" code="" scaleX="13" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid_block" x="0" y="0" name="inst_E83A0FA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sparkle" x="256" y="736" name="inst_E2D86483" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tanningBed" x="256" y="32" name="inst_DA63319E" locked="0" code="" scaleX="1.5" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="480" y="96" w="32" h="32" xo="0" yo="0" id="10004443" name="inst_58AABBB5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
