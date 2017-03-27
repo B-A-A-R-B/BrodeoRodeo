@@ -651,6 +651,202 @@ if (b0i == 1000) {
         <isnot>0</isnot>
       </action>
     </event>
+    <event eventtype="4" ename="obj_minigame_side">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.timer++;
+if (global.minigame_side &lt; 2) {
+    global.minigame_side++;
+}
+
+if (global.minigame_side == 1) {
+    instance_create(view_xview[0] + 250, view_yview[0] + 178, obj_side_box);
+    instance_create(view_xview[0] + 100, view_yview[0] + 178, obj_solid_block);
+    instance_create(view_xview[0] + 600, view_yview[0] + 178, obj_solid_block);
+}
+
+if (global.timer == 15) {
+    instance_create(view_xview[0] + 150, view_yview[0] + 64, obj_medicine_ball);
+}
+
+if (global.timer == 90) {
+    instance_create(view_xview[0] + 300, view_yview[0] + 64, obj_medicine_ball);
+}
+
+if (global.timer == 145) {
+    instance_create(view_xview[0] + 425, view_yview[0] + 64, obj_medicine_ball);
+}
+
+if (global.timer == 175) {
+    instance_create(view_xview[0] + 320, view_yview[0] + 64, obj_medicine_ball);
+}
+
+if (global.timer == 240) {
+    instance_create(view_xview[0] + 190, view_yview[0] + 64, obj_medicine_ball);
+}
+
+if (global.timer == 450) {
+    global.can_move = 1;
+    global.minigame_side = 0;
+    with (obj_minigame_side) {
+        instance_destroy();
+    }
+    with (obj_side_box) {
+        instance_destroy();
+    }
+    with (obj_solid_block) {
+        instance_destroy();
+    }
+    
+    if (global.scor == 5) {
+        global.reputation += 250;
+    }
+    if (global.scor &gt; 1 &amp;&amp; global.scor &lt; 5) {
+        global.reputation += 100;
+    }  
+    if (global.scor == 1) {
+        global.reputation += 50;
+    }
+    global.timer = 0;
+    global.scor = 0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_minigame_scroll">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.timer++;
+if (global.minigame_scroll &lt; 2) {
+    global.minigame_scroll++;
+}
+
+if (global.minigame_scroll == 1) {
+    instance_create(view_xview[0] + 68, view_yview[0] + 178, obj_solid_block);
+    instance_create(view_xview[0] + 68, view_yview[0] + 114, obj_solid_block);
+    instance_create(view_xview[0] + 164, view_yview[0] + 178, obj_box_char);
+    instance_create(view_xview[0] + 164, view_yview[0] + 210, obj_solid_block);
+    instance_create(view_xview[0] + 350, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 478, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 540, view_yview[0] + 114, obj_minigame_box);
+    instance_create(view_xview[0] + 689, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 878, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 1178, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 1478, view_yview[0] + 114, obj_minigame_box);
+    instance_create(view_xview[0] + 1678, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 1888, view_yview[0] + 178, obj_minigame_box);
+    instance_create(view_xview[0] + 2000, view_yview[0] + 114, obj_minigame_box);
+    
+}
+
+if (global.timer / 30 &gt; 18 ) { 
+    global.can_move = 1;
+    global.minigame_scroll = 0;
+    with (obj_minigame_scroll) {
+        instance_destroy();
+    }
+    with (obj_box_char) {
+        instance_destroy();
+    }
+    with (obj_solid_block) {
+        instance_destroy();
+    }
+    
+    if (global.scor == 10) {
+        global.reputation += 250;    
+    }
+    else if (global.scor &gt; 5 &amp;&amp; global.scor &lt; 10) {
+        global.reputation += 100;
+    }
+    else if (global.scor &gt; 1 &amp;&amp; global.scor &lt; 6) {
+        global.reputation += 50;
+    }
+    global.timer = 0;
+    global.scor = 0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_door">
       <action>
         <libid>1</libid>
@@ -3167,62 +3363,6 @@ global.puzzles_complete += 1;
             <string></string>
           </argument>
         </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>global.puzzle_code_1</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>4</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>422</id>
-        <kind>1</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>

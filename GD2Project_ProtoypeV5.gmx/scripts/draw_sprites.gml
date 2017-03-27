@@ -1,6 +1,9 @@
 draw_sprite(spr_phone_list, -1, view_xview[0] + 443, view_yview[0] + 74);
 if (room == Tutorial) {
-    draw_text(view_xview[0] + 473, view_yview[0] + 123, "Go to my locker");
+    draw_text(view_xview[0] + 457, view_yview[0] + 123, "Go to my locker");
+}
+if (room == Level_1) {
+    draw_text(view_xview[0] + 457, view_yview[0] + 123, "Bench Press Workout");
 }
 depth = -5010;
 /*if (global.keycard == 1) {
