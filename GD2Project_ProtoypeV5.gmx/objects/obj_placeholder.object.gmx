@@ -234,7 +234,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.once == 1) {
+            <string>///original view in room
+if (global.once == 1) {
     view_wview[0] = 640;
     view_hview[0] = 384;
 }
@@ -651,6 +652,88 @@ if (b0i == 1000) {
         <isnot>0</isnot>
       </action>
     </event>
+    <event eventtype="4" ename="obj_minigame_nerd_rep">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.minigame_nerd_rep</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///minigame zoom
+if (global.minigame_nerd_rep == 1 &amp;&amp; global.once = 1) {
+    global.once = 12;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_nerd_rep == 0 &amp;&amp; global.once == 12) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_door">
       <action>
         <libid>1</libid>
@@ -796,6 +879,37 @@ if (b0i == 1000) {
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///minigame zoom
+if (global.minigame_side == 1 &amp;&amp; global.once == 1) {
+    global.once = 11;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_side == 0 &amp;&amp; global.once == 11) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>global.timer++;
 if (global.minigame_side &lt; 2) {
     global.minigame_side++;
@@ -841,13 +955,13 @@ if (global.timer == 450) {
     }
     
     if (global.scor == 5) {
-        global.reputation += 250;
+        global.reputation += 96;
     }
     if (global.scor &gt; 1 &amp;&amp; global.scor &lt; 5) {
-        global.reputation += 100;
+        global.reputation += 72;
     }  
     if (global.scor == 1) {
-        global.reputation += 50;
+        global.reputation += 48;
     }
     global.timer = 0;
     global.scor = 0;
@@ -858,6 +972,61 @@ if (global.timer == 450) {
       </action>
     </event>
     <event eventtype="4" ename="obj_minigame_scroll">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_move</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///minigame zoom
+if (global.minigame_scroll == 1 &amp;&amp; global.once == 1) {
+    global.once = 10;
+    view_wview[0] *= 0.8;
+    view_hview[0] *= 0.8;
+}
+else if (global.minigame_scroll == 0 &amp;&amp; global.once == 10) {
+    global.once = 1;
+    view_wview[0] = 640;
+    view_hview[0] = 384;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -911,42 +1080,18 @@ if (global.timer / 30 &gt; 18 ) {
     }
     
     if (global.scor == 10) {
-        global.reputation += 250;    
+        global.reputation += 96;    
     }
     else if (global.scor &gt; 5 &amp;&amp; global.scor &lt; 10) {
-        global.reputation += 100;
+        global.reputation += 72;
     }
     else if (global.scor &gt; 1 &amp;&amp; global.scor &lt; 6) {
-        global.reputation += 50;
+        global.reputation += 48;
     }
     global.timer = 0;
     global.scor = 0;
 }
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.can_move</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -1016,13 +1161,13 @@ if (global.timer / 30 &gt; 18 ) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///minigame zoom
 if (global.minigame_pullup == 1 &amp;&amp; global.once == 1) {
-    global.once = 4;
+    global.once = 9;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
 }
-else if (global.minigame_pullup == 0 &amp;&amp; global.once == 4) {
+else if (global.minigame_pullup == 0 &amp;&amp; global.once == 9) {
     global.once = 1;
     view_wview[0] = 640;
     view_hview[0] = 384;
@@ -1097,12 +1242,13 @@ else if (global.minigame_pullup == 0 &amp;&amp; global.once == 4) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.minigame_pool == 1 &amp;&amp; global.once == 1) {
-    global.once = 5;
+            <string>///minigame zoom
+if (global.minigame_pool == 1 &amp;&amp; global.once == 1) {
+    global.once = 8;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
 }
-else if (global.minigame_pool == 0 &amp;&amp; global.once == 5) {
+else if (global.minigame_pool == 0 &amp;&amp; global.once == 8) {
     global.once = 1;
     view_wview[0] = 640;
     view_hview[0] = 384;
@@ -1177,12 +1323,13 @@ else if (global.minigame_pool == 0 &amp;&amp; global.once == 5) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.hand_shake == 1 &amp;&amp; global.once == 1) {
-    global.once = 6;
+            <string>///minigame zoom
+if (global.hand_shake == 1 &amp;&amp; global.once == 1) {
+    global.once = 7;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
 }
-else if (global.hand_shake == 0 &amp;&amp; global.once == 6) {
+else if (global.hand_shake == 0 &amp;&amp; global.once == 7) {
     global.once = 1;
     view_wview[0] = 640;
     view_hview[0] = 384;
@@ -1259,12 +1406,13 @@ else if (global.hand_shake == 0 &amp;&amp; global.once == 6) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.boxing == 1 &amp;&amp; global.once == 1) {
-    global.once = 7;
+            <string>///minigame zoom
+if (global.boxing == 1 &amp;&amp; global.once == 1) {
+    global.once = 6;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
 }
-else if (global.boxing == 0 &amp;&amp; global.once == 7) {
+else if (global.boxing == 0 &amp;&amp; global.once == 6) {
     global.once = 1;
     view_wview[0] = 640;
     view_hview[0] = 384;
@@ -1339,12 +1487,13 @@ else if (global.boxing == 0 &amp;&amp; global.once == 7) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.minigame_notes == 1 &amp;&amp; global.once == 1) {
-    global.once = 8;
+            <string>///minigame zoom
+if (global.minigame_notes == 1 &amp;&amp; global.once == 1) {
+    global.once = 5;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
 }
-else if (global.minigame_notes == 0 &amp;&amp; global.once == 8) {
+else if (global.minigame_notes == 0 &amp;&amp; global.once == 5) {
     global.once = 1;
     view_wview[0] = 640;
     view_hview[0] = 384;
@@ -1463,12 +1612,13 @@ else if (global.minigame_notes == 0 &amp;&amp; global.once == 8) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.minigame_3 == 1 &amp;&amp; global.once == 1) {
-    global.once = 9;
+            <string>///minigame zoom
+if (global.minigame_3 == 1 &amp;&amp; global.once == 1) {
+    global.once = 4;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
 }
-else if (global.minigame_3 == 0 &amp;&amp; global.once == 9) {
+else if (global.minigame_3 == 0 &amp;&amp; global.once == 4) {
     global.once = 1;
     view_wview[0] = 640;
     view_hview[0] = 384;
@@ -1622,7 +1772,8 @@ xxx = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.minigame_2 == 1 &amp;&amp; global.once = 1) {
+            <string>///minigame zoom
+if (global.minigame_2 == 1 &amp;&amp; global.once = 1) {
     global.once = 3;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;
@@ -1702,7 +1853,8 @@ else if (global.minigame_2 == 0 &amp;&amp; global.once = 3) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.minigame == 1 &amp;&amp; global.once = 1) {
+            <string>///minigame zoom
+if (global.minigame == 1 &amp;&amp; global.once = 1) {
     global.once = 2;
     view_wview[0] *= 0.8;
     view_hview[0] *= 0.8;

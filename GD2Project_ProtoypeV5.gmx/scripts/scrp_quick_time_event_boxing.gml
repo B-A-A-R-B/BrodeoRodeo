@@ -119,16 +119,16 @@ if (global.gg == 4) {
     with (obj_boxing) {
         instance_destroy();
     }
-    if (counter / 60 < 0.5) {
-        global.reputation += 500;
+    if (counter / 30 < 0.5) {
+        global.reputation += 28;
     }
-    else if (counter / 60 <= 1.5) {
-        global.reputation += 250;
+    else if (counter / 30 <= 1.5) {
+        global.reputation += 24;
     }
-    else if (counter / 60 <= 2.5) {
-        global.reputation += 100;
+    else if (counter / 30 <= 2.5) {
+        global.reputation += 16;
     }
-    else if (counter / 60 <= 3.5) {
-        global.reputation += 50;
+    else if (counter / 30 <= 3.5) {
+        global.reputation += 8;
     }
 }

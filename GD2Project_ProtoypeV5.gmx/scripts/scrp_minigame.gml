@@ -13,18 +13,19 @@ if (global.minigame == 1) { //only check during minigame mode
     }
     if (keyboard_check_released(vk_space)) { //check key released to perform minigame
         if (global.mini_health < 52 && global.mini_health > 48) { //check if player pressed space near the middle of the bar
-            global.reputation += 250;//reputation for hitting in the middle
+            global.reputation += 4; //reputation for hitting in the middle
             global.hits++;
         }
         else if ((global.mini_health < 64 && global.mini_health > 51) || (global.mini_health < 49 && global.mini_health > 36)) {
-            global.reputation += 100;
+            global.reputation += 3;
             global.hits++;
         }
         else if ((global.mini_health < 75 && global.mini_health > 58) || (global.mini_health < 37 && global.mini_health > 25)) {
-            global.reputation += 25;
+            global.reputation += 2;
             global.hits++;
         } 
         else if (global.mini_health > 74 || global.mini_health < 26) {
+            global.reputation += 1;
             global.hits++;
         }
     }

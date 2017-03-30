@@ -3,7 +3,7 @@ global.more_text++;
 if (global.more_text == 0) {
     chat_box("Phew...I've been repainting this room for an undetermined amount of time but I'm tired! Ummm I'll trade ya my left over paint if you can find me a coffee somewhere", 3.5, view_xview[0],view_yview[0] + 300);
 }
-if (global.more_text == 1) {
+else if (global.more_text == 1) {
     chat_box("People here only drink protein shakes...but all a real man needs is a coffee", 3.5, view_xview[0],view_yview[0] + 300);
     if (global.createSparkle == 0 && object_exists(obj_coffee)){
         instance_create(obj_coffee.x, obj_coffee.y, obj_sparkle);

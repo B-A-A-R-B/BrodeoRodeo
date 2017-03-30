@@ -159,6 +159,11 @@
       <sprite>sprites\spr_sparkle</sprite>
       <sprite>sprites\spr_quest</sprite>
       <sprite>sprites\spr_chatMarker</sprite>
+      <sprite>sprites\spr_rep_1</sprite>
+      <sprite>sprites\spr_rep_2</sprite>
+      <sprite>sprites\spr_rep_3</sprite>
+      <sprite>sprites\spr_rep_4</sprite>
+      <sprite>sprites\spr_rep_bar</sprite>
     </sprites>
     <sprites name="MainMenu">
       <sprite>sprites\Credits_Button</sprite>
@@ -291,6 +296,8 @@
       <script>scripts\scrp_minigame_pool.gml</script>
       <script>scripts\scrp_minigame_pullup_bar.gml</script>
       <script>scripts\scrp_minigame_pullup.gml</script>
+      <script>scripts\scrp_minigame_nerd_rep_bar.gml</script>
+      <script>scripts\scrp_minigame_nerd_rep.gml</script>
     </scripts>
     <scripts name="Items and Inventory">
       <script>scripts\inventory.gml</script>
@@ -436,6 +443,7 @@
       <object>objects\obj_minigame_pullup</object>
       <object>objects\obj_minigame_scroll</object>
       <object>objects\obj_minigame_side</object>
+      <object>objects\obj_minigame_nerd_rep</object>
     </objects>
     <objects name="Minigame_Objects">
       <object>objects\obj_key_note</object>
@@ -487,6 +495,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
+    <room>rooms\test_room</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -498,7 +507,6 @@
     <room>rooms\room8</room>
     <room>rooms\Overworld</room>
     <room>rooms\character_select</room>
-    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

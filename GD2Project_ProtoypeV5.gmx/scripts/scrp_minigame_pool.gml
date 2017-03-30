@@ -34,13 +34,13 @@ if (value >= 300 || timer >= 450) { //once the maximum number of points as been 
     global.can_move = 1;
     global.minigame_pool = 0;
     if (timer >= 450 && value > 90) { //if player didn't complete the minigame in time
-        global.reputation += 50;
+        global.reputation += 16;
     }
     else if (timer >= 450 && value >= 250) { //if it was close enough
-        global.reputation += 100;
+        global.reputation += 24;
     }
     else if (timer < 450 && value >= 300) { //if the player completed with time to spare
-        global.reputation += 250;
+        global.reputation += 32;
     }
     with(obj_minigame_pool) {
         instance_destroy();
