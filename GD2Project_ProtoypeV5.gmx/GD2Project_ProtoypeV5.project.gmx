@@ -495,7 +495,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
-    <room>rooms\test_room</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -506,6 +505,8 @@
     <room>rooms\Store_room</room>
     <room>rooms\room8</room>
     <room>rooms\Overworld</room>
+    <room>rooms\test_room</room>
+    <room>rooms\Maze_rm</room>
     <room>rooms\character_select</room>
   </rooms>
   <help>
