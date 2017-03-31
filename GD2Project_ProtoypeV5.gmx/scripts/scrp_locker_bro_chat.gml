@@ -20,8 +20,16 @@ if (global.locker_puzzle != 5) {
     }
 }
 //after puzzle
-else if (global.locker_puzzle == 5) {
+if (global.more_text == 0 && global.locker_puzzle == 5 && global.bx == 1) {
     chat_box("AWESOME YOU OPENED IT! THANKS LITTLE BUDDY! You ain't so bad for a NERD!...I'll teach you a sweet new workout to help you get SHREDDED now!", 3.5, x, y);
+    global.bx = 2;
+    global.portrait = 0;
+}
+else if (global.more_text == 1 && global.bx = 2) {
+    instance_create(obj_placeholder.x, obj_placeholder.y, obj_boxing);
+}
+else {
     global.can_move = 1;
+    global.more_text = -1;
     global.portrait = 0;
 }

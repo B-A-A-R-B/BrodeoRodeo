@@ -30,6 +30,7 @@ else if (line == 4 && global.pull_position >= 53 && global.pull_position <= 57) 
 if (line == 5) {
     global.can_move = 1;
     global.minigame_pullup = 0;
+    global.hand = 1;
     global.reputation += 32;
     with (obj_minigame_pullup) {
         instance_destroy();

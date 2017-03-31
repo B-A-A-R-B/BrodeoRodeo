@@ -25,6 +25,7 @@ else if(global.lollipop_puzzle == 2){
         
     }
         chat_box("THANKS MY MAN! NOW MY BABY BOY CAN GET HIS PUMP ON!", 3.5, view_xview[0],view_yview[0] + 300);
+        global.baby = 1;
     }
     else {
         global.more_text = -1;

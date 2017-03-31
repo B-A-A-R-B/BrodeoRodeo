@@ -28,6 +28,7 @@ if (global.locker_puzzle != 5) {
 }
 else if (global.locker_puzzle == 5) {
     text_box("Got it", 0.5, x, y);
+    global.bx = 1;
     global.puzzles_complete += 1;
      with(obj_lock_screen) {
     instance_destroy();

@@ -15,6 +15,7 @@ if(global.lollipop_puzzle != 2){
 else if(global.lollipop_puzzle == 2){
     if (global.more_text == 0) {
     global.level_3_puzzle++;
+    global.baby = 1;
         chat_box("THANK YOU SO MUCH! NOW MY BABY CAN GET SHREDDED LIKE HIS DAD!", 3.5, view_xview[0],view_yview[0] + 300);
     }
     else {
