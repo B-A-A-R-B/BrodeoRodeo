@@ -22,6 +22,7 @@
     <sound>sound\snd_door_close</sound>
     <sound>sound\snd_water_sfx</sound>
     <sound>sound\snd_fail</sound>
+    <sound>sound\snd_intro_crawl</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
@@ -197,6 +198,9 @@
     <sprite>sprites\spr_minigame_box</sprite>
     <sprite>sprites\spr_minigame_field</sprite>
     <sprite>sprites\spr_medicine_ball</sprite>
+    <sprite>sprites\spr_intro_crawl</sprite>
+    <sprite>sprites\spr_crawl2</sprite>
+    <sprite>sprites\spr_leg_bro_water</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -492,9 +496,12 @@
     <object>objects\obj_minigame_field</object>
     <object>objects\obj_medicine_ball</object>
     <object>objects\obj_tanningBed</object>
+    <object>objects\obj_intro_crawl</object>
+    <object>objects\obj_crawl2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
+    <room>rooms\character_select</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -507,7 +514,6 @@
     <room>rooms\Overworld</room>
     <room>rooms\test_room</room>
     <room>rooms\Maze_rm</room>
-    <room>rooms\character_select</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -1,6 +1,6 @@
 //text for when the player selects gender
 if (tuto != 1){
-text_box("Are you male or female?", 3.5, obj_brobi.x, obj_brobi.y +128); 
+text_box("Press space to skip", 3.5, obj_brobi.x, obj_brobi.y -256); 
 instance_create(obj_brobi.x - 32, obj_brobi.y + 192, obj_arrow);
 instance_create(obj_brobi.x, obj_brobi.y + 192, obj_male);
 instance_create(obj_brobi.x + 96, obj_brobi.y + 192, obj_female);
