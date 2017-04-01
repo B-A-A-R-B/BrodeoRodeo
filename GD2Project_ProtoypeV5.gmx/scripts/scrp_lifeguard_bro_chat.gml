@@ -1,6 +1,6 @@
 global.more_text++;
 if (global.hand == 1 && global.more_text == 0) {
-    chat_box("Those were some amazing reps, shake my hand bro", 3.5, view_xview[0], view_yview[0] + 300);
+    chat_box("New dude, shake my hand bro", 3.5, view_xview[0], view_yview[0] + 300);
 }
 else if (global.hand == 1 && global.more_text == 1) {
     global.more_text = -1;
@@ -25,11 +25,6 @@ if (r == 1) {
     text_box("180 your tush bruh. Employees only", 3.5, view_xview[0], view_yview[0] + 300);
     global.more_text = -1;
 }
-}
-//after puzzle
-else {
-    text_box("I’ve never seen your face before but that uniform is good enough qualification for me!", 3.5, view_xview[0], view_yview[0] + 300);
-    global.more_text = -1;
 }
 }
 

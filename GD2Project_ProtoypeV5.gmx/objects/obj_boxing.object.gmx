@@ -264,7 +264,7 @@ global.two += floor(random_range(0,4));
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scrp_quick_time_event_boxing</script>
+            <script>scrp_quick_time_event</script>
           </argument>
           <argument>
             <kind>0</kind>

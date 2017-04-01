@@ -27,30 +27,30 @@ if (global.locker_puzzle != 5) {
     global.locker_puzzle = 1;
 }
 else if (global.locker_puzzle == 5) {
-    text_box("Got it", 0.5, x, y);
+    text_box("Got it", 3.5, x, y);
     global.bx = 1;
     global.puzzles_complete += 1;
      with(obj_lock_screen) {
-    instance_destroy();
-    audio_play_sound(snd_small_pickup, 10, false);
-}
-with (obj_lock_num_1) {
-    instance_destroy();
-}
-with (obj_lock_num_2) {
-    instance_destroy();
-}
-with (obj_lock_num_3) {
-    instance_destroy();
-}
-with (obj_lock_num_4) {
-    instance_destroy();
-}
-global.locker_puzzle = 0;
+        instance_destroy(); 
+        audio_play_sound(snd_small_pickup, 10, false);
+    }
+    with (obj_lock_num_1) {
+        instance_destroy();
+    }
+    with (obj_lock_num_2) {
+        instance_destroy();
+    }
+    with (obj_lock_num_3) {
+        instance_destroy();
+    }
+    with (obj_lock_num_4) {
+        instance_destroy();
+    }
+    global.locker_puzzle = 6;
 
-with(obj_locker_combo) {
-    instance_destroy();
-}
+    with(obj_locker_combo) {
+        instance_destroy();
+    }
     global.can_move = 1;
     global.puzzle_code_1++;
     //code for item here

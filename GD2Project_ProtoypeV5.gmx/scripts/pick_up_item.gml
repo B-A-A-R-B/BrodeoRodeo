@@ -116,16 +116,13 @@ else if (distance_to_object(obj_brotienshake) < 32) {  //check if the player is 
             global.pik = 1;
             audio_play_sound(snd_pickup, 15, false);
         }
-        else if (global.brobucks < 5) {
-            text_box("Not enough brobucks for that!", 3.5, x, y);
-        }
         else {
             q = 1;
         }   
     }
-    if (q == 1) {
+    /*if (q == 1) {
         text_box("No room in backpack for that item", 3.5, x, y); //if no room in inventory, display message
-    }
+    }*/
 }
 
 else if (distance_to_object(obj_CD) < 15) {

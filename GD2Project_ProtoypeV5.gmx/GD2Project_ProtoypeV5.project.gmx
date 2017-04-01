@@ -295,7 +295,7 @@
       <script>scripts\scrp_minimage_bar_3.gml</script>
       <script>scripts\scrp_minigame_note_bar.gml</script>
       <script>scripts\scrp_minigame_notes.gml</script>
-      <script>scripts\scrp_quick_time_event_boxing.gml</script>
+      <script>scripts\scrp_quick_time_event.gml</script>
       <script>scripts\scrp_minigame_pool_bar.gml</script>
       <script>scripts\scrp_minigame_pool.gml</script>
       <script>scripts\scrp_minigame_pullup_bar.gml</script>
@@ -465,11 +465,11 @@
     <object>objects\obj_curl_rack</object>
     <object>objects\obj_dance_machine</object>
     <object>objects\credits_exit</object>
+    <object>objects\Start</object>
     <object>objects\Credits_obj</object>
     <object>objects\Instructions</object>
     <object>objects\MenuSelect</object>
     <object>objects\up_control</object>
-    <object>objects\Start</object>
     <object>objects\down_control</object>
     <object>objects\right_control</object>
     <object>objects\left_control</object>

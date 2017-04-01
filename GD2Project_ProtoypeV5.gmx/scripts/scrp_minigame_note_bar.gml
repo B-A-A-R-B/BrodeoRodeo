@@ -1,4 +1,4 @@
-depth = -50;
+depth = -50000;
 draw_set_colour(c_black);
 draw_line(obj_placeholder.x + 10, obj_placeholder.y + 25, obj_placeholder.x + 800, obj_placeholder.y + 25); 
 instance_create(obj_placeholder.x + 15, obj_placeholder.y - 7, obj_key_note);
