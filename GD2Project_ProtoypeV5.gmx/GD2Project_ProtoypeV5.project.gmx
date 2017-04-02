@@ -23,6 +23,7 @@
     <sound>sound\snd_water_sfx</sound>
     <sound>sound\snd_fail</sound>
     <sound>sound\snd_intro_crawl</sound>
+    <sound>sound\snd_lvlUp</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_border</sprite>
@@ -46,6 +47,9 @@
         <sprite>sprites\spr_female_walk_right</sprite>
         <sprite>sprites\spr_female_walk_left</sprite>
       </sprites>
+      <sprite>sprites\spe_evolve1to2</sprite>
+      <sprite>sprites\spr_evolve2to3</sprite>
+      <sprite>sprites\spr_evolve3to4</sprite>
     </sprites>
     <sprites name="Bros">
       <sprites name="Bro">
@@ -211,7 +215,6 @@
     <sprite>sprites\spr_lockerhighlight_3</sprite>
     <sprite>sprites\spr_lockerhighlight_4</sprite>
     <sprite>sprites\spr_legbro_drinking</sprite>
-    <sprite>sprites\sprite162</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -516,6 +519,7 @@
     <object>objects\obj_intro_crawl</object>
     <object>objects\obj_crawl2</object>
     <object>objects\obj_IntagainzReturn</object>
+    <object>objects\obj_evolveReturn</object>
     <object>objects\obj_c</object>
     <object>objects\obj_roomTransition</object>
     <object>objects\obj_InstaOne</object>
@@ -523,6 +527,7 @@
     <object>objects\obj_intsaThree</object>
     <object>objects\obj_ddrGreat</object>
     <object>objects\obj_ddrMiss</object>
+    <object>objects\obj_evolve</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
@@ -542,6 +547,7 @@
     <room>rooms\InstagainzOne</room>
     <room>rooms\InstagainzTwo</room>
     <room>rooms\InstagainzThree</room>
+    <room>rooms\Transformation</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -42,6 +42,73 @@ else if (global.reputation &gt;= 196) {
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(global.rep == 1 &amp;&amp; global.timesEvolved == 0){
+    
+    if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_lvlUp, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Transformation;
+            global.tempLocationX = 32000;
+            global.tempLocationY = 60800;
+            global.returnX = obj_placeholder.x;
+            global.returnY = obj_placeholder.y;
+            global.returnRoom = room
+    }
+    global.timesEvolved++;
+
+}
+if(global.rep == 2 &amp;&amp; global.timesEvolved == 1){
+
+    if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_lvlUp, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Transformation;
+            global.tempLocationX = 32000;
+            global.tempLocationY = 60800;
+            global.returnX = obj_placeholder.x;
+            global.returnY = obj_placeholder.y;
+            global.returnRoom = room;
+    }
+    global.timesEvolved++;
+}
+if(global.rep == 3 &amp;&amp; global.timesEvolved == 2){
+
+    if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_lvlUp, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Transformation;
+            global.tempLocationX = 32000;
+            global.tempLocationY = 60800;
+            global.returnX = obj_placeholder.x;
+            global.returnY = obj_placeholder.y;
+            global.returnRoom = room;
+    }
+    global.timesEvolved++;
+
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="7" enumb="2">
       <action>
