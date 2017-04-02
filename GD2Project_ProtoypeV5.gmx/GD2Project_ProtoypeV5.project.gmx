@@ -219,6 +219,8 @@
     <sprite>sprites\spr_lockerhighlight_3</sprite>
     <sprite>sprites\spr_lockerhighlight_4</sprite>
     <sprite>sprites\spr_legbro_drinking</sprite>
+    <sprite>sprites\sprite169</sprite>
+    <sprite>sprites\spr_dancer_animation</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
