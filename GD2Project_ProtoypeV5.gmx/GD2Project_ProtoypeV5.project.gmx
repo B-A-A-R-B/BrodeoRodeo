@@ -148,6 +148,7 @@
       <sprite>sprites\spr_note_down</sprite>
       <sprite>sprites\spr_z</sprite>
       <sprite>sprites\spr_ex</sprite>
+      <sprite>sprites\spr_c</sprite>
       <sprite>sprites\spr_space</sprite>
       <sprite>sprites\spr_down_arrow</sprite>
       <sprite>sprites\spr_male</sprite>
@@ -229,6 +230,9 @@
     <background>background\Credits</background>
     <background>background\TitleCard</background>
     <background>background\Instructions_back</background>
+    <background>background\bkg_InstagainzOne</background>
+    <background>background\Bck_InstagainzTwo</background>
+    <background>background\Bck_InstagainzThree</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_dance_puzzle</path>
@@ -476,6 +480,7 @@
     <object>objects\control_z</object>
     <object>objects\interact_z</object>
     <object>objects\control_x</object>
+    <object>objects\obj_x2</object>
     <object>objects\space_bar</object>
     <object>objects\obj_1_sign</object>
     <object>objects\obj_2_sign</object>
@@ -499,6 +504,8 @@
     <object>objects\obj_tanningBed</object>
     <object>objects\obj_intro_crawl</object>
     <object>objects\obj_crawl2</object>
+    <object>objects\obj_IntagainzReturn</object>
+    <object>objects\obj_c</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
@@ -515,6 +522,9 @@
     <room>rooms\Overworld</room>
     <room>rooms\test_room</room>
     <room>rooms\Maze_rm</room>
+    <room>rooms\InstagainzOne</room>
+    <room>rooms\InstagainzTwo</room>
+    <room>rooms\InstagainzThree</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

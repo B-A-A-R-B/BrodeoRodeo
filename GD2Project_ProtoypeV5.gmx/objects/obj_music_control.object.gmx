@@ -109,7 +109,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_level_2</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -129,7 +129,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_gym_level_1</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -275,7 +275,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>MainMenu</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -295,7 +295,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>MainMenu</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -375,7 +375,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>MainMenu</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -395,7 +395,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_main_menu</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -415,7 +415,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_intro_crawl</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
