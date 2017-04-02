@@ -206,6 +206,12 @@
     <sprite>sprites\spr_instaThree</sprite>
     <sprite>sprites\spr_ddrGreat</sprite>
     <sprite>sprites\spr_ddrMiss</sprite>
+    <sprite>sprites\spr_lockerhighlight_1</sprite>
+    <sprite>sprites\spr_lockerhighlight_2</sprite>
+    <sprite>sprites\spr_lockerhighlight_3</sprite>
+    <sprite>sprites\spr_lockerhighlight_4</sprite>
+    <sprite>sprites\spr_legbro_drinking</sprite>
+    <sprite>sprites\sprite162</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
