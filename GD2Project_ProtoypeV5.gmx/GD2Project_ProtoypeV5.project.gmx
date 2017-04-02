@@ -204,6 +204,8 @@
     <sprite>sprites\spr_instaOne</sprite>
     <sprite>sprites\spr_instaTwo</sprite>
     <sprite>sprites\spr_instaThree</sprite>
+    <sprite>sprites\spr_ddrGreat</sprite>
+    <sprite>sprites\spr_ddrMiss</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -513,6 +515,8 @@
     <object>objects\obj_InstaOne</object>
     <object>objects\obj_instaTwo</object>
     <object>objects\obj_intsaThree</object>
+    <object>objects\obj_ddrGreat</object>
+    <object>objects\obj_ddrMiss</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

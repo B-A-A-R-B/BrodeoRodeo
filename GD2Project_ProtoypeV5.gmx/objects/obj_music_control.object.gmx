@@ -275,7 +275,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_main_menu</sound>
           </argument>
         </arguments>
       </action>
@@ -295,7 +295,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_main_menu</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -375,7 +375,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_main_menu</sound>
           </argument>
         </arguments>
       </action>
@@ -415,7 +415,7 @@ global.puzzles_complete += 1;
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>snd_intro_crawl</sound>
           </argument>
           <argument>
             <kind>3</kind>

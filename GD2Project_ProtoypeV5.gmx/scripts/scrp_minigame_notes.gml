@@ -2,6 +2,10 @@ if (keyboard_check_released(vk_up)) {
     if (distance_to_object(obj_key_note) < 3 && distance_to_object(obj_key_note) > -3) {
         instance_destroy();
         global.note_count++;
+        instance_create(obj_placeholder.x, obj_placeholder.y - 16, obj_ddrGreat);
+    }
+    else{
+        instance_create(obj_placeholder.x, obj_placeholder.y - 16, obj_ddrMiss);
     }
 }
 
@@ -9,6 +13,10 @@ else if (keyboard_check_released(vk_down)) {
     if (distance_to_object(obj_key_note) < 3 && distance_to_object(obj_key_note) > -3) {
         instance_destroy();
         global.note_count++;
+        instance_create(obj_placeholder.x, obj_placeholder.y - 112, obj_ddrGreat);
+    }
+    else{
+        instance_create(obj_placeholder.x, obj_placeholder.y - 112, obj_ddrMiss);
     }
 }
 
@@ -16,6 +24,10 @@ else if (keyboard_check_released(vk_left)) {
     if (distance_to_object(obj_key_note) < 3 && distance_to_object(obj_key_note) > -3) {
         instance_destroy();
         global.note_count++;
+        instance_create(obj_placeholder.x, obj_placeholder.y - 48, obj_ddrGreat);
+    }
+    else{
+        instance_create(obj_placeholder.x, obj_placeholder.y - 48, obj_ddrMiss);
     }
 }
 
@@ -23,6 +35,10 @@ else if (keyboard_check_released(vk_right)) {
     if (distance_to_object(obj_key_note) <  2 && distance_to_object(obj_key_note) > -2) {
         instance_destroy();
         global.note_count++;
+        instance_create(obj_placeholder.x, obj_placeholder.y - 80, obj_ddrGreat);
+    }
+    else{
+        instance_create(obj_placeholder.x, obj_placeholder.y - 80, obj_ddrMiss);
     }
 }
 
