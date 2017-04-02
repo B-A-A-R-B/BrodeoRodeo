@@ -3,6 +3,7 @@ if (keyboard_check_released(vk_up)) {
         instance_destroy();
         global.note_count++;
         instance_create(obj_placeholder.x, obj_placeholder.y - 16, obj_ddrGreat);
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
     else{
         instance_create(obj_placeholder.x, obj_placeholder.y - 16, obj_ddrMiss);
@@ -10,10 +11,11 @@ if (keyboard_check_released(vk_up)) {
 }
 
 else if (keyboard_check_released(vk_down)) {
-    if (distance_to_object(obj_key_note) < 3 && distance_to_object(obj_key_note) > -3) {
+    if (distance_to_object(obj_key_note) < 3 && distance_to_object(obj_key_note) > -3) {;
         instance_destroy();
         global.note_count++;
         instance_create(obj_placeholder.x, obj_placeholder.y - 112, obj_ddrGreat);
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
     else{
         instance_create(obj_placeholder.x, obj_placeholder.y - 112, obj_ddrMiss);
@@ -24,7 +26,9 @@ else if (keyboard_check_released(vk_left)) {
     if (distance_to_object(obj_key_note) < 3 && distance_to_object(obj_key_note) > -3) {
         instance_destroy();
         global.note_count++;
+        
         instance_create(obj_placeholder.x, obj_placeholder.y - 48, obj_ddrGreat);
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
     else{
         instance_create(obj_placeholder.x, obj_placeholder.y - 48, obj_ddrMiss);
@@ -36,6 +40,7 @@ else if (keyboard_check_released(vk_right)) {
         instance_destroy();
         global.note_count++;
         instance_create(obj_placeholder.x, obj_placeholder.y - 80, obj_ddrGreat);
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
     else{
         instance_create(obj_placeholder.x, obj_placeholder.y - 80, obj_ddrMiss);
