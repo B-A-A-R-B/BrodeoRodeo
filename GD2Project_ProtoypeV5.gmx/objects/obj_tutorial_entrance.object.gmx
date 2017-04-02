@@ -26,56 +26,94 @@
           <argument>
             <kind>1</kind>
             <string>if (room == Level_1) {
-    audio_play_sound(snd_door_creek, 10, false);
-    audio_play_sound(snd_door_close, 10, false);
+    
     if(global.rep == 1){
-        room_goto(InstagainzOne);
-        obj_placeholder.x = 3200;
-        obj_placeholder.y = 6080;
+        if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = InstagainzOne;
+            global.tempLocationX = 3200;
+            global.tempLocationY = 6080;  
+        }
     }
     else{
-        room_goto(Tutorial);
-        obj_placeholder.x = 320;
-        obj_placeholder.y = 608;    
+        if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Tutorial;
+            global.tempLocationX = 320;
+            global.tempLocationY = 608;
+        }
+   
     }
 }
 
 if (room == Level_2) {
-    audio_play_sound(snd_door_creek, 10, false);
-    audio_play_sound(snd_door_close, 10, false);
     if(global.rep == 2){
-        room_goto(InstagainzTwo);
-        obj_placeholder.x = 3200;
-        obj_placeholder.y = 6080;
+        if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = InstagainzTwo;
+            global.tempLocationX = 3200;
+            global.tempLocationY = 6080;  
+        }
+      
     }
     else{
-        room_goto(Tutorial);
-        obj_placeholder.x = 160;
-        obj_placeholder.y = 1376;
+        if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Tutorial;
+            global.tempLocationX = 169;
+            global.tempLocationY = 1376;
+        }
     }
 }
 
 if (room == Level_3) {
-    audio_play_sound(snd_door_creek, 10, false);
-    audio_play_sound(snd_door_close, 10, false);
+
     if(global.rep == 3){
-        room_goto(InstagainzThree);
-        obj_placeholder.x = 3200;
-        obj_placeholder.y = 6080;
+        if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = InstagainzThree;
+            global.tempLocationX = 3200;
+            global.tempLocationY = 6080;  
+        }
     }
     else{
-        room_goto(Tutorial);
-        obj_placeholder.x = 256;
-        obj_placeholder.y = 1376;
+        if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Tutorial;
+            global.tempLocationX = 256;
+            global.tempLocationY = 1376;
+        }
     }
 }
 
 if (room == Level_4) {
-    audio_play_sound(snd_door_creek, 10, false);
-    audio_play_sound(snd_door_close, 10, false);
-    room_goto(Tutorial);
-    obj_placeholder.x = 384;
-    obj_placeholder.y = 800;
+    if !instance_exists(obj_roomTransition){
+            audio_play_sound(snd_door_creek, 10, false);
+            audio_play_sound(snd_door_close, 10, false);
+            //var tempRoomFade;
+            tempRoomFade = instance_create(x,y,obj_roomTransition);
+            tempRoomFade.tempTarget = Tutorial;
+            global.tempLocationX = 384;
+            global.tempLocationY = 800;
+        }
 }
 </string>
           </argument>

@@ -5,7 +5,7 @@ if (global.more_text == 0) {
     if (global.brobucks < 5 && global.tutorial_puzzle < 1){
         chat_box("Hey Bro, I see you are trying to get to your locker behind the big guy. Heres five brobucks, I sent you a text on what to do next.", 3.5, view_xview[0],view_yview[0] + 300);
         global.brobucks += 5;
-        instance_create(obj_placeholder.x, obj_placeholder.y - 32, obj_c);
+        instance_create(obj_placeholder.x - 16, obj_placeholder.y - 40, obj_c);
         with (obj_quest){
             if (x == obj_brobi.x && y < obj_brobi.y && y >= obj_brobi.y - 32) { 
             instance_destroy();

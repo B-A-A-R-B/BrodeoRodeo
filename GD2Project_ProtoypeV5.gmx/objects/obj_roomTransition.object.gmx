@@ -3,8 +3,8 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
-  <persistent>0</persistent>
+  <depth>-12000</depth>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,14 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>object_set_visible(obj_placeholder, false);
-text_box("Press space to continue", 3.5, 510, 0); 
+            <string>fadeAlpha = 0;
+fadeState = 1;
+fadeSpeed = 0.05;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="32">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -49,40 +50,26 @@ text_box("Press space to continue", 3.5, 510, 0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>object_set_visible(obj_placeholder, true);
-if(room == InstagainzOne){
-    if !instance_exists(obj_roomTransition){
-            audio_play_sound(snd_door_creek, 10, false);
-            audio_play_sound(snd_door_close, 10, false);
-            //var tempRoomFade;
-            tempRoomFade = instance_create(x,y,obj_roomTransition);
-            tempRoomFade.tempTarget = Tutorial;
-            global.tempLocationX = 320;
-            global.tempLocationY = 608;
-    }    
+            <string>fadeAlpha = clamp(fadeAlpha + (fadeState * fadeSpeed),0,1);
+if(fadeAlpha == 1)
+{
+
+    room_goto(tempTarget);
+    obj_placeholder.x = global.tempLocationX;
+    obj_placeholder.y = global.tempLocationY;
+    fadeState = -1;   
+
 }
-if(room == InstagainzTwo){
-    if !instance_exists(obj_roomTransition){
-            audio_play_sound(snd_door_creek, 10, false);
-            audio_play_sound(snd_door_close, 10, false);
-            //var tempRoomFade;
-            tempRoomFade = instance_create(x,y,obj_roomTransition);
-            tempRoomFade.tempTarget = Tutorial;
-            global.tempLocationX = 169;
-            global.tempLocationY = 1376;
-    }
+
+if ((fadeAlpha == 0) &amp;&amp; (fadeState == -1)){
+
+    instance_destroy();
+
 }
-if(room == InstagainzThree){
-    if !instance_exists(obj_roomTransition){
-            audio_play_sound(snd_door_creek, 10, false);
-            audio_play_sound(snd_door_close, 10, false);
-            //var tempRoomFade;
-            tempRoomFade = instance_create(x,y,obj_roomTransition);
-            tempRoomFade.tempTarget = Tutorial;
-            global.tempLocationX = 256;
-            global.tempLocationY = 1376;
-    }  
-}
+draw_set_colour(c_black);
+draw_set_alpha(fadeAlpha);
+draw_rectangle(view_xview[0],view_yview[0],view_xview[0]+view_wview[0],view_yview[0]+view_hview[0],0);
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>

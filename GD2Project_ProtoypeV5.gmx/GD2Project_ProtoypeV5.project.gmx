@@ -506,6 +506,7 @@
     <object>objects\obj_crawl2</object>
     <object>objects\obj_IntagainzReturn</object>
     <object>objects\obj_c</object>
+    <object>objects\obj_roomTransition</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

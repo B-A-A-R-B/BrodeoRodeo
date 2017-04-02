@@ -26,11 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>if (room == Tutorial) {
-    audio_play_sound(snd_door_creek, 10, false);
-    audio_play_sound(snd_door_close, 10, false);
-    room_goto(Level_2);
-    obj_placeholder.x = 896;
-    obj_placeholder.y = 704;
+if !instance_exists(obj_roomTransition){
+        audio_play_sound(snd_door_creek, 10, false);
+        audio_play_sound(snd_door_close, 10, false);
+        //var tempRoomFade;
+        tempRoomFade = instance_create(x,y,obj_roomTransition);
+        tempRoomFade.tempTarget = Level_2;
+        global.tempLocationX = 896;
+        global.tempLocationY = 704;  
+    }
 }
 </string>
           </argument>
