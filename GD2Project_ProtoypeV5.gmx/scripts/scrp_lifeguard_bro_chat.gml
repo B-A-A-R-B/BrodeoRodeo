@@ -1,8 +1,6 @@
 global.more_text++;
-if (global.hand == 1 && global.more_text == 0) {
-    chat_box("New dude, shake my hand bro", 3.5, view_xview[0], view_yview[0] + 300);
-}
-else if (global.hand == 1 && global.more_text == 1) {
+
+if (global.hand == 1 && global.more_text == 1) {
     global.more_text = -1;
     global.hand = 2;
     instance_create(obj_placeholder.x, obj_placeholder.y, obj_hand_shake);

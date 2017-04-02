@@ -104,3 +104,8 @@ else if (distance_to_object(obj_bro_baby) < 15) {
     scrp_baby_bro_chat();
     global.portrait = obj_bro_baby;
 }
+else if (distance_to_object(obj_bro_life) < 15) {
+    audio_play_sound(snd_interaction, 15, false);
+    scrp_lifeguard_bro_chat();
+    global.portrait = obj_bro_life;
+}

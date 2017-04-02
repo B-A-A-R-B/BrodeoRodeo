@@ -246,7 +246,7 @@
           <argument>
             <kind>1</kind>
             <string>if (distance_to_object(obj_brotien_stand) &gt; 1 &amp;&amp; global.tutorial_puzzle == 2) {
-    mp_potential_step(obj_brotien_stand.x - 8, obj_brotien_stand.y + 8, 4, false);
+    mp_potential_step(obj_brotien_stand.x, obj_brotien_stand.y + 8, 4, false);
 }
 if((obj_locker_bro.x == obj_brotien_stand.x) &amp;&amp; (obj_locker_bro.y == (obj_brotien_stand.y + 8))){
 

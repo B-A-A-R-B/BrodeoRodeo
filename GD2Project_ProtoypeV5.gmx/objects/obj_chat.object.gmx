@@ -152,6 +152,9 @@ else if (global.portrait == obj_bro_4) {
 else if (global.portrait == obj_bro_baby) {
     draw_sprite(spr_bro_baby_portrait, -1, x, y)
 }
+else if (global.portrait == obj_bro_life) {
+    draw_sprite(spr_bro_life_portrait, -1, x, y);
+}
 
 draw_set_color(c_black);
 draw_set_halign(fa_left);

@@ -469,6 +469,7 @@
     </objects>
     <objects name="Minigame_Objects">
       <object>objects\obj_key_note</object>
+      <object>objects\obj_wall_note</object>
       <object>objects\obj_note_up</object>
       <object>objects\obj_note_down</object>
       <object>objects\obj_note_left</object>
@@ -541,8 +542,8 @@
     <room>rooms\Instructions_rm</room>
     <room>rooms\Store_room</room>
     <room>rooms\room8</room>
-    <room>rooms\Overworld</room>
     <room>rooms\test_room</room>
+    <room>rooms\Overworld</room>
     <room>rooms\Maze_rm</room>
     <room>rooms\InstagainzOne</room>
     <room>rooms\InstagainzTwo</room>
