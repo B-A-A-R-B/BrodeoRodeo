@@ -11,3 +11,7 @@ else if(global.L3_arrow_pos == 1){
     audio_play_sound(snd_small_pickup, 15, false);
     global.level_3_puzzle++;
 }
+
+with (obj_text) {
+    instance_destroy();
+}

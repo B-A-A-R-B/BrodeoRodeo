@@ -39,5 +39,4 @@ if (global.hits == 5) {
         instance_destroy();
     }
     global.hits = 0;
-    text_box("You did the thing, congratz!", 3.5, obj_placeholder.x - 25, obj_placeholder.y - 50);
 }

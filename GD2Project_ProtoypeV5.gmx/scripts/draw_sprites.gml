@@ -5,6 +5,16 @@ if (room == Tutorial) {
 if (room == Level_1) {
     draw_text(view_xview[0] + 457, view_yview[0] + 123, "Bench Press Workout");
 }
+
+if (room == Level_2) {
+    draw_text(view_xview[0] + 457, view_yview[0] + 123, "Workout in Sauna");
+}
+if (room == Level_3) {
+    draw_text(view_xview[0] + 457, view_yview[0] + 123, "Workout");
+}
+if (room == Level_4) {
+    draw_text(view_xview[0] + 457, view_yview[0] + 123, "Toss Nerd, Workout");
+}
 depth = -5010;
 /*if (global.keycard == 1) {
     draw_sprite(spr_keycard, -1, view_xview[0] + 17, view_yview[0] + 303);

@@ -40,6 +40,10 @@
         <sprite>sprites\spr_vib_left</sprite>
         <sprite>sprites\spr_vib_right</sprite>
         <sprite>sprites\spr_male_bench_press</sprite>
+        <sprite>sprites\spr_life_walk_left</sprite>
+        <sprite>sprites\spr_life_walk_right</sprite>
+        <sprite>sprites\spr_life_idle_left</sprite>
+        <sprite>sprites\spr_life_idle_right</sprite>
       </sprites>
       <sprites name="Female">
         <sprite>sprites\spr_female_idle_left</sprite>
@@ -533,6 +537,7 @@
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\character_select</room>
+    <room>rooms\test_room</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -542,7 +547,6 @@
     <room>rooms\Instructions_rm</room>
     <room>rooms\Store_room</room>
     <room>rooms\room8</room>
-    <room>rooms\test_room</room>
     <room>rooms\Overworld</room>
     <room>rooms\Maze_rm</room>
     <room>rooms\InstagainzOne</room>

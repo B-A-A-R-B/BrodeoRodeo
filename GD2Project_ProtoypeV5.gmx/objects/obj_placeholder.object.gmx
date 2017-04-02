@@ -2532,7 +2532,7 @@ else if (global.minigame == 0 &amp;&amp; global.once == 2) {
             <string>///message of revolt when in view of old naked men
 var r = floor(random_range(0,2));
 if (r == 0) {
-    text_box("SO MANY NAKED OLD DUDES! I should find them some towels so I cna use the sauna", 3.5, x, y);
+    text_box("SO MANY NAKED OLD DUDES! I should find them some towels so I can use the sauna", 3.5, x, y);
 }
 if (r == 1) {
     text_box("MY EYES!...gotta find those towels...", 3.5, x, y);

@@ -59,11 +59,12 @@ if (global.notess > 14) {
     else if (global.note_count <= 8 && global.note_count >= 2) {
         global.reputation += 8;
     }
-    global.minigame_notes = 0;
+    
     with (obj_minigame_notes) {
         instance_destroy();
     }
     with (obj_key_note) {
         instance_destroy();
     }
+    global.minigame_notes = 0;
 }
