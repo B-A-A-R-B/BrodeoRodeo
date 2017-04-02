@@ -27,8 +27,9 @@
             <kind>1</kind>
             <string>if (room == Level_1) {
     
-    if(global.rep == 1){
+    if(global.rep == 1 &amp;&amp; global.pics_Seen == 0){
         if !instance_exists(obj_roomTransition){
+            global.pics_Seen += 1;
             audio_play_sound(snd_door_creek, 10, false);
             audio_play_sound(snd_door_close, 10, false);
             //var tempRoomFade;
@@ -53,8 +54,9 @@
 }
 
 if (room == Level_2) {
-    if(global.rep == 2){
+    if(global.rep == 2 &amp;&amp; global.pics_Seen == 1){
         if !instance_exists(obj_roomTransition){
+            global.pics_Seen += 1;
             audio_play_sound(snd_door_creek, 10, false);
             audio_play_sound(snd_door_close, 10, false);
             //var tempRoomFade;
@@ -80,8 +82,9 @@ if (room == Level_2) {
 
 if (room == Level_3) {
 
-    if(global.rep == 3){
+    if(global.rep == 3 &amp;&amp; global.pics_Seen == 2){
         if !instance_exists(obj_roomTransition){
+            global.pics_Seen += 1;
             audio_play_sound(snd_door_creek, 10, false);
             audio_play_sound(snd_door_close, 10, false);
             //var tempRoomFade;

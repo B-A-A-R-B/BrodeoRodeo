@@ -201,6 +201,9 @@
     <sprite>sprites\spr_medicine_ball</sprite>
     <sprite>sprites\spr_intro_crawl</sprite>
     <sprite>sprites\spr_crawl2</sprite>
+    <sprite>sprites\spr_instaOne</sprite>
+    <sprite>sprites\spr_instaTwo</sprite>
+    <sprite>sprites\spr_instaThree</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -507,6 +510,9 @@
     <object>objects\obj_IntagainzReturn</object>
     <object>objects\obj_c</object>
     <object>objects\obj_roomTransition</object>
+    <object>objects\obj_InstaOne</object>
+    <object>objects\obj_instaTwo</object>
+    <object>objects\obj_intsaThree</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
