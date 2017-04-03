@@ -63,7 +63,7 @@ if (room == Level_2) {
             tempRoomFade = instance_create(x,y,obj_roomTransition);
             tempRoomFade.tempTarget = InstagainzTwo;
             global.tempLocationX = 3200;
-            global.tempLocationY = 6080;  
+            global.tempLocationY = 6048;  
         }
       
     }
@@ -75,7 +75,7 @@ if (room == Level_2) {
             tempRoomFade = instance_create(x,y,obj_roomTransition);
             tempRoomFade.tempTarget = Tutorial;
             global.tempLocationX = 169;
-            global.tempLocationY = 1376;
+            global.tempLocationY = 1344;
         }
     }
 }

@@ -275,6 +275,7 @@
     <background>background\Bck_InstagainzTwo</background>
     <background>background\Bck_InstagainzThree</background>
     <background>background\background30</background>
+    <background>background\credits2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_dance_puzzle</path>
