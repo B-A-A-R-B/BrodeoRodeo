@@ -159,17 +159,13 @@
     <instance objName="obj_bench_press" x="416" y="32" name="inst_239DDD8D" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_bench_press" x="512" y="32" name="inst_0AEB437D" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_curl_rack" x="128" y="288" name="inst_F21E1924" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_curl_rack" x="128" y="352" name="inst_E4B1351E" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_curl_rack" x="128" y="416" name="inst_2F87A1A1" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_curl_rack" x="896" y="288" name="inst_F7688113" locked="0" code="" scaleX="-0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_curl_rack" x="896" y="352" name="inst_0A92CBF4" locked="0" code="" scaleX="-0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_curl_rack" x="896" y="416" name="inst_195FC8DC" locked="0" code="" scaleX="-0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_treadmill" x="544" y="384" name="inst_017378B8" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_treadmill" x="480" y="384" name="inst_4B7BC897" locked="0" code="" scaleX="-0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="544" name="inst_4AC2C589" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="896" y="544" name="inst_CCA145E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bro_baby" x="224" y="416" name="inst_AC767C62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fembro_4" x="768" y="416" name="inst_A5359472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fembro_4" x="832" y="448" name="inst_A5359472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_entrance" x="480" y="608" name="inst_BF76EE3B" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shake" x="1376" y="1184" name="inst_0F445F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_roids" x="1088" y="1216" name="inst_91019525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -192,6 +188,10 @@
     <instance objName="obj_arrow_hint_down" x="384" y="384" name="inst_0238606A" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_hint_right" x="448" y="416" name="inst_8B83AA72" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_med_ball" x="672" y="224" name="inst_52BC3B18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster5" x="352" y="160" name="inst_93639E92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster" x="608" y="160" name="inst_99C80DCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster4" x="224" y="256" name="inst_5830FF91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster3" x="800" y="256" name="inst_F08D020C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="128" y="352" w="32" h="32" xo="0" yo="0" id="10006066" name="inst_6A568690" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

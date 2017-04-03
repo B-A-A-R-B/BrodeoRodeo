@@ -307,7 +307,9 @@
     <instance objName="down_control" x="928" y="760" name="inst_95293547" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="left_control" x="920" y="776" name="inst_BBF5ED70" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="right_control" x="968" y="776" name="inst_5FB10EB2" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bro_coin" x="320" y="288" name="inst_522C78F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster4" x="896" y="512" name="inst_136B514F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster3" x="608" y="512" name="inst_1386162E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_poster5" x="320" y="512" name="inst_4410C89E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="896" y="832" w="32" h="32" xo="0" yo="0" id="10001137" name="inst_EB0091FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

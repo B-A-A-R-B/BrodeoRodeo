@@ -189,6 +189,8 @@
     <sprite>sprites\spr_poster1</sprite>
     <sprite>sprites\spr_poster2</sprite>
     <sprite>sprites\spr_poster3</sprite>
+    <sprite>sprites\spr_poster4</sprite>
+    <sprite>sprites\spr_poster5</sprite>
     <sprite>sprites\spr_arrow_hint_up</sprite>
     <sprite>sprites\spr_arrow_hint_down</sprite>
     <sprite>sprites\spr_arrow_hint_left</sprite>
@@ -536,6 +538,9 @@
     <object>objects\obj_ddrGreat</object>
     <object>objects\obj_ddrMiss</object>
     <object>objects\obj_evolve</object>
+    <object>objects\obj_poster3</object>
+    <object>objects\obj_poster4</object>
+    <object>objects\obj_poster5</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
