@@ -44,6 +44,18 @@
         <sprite>sprites\spr_life_walk_right</sprite>
         <sprite>sprites\spr_life_idle_left</sprite>
         <sprite>sprites\spr_life_idle_right</sprite>
+        <sprite>sprites\spr_left_idle2</sprite>
+        <sprite>sprites\spr_right_idle2</sprite>
+        <sprite>sprites\spr_left_walk2</sprite>
+        <sprite>sprites\spr_right_walk2</sprite>
+        <sprite>sprites\spr_left_idle3</sprite>
+        <sprite>sprites\spr_right_idle3</sprite>
+        <sprite>sprites\spr_left_walk3</sprite>
+        <sprite>sprites\spr_right_walk3</sprite>
+        <sprite>sprites\spr_left_idle4</sprite>
+        <sprite>sprites\spr_right_idle4</sprite>
+        <sprite>sprites\spr_left_walk4</sprite>
+        <sprite>sprites\spr_right_walk4</sprite>
       </sprites>
       <sprites name="Female">
         <sprite>sprites\spr_female_idle_left</sprite>
@@ -554,7 +566,6 @@
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\character_select</room>
-    <room>rooms\test_room</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -570,6 +581,7 @@
     <room>rooms\InstagainzTwo</room>
     <room>rooms\InstagainzThree</room>
     <room>rooms\Transformation</room>
+    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
