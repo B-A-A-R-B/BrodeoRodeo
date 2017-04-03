@@ -314,6 +314,7 @@
     <instance objName="obj_poster5" x="640" y="0" name="inst_52DEBAB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_poster4" x="736" y="0" name="inst_2621968E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shoulder_raises" x="512" y="58" name="inst_5A6F1E6C" locked="0" code="" scaleX="0.25" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blinky_the_plant_master" x="960" y="160" name="inst_D6CFE16A" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="736" y="320" w="32" h="32" xo="0" yo="0" id="10003241" name="inst_888B8CC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -223,6 +223,7 @@
     <sprite>sprites\spr_legbro_drinking</sprite>
     <sprite>sprites\sprite169</sprite>
     <sprite>sprites\spr_dancer_animation</sprite>
+    <sprite>sprites\spr_blink_the_plant_master</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -541,6 +542,7 @@
     <object>objects\obj_poster3</object>
     <object>objects\obj_poster4</object>
     <object>objects\obj_poster5</object>
+    <object>objects\obj_blinky_the_plant_master</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
