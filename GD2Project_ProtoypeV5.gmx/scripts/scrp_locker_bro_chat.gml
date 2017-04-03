@@ -2,7 +2,7 @@ global.more_text++;
 var r = floor(random_range(0,3));
 if (global.locker_puzzle < 5) {
     if (r == 0 && global.more_text == 0) {
-        chat_box("Oh no man! I had some super special get-ripped-fast sauce in my locker but I can’t remember the code. If you wanna learn a sweet new workout from me the help me get in my locker!", 3.5, view_xview[0],view_yview[0] + 300);
+        chat_box("Oh no man! I had some super special get-ripped-fast sauce in my locker but I can’t remember the code. If you help me open it you can have some! It'll make you get ripped super quicky by just leaving this room!", 3.5, view_xview[0],view_yview[0] + 300);
         global.can_move = 1;
     }
     else if ( r == 1 && global.more_text == 0) {

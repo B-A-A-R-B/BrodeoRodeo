@@ -1,5 +1,4 @@
 global.more_text++;
-global.quote_puzzle++;
 
 if (global.more_text == 0) {
     if (global.brobucks < 5){

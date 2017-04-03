@@ -1,7 +1,7 @@
 global.more_text++;
 var dancer_text=0;
 var r = floor(random_range(0, 2));
-if (global.more_text == 0 && dancer_text == 0) {
+if (global.more_text == 0) {
     chat_box("I told the guy on the bench press over there that dancing is a legitimate workout but he just keeps making fun of me. I got mad so I hid his steroids until he tried matching my sweet moves. Wanna give it a shot? If you can keep up we can have a  dance off", 3.5, view_xview[0] ,view_yview[0] + 300); 
         if( global.dance_puzzle != 15) {
             global.more_text = 2;

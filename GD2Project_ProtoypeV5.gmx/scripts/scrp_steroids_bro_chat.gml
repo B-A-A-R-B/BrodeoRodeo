@@ -1,6 +1,6 @@
 
 global.more_text++;
-if (global.more_text == 0) {
+if (global.more_text == 0 && global.steroids_placed != 1) {
     chat_box("Duuuude...I made fun of that dancer dweeb dorkasaurus and he took my 'roids...er I mean...uhh vitamins. I'm not gonna let anyone use this machine until I get them back...but obviously I'm going to do nothing at all to solve the problem myself...", 3.5, view_xview[0] ,view_yview[0] + 300);
 }
 else if (global.more_text == 1 && global.steroids_placed == 1) {

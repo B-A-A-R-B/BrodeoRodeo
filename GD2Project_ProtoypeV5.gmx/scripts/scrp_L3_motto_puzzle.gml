@@ -7,7 +7,7 @@ else if(global.L3_arrow_pos < 1 ){
 }
 
 else if(global.L3_arrow_pos == 1){
-    chat_box("BINGO! REAL BROS LET BROS SKIP LEGDAY! Every true bro knows that legday is for Wimperinos and Nofunions!", 3.5, view_xview[0],view_yview[0] + 300);
+    chat_box("BINGO! REAL BROS LET BROS SKIP LEGDAY! Every true bro knows that legday is for Wimperinos and Nofunions! Now go try out that medicine ball...you can get a great core workout!", 3.5, view_xview[0],view_yview[0] + 300);
     audio_play_sound(snd_small_pickup, 15, false);
     global.level_3_puzzle++;
 }

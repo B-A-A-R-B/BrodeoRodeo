@@ -223,7 +223,13 @@
     <sprite>sprites\spr_legbro_drinking</sprite>
     <sprite>sprites\sprite169</sprite>
     <sprite>sprites\spr_dancer_animation</sprite>
-    <sprite>sprites\spr_blink_the_plant_master</sprite>
+    <sprite>sprites\spr_plantyMcPlantface</sprite>
+    <sprite>sprites\spr_baby_with_weights</sprite>
+    <sprite>sprites\spr_momcurls</sprite>
+    <sprite>sprites\spr_dadcurls</sprite>
+    <sprite>sprites\spr_level3_end_bro</sprite>
+    <sprite>sprites\spr_L3_puzzle_bro</sprite>
+    <sprite>sprites\spr_lady_chestfly</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\locker</background>
@@ -306,6 +312,7 @@
       <script>scripts\scrp_painter_chat.gml</script>
       <script>scripts\scrp_brotien_salesman.gml</script>
       <script>scripts\scrp_tmp_brobi1.gml</script>
+      <script>scripts\scrp_plantymcplantface_chat.gml</script>
       <script>scripts\scrp_boxing_bro.gml</script>
     </scripts>
     <scripts name="Store">
@@ -542,7 +549,7 @@
     <object>objects\obj_poster3</object>
     <object>objects\obj_poster4</object>
     <object>objects\obj_poster5</object>
-    <object>objects\obj_blinky_the_plant_master</object>
+    <object>objects\obj_plantyMcplantface</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

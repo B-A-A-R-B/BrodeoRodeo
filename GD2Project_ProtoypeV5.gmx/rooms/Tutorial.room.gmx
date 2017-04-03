@@ -310,7 +310,7 @@
     <instance objName="obj_poster4" x="896" y="512" name="inst_136B514F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_poster3" x="608" y="512" name="inst_1386162E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_poster5" x="320" y="512" name="inst_4410C89E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blinky_the_plant_master" x="320" y="800" name="inst_AE502CD2" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="320" y="800" name="inst_AE502CD2" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="hardwood" x="896" y="832" w="32" h="32" xo="0" yo="0" id="10001137" name="inst_EB0091FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

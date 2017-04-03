@@ -2,7 +2,7 @@ global.more_text++;
 global.L3_arrow_pos = 0;
 if(global.quote_puzzle < 6){
     if (global.more_text == 0) {
-        chat_box("Come back when you know the every bros true motto", 3.5, view_xview[0],view_yview[0] + 300);
+        chat_box("YOU WANNA BE LIKE ME!? PFFFT AUDIBLE SCOFF...YOU CAN ONLY BE LIKE ME ONCE YOU KNOW EVERY BROS TRUE MOTTO. MAYBE SOME PEOPLE AROUND THIS ROOM KNOW IT.", 3.5, view_xview[0],view_yview[0] + 300);
     }
     else {
         global.more_text = -1;
