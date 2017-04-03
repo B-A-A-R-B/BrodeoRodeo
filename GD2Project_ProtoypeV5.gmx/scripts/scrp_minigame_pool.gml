@@ -14,12 +14,12 @@ if (tt == 0) { //every 3 seconds, change buttons
 }
 if (global.minigame_pool == 1) {
     if (global.aa == 1) { //check if A is to be mashed
-        if (keyboard_check_released(ord("A"))) {
+        if (keyboard_check_released(vk_right)) {
             global.mini_pool_health += 3;
         }
     }
     else if (global.ss = 1) { //check if S is to be mashed
-        if (keyboard_check_released(ord("S"))) {
+        if (keyboard_check_released(vk_left)) {
             global.mini_pool_health += 3;
         }
     }

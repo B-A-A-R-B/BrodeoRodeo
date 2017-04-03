@@ -14,4 +14,4 @@ draw_line_width(obj_placeholder.x + 37, obj_placeholder.y + 26, obj_placeholder.
 draw_set_color(c_red);
 draw_line_width(obj_placeholder.x + 75, obj_placeholder.y + 26, obj_placeholder.x + 75, obj_placeholder.y + 49, 3);
 draw_line_width(obj_placeholder.x + 25, obj_placeholder.y + 26, obj_placeholder.x + 25, obj_placeholder.y + 49, 3);
-
+draw_sprite_stretched(spr_space, 1, obj_placeholder.x + 25, obj_placeholder.y + 10, 64, 16);

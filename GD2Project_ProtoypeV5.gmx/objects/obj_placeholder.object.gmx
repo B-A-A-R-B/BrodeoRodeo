@@ -2092,11 +2092,11 @@ else if (global.minigame == 0 &amp;&amp; global.once == 2) {
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.puzzles_complete</string>
+            <string>global.rep</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>3</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>

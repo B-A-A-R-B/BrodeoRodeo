@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.puzzles_complete</string>
+            <string>global.rep</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>2</string>
           </argument>
           <argument>
             <kind>4</kind>
