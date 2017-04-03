@@ -35,6 +35,7 @@ if (global.hits == 5) {
     //code here, win something, become more bro!
     global.can_move = 1;
     global.minigame = 0;
+    global.once = 1;
     with(obj_minigame) {
         instance_destroy();
     }

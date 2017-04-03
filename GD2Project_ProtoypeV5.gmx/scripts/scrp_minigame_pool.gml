@@ -33,6 +33,7 @@ if (global.mini_pool_health >= 70 && global.mini_pool_health <= 85) { //if the b
 if (value >= 300 || timer >= 450) { //once the maximum number of points as been earned or the timer runs out
     global.can_move = 1;
     global.minigame_pool = 0;
+    global.once = 1;
     if (timer >= 450 && value > 90) { //if player didn't complete the minigame in time
         global.reputation += 16;
     }

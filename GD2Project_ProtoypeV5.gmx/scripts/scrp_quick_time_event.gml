@@ -116,6 +116,7 @@ else if (global.two == 3) {
 if (global.gg == 4) {
     global.can_move = 1; global.gg = 0;
     global.boxing = 0; global.hand_shake = 0;
+    global.once = 1;
     with (obj_boxing) {
         instance_destroy();
     }

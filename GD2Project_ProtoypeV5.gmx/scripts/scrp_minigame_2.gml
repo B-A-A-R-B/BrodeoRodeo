@@ -57,6 +57,7 @@ if (global.minigame_2 == 1) { //only check during minigame mode
 if (global.mini_2_health <= 0) {
     global.can_move = 1;
     global.minigame_2 = 0;
+    global.once = 1;
     with(obj_minigame_2) {
         instance_destroy();
     }

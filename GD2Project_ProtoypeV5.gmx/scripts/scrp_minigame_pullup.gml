@@ -31,6 +31,7 @@ if (line == 5) {
     global.can_move = 1;
     global.minigame_pullup = 0;
     global.hand = 1;
+    global.once = 1;
     global.reputation += 32;
     with (obj_minigame_pullup) {
         instance_destroy();

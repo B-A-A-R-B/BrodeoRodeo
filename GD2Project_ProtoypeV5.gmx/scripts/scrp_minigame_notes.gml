@@ -49,6 +49,7 @@ else if (keyboard_check_released(vk_right)) {
 
 if (global.notess > 14) {
     global.can_move = 1;
+    global.once = 1;
     global.dance_puzzle = 15;
     if (global.note_count >= 14) {
         global.reputation += 24;

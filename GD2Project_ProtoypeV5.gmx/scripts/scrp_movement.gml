@@ -103,13 +103,13 @@ if (keyboard_check(vk_lshift)) {
                 sprite_index = spr_life_walk_right;
             }
             if (sprite_index == spr_life_walk_left || sprite_index == spr_life_idle_left) {
-            sprite_index = spr_life_walk_left;
+                sprite_index = spr_life_walk_left;
             }
             y -= 5;
         }
         if keyboard_check(vk_down) {
             if (sprite_index == spr_life_walk_right || sprite_index == spr_life_idle_right) {
-            sprite_index = spr_right;
+            sprite_index = spr_life_walk_right;
             }
             if (sprite_index == spr_life_walk_left || sprite_index == spr_life_idle_left) {
             sprite_index = spr_life_walk_left;

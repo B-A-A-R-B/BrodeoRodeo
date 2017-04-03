@@ -8,6 +8,7 @@ if (global.mini_3_health <= 0) {
     //code here, win something, become more bro!
     global.can_move = 1;
     global.minigame_3 = 0;
+    global.once = 1;
     with(obj_minigame_3) {
         instance_destroy();
     }

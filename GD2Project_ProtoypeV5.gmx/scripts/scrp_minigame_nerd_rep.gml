@@ -97,6 +97,7 @@ if ( global.minigame_nerd_rep == 1) {
     //completed when space was hit 5 times in the correct positions
     if (global.rep_hits == 5) {
         global.can_move = 1;
+        global.once = 1;
         global.minigame_nerd_rep = 0;
         with (obj_minigame_nerd_rep) {
             instance_destroy();
