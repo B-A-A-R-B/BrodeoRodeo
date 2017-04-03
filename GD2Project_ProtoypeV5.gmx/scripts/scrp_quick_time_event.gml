@@ -5,6 +5,7 @@ if (global.two == 0) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 else if (global.two == 1) {
@@ -13,6 +14,7 @@ else if (global.two == 1) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 else if (global.two == 2) {
@@ -21,6 +23,7 @@ else if (global.two == 2) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 else if (global.two == 3) {
@@ -29,6 +32,7 @@ else if (global.two == 3) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 
@@ -61,6 +65,7 @@ if (global.one == 0) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 else if (global.one == 1) {
@@ -69,6 +74,7 @@ else if (global.one == 1) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 else if (global.one == 2) {
@@ -77,6 +83,7 @@ else if (global.one == 2) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 else if (global.one == 3) {
@@ -85,6 +92,7 @@ else if (global.one == 3) {
             instance_destroy();
         }
         global.gg++;
+        audio_play_sound(snd_coin_pickup, 10, false);
     }
 }
 }
@@ -93,6 +101,7 @@ if (global.gg == 2) {
 if (global.two == 0) {
     instance_create(obj_placeholder.x, obj_placeholder.y, up_control);
     global.gg++;
+    
 }
 
 else if (global.two == 1) {
