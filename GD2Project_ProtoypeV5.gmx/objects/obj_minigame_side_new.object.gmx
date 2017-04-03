@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.minigame_scroll</string>
+            <string>global.minigame_side</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -99,7 +99,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.minigame_scroll</string>
+            <string>global.minigame_side</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -143,7 +143,8 @@
             <kind>1</kind>
             <string>depth = -9000;
 draw_sprite(spr_minigame_field, -1, view_xview[0] + 100, view_yview[0] + 100);
-draw_sprite_stretched(spr_up_arrow, 1, obj_placeholder.x + 64, obj_placeholder.y - 96, 48, 48);
+draw_sprite_stretched(spr_right_arrow, 1, obj_placeholder.x + 50, obj_placeholder.y + 10, 16, 16);
+draw_sprite_stretched(spr_left_arrow, 1, obj_placeholder.x + 25, obj_placeholder.y + 10, 16, 16);
 </string>
           </argument>
         </arguments>
