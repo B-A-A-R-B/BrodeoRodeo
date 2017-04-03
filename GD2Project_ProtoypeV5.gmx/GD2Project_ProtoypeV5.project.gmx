@@ -567,7 +567,6 @@
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\character_select</room>
-    <room>rooms\test_room</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
@@ -582,6 +581,7 @@
     <room>rooms\InstagainzOne</room>
     <room>rooms\InstagainzTwo</room>
     <room>rooms\InstagainzThree</room>
+    <room>rooms\test_room</room>
     <room>rooms\Transformation</room>
   </rooms>
   <help>
