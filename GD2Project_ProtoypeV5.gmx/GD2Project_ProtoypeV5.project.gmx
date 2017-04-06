@@ -96,6 +96,7 @@
         <sprite>sprites\spr_painter</sprite>
         <sprite>sprites\spr_brobi_talk</sprite>
         <sprite>sprites\spr_nerd</sprite>
+        <sprite>sprites\spr_dancer_animation</sprite>
         <sprite>sprites\spr_arm_bro_portrait</sprite>
         <sprite>sprites\spr_bro_temp_portrait</sprite>
         <sprite>sprites\spr_tweak_portrait</sprite>
@@ -105,6 +106,7 @@
         <sprite>sprites\spr_bro_life_portrait</sprite>
         <sprite>sprites\spr_painter_portrait</sprite>
         <sprite>sprites\spr_nerd_portrait</sprite>
+        <sprite>sprites\spr_dancer_portrait</sprite>
       </sprites>
       <sprites name="FemBro">
         <sprite>sprites\spr_fembro_1_idle_right</sprite>
@@ -234,7 +236,6 @@
     <sprite>sprites\spr_lockerhighlight_4</sprite>
     <sprite>sprites\spr_legbro_drinking</sprite>
     <sprite>sprites\sprite169</sprite>
-    <sprite>sprites\spr_dancer_animation</sprite>
     <sprite>sprites\spr_plantyMcPlantface</sprite>
     <sprite>sprites\spr_baby_with_weights</sprite>
     <sprite>sprites\spr_momcurls</sprite>

@@ -1,5 +1,5 @@
 global.more_text++;
-
+if (global.hand == 1) {
 if (global.hand == 1 && global.more_text == 1) {
     global.more_text = -1;
     global.hand = 2;
@@ -11,7 +11,8 @@ else {
     global.more_text = -1;
     global.portrait = 0;
 }
-if (global.hand == 0) {
+}
+else if (global.hand == 0) {
 
 var r = floor(random_range(0,2));
 if (global.puzzle_code_2 < 4) {

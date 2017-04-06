@@ -96,7 +96,7 @@ if (global.portrait == bro_service_desk) {
     draw_sprite(spr_bro_2_portrait, -1, x, y);
 }
 else if (global.portrait == obj_bro_dancer) {
-    draw_sprite(spr_bro_2_portrait, -1, x, y);
+    draw_sprite(spr_dancer_portrait, -1, x, y);
 }
 else if (global.portrait == obj_tweak) {
     draw_sprite(spr_tweak_portrait, -1, x, y);

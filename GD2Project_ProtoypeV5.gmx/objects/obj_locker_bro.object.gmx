@@ -166,6 +166,94 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>global.tutorial_puzzle</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>121</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_potential_step</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>obj_brotien_stand.x</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>obj_brotien_stand.y</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>3</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -180,9 +268,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(obj_brotien_stand) &gt; 1 &amp;&amp; global.tutorial_puzzle == 2) {
+            <string>/*if (distance_to_object(obj_brotien_stand) &gt; 1 &amp;&amp; global.tutorial_puzzle == 2) {
    mp_potential_step(obj_placeholder.x, obj_placeholder.y + 8, 4, false);
-}
+}*/
 </string>
           </argument>
         </arguments>
@@ -245,10 +333,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(obj_brotien_stand) &gt; 1 &amp;&amp; global.tutorial_puzzle == 2) {
-    mp_potential_step(obj_brotien_stand.x, obj_brotien_stand.y + 8, 4, false);
-}
-if((obj_locker_bro.x == obj_brotien_stand.x) &amp;&amp; (obj_locker_bro.y == (obj_brotien_stand.y + 8))){
+            <string>if((obj_locker_bro.x == obj_brotien_stand.x) &amp;&amp; (obj_locker_bro.y == (obj_brotien_stand.y))){
 
     stopBro = 1;
 
