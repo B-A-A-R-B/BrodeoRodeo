@@ -582,8 +582,8 @@
     <room>rooms\InstagainzOne</room>
     <room>rooms\InstagainzTwo</room>
     <room>rooms\InstagainzThree</room>
-    <room>rooms\test_room</room>
     <room>rooms\Transformation</room>
+    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

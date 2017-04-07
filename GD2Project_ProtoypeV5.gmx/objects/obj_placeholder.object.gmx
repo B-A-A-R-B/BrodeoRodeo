@@ -1219,10 +1219,11 @@ if (global.timer == 450) {
     if (global.scor &gt; 1 &amp;&amp; global.scor &lt; 5) {
         global.reputation += 72;
     }  
-    if (global.scor == 1) {
+    if (global.scor &lt;= 1) {
         global.reputation += 48;
     }
     global.timer = 0;
+    global.reputation += 4;
     global.scor = 0;
 }
 </string>
@@ -1344,9 +1345,10 @@ if (global.timer / 30 &gt; 18 ) {
     else if (global.scor &gt; 5 &amp;&amp; global.scor &lt; 10) {
         global.reputation += 72;
     }
-    else if (global.scor &gt; 1 &amp;&amp; global.scor &lt; 6) {
+    else if (global.scor &gt;= 0 &amp;&amp; global.scor &lt; 6) {
         global.reputation += 48;
     }
+    global.reputation += 4;
     global.timer = 0;
     global.scor = 0;
 }

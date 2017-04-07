@@ -75,10 +75,11 @@
             <string>if (global.puzzle_code_2 == 4) {
     if (distance_to_object(obj_placeholder) &lt; 10) {
         global.can_move = 0;
+        global.hand = 1;
         global.puzzle_code_2++;
         global.portrait = obj_bro_life;
         chat_box("New dude, shake my hand bro", 3.5, view_xview[0], view_yview[0] + 300);
-        global.hand = 1;
+        
         
     }
 }

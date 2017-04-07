@@ -29,13 +29,13 @@
 if (global.reputation &gt;= 0 &amp;&amp; global.reputation &lt;= 27) {
     global.rep = 0;
 }
-else if (global.reputation &gt;= 28 &amp;&amp; global.reputation &lt;= 111) {
+else if (global.reputation &gt;= 28 &amp;&amp; global.reputation &lt;= 100) {
     global.rep = 1;
 }
-else if (global.reputation &gt;= 112 &amp;&amp; global.reputation &lt;= 234) {
+else if (global.reputation &gt;= 101 &amp;&amp; global.reputation &lt;= 204) {
     global.rep = 2;
 }
-else if (global.reputation &gt;= 235) {
+else if (global.reputation &gt;= 205) {
     global.rep = 3;
 }
 </string>
@@ -1637,10 +1637,10 @@ if (global.rep = 0) {
     r = global.reputation / 28;
 }
 else if (global.rep = 1) {
-    r = global.reputation / 112;
+    r = global.reputation / 101;
 }
 else if (global.rep = 2) {
-    r = global.reputation / 235;
+    r = global.reputation / 204;
 }
 else if (global.rep = 3) {
     r = 1;

@@ -47,7 +47,7 @@ else if (keyboard_check_released(vk_right)) {
     }
 }
 
-if (global.notess > 14) {
+if (global.notess >= 14) {
     global.can_move = 1;
     global.once = 1;
     global.dance_puzzle = 15;
@@ -60,7 +60,10 @@ if (global.notess > 14) {
     else if (global.note_count <= 8 && global.note_count >= 2) {
         global.reputation += 8;
     }
-    
+    else if (global.note_count < 2) {
+        global.reputation += 6;
+    }
+    global.reputation += 4;
     with (obj_minigame_notes) {
         instance_destroy();
     }

@@ -141,7 +141,7 @@ if (global.gg == 4) {
     else if (counter / 30 <= 2.5) {
         global.reputation += 16;
     }
-    else if (counter / 30 <= 3.5) {
+    else if (counter / 30 > 2.5) {
         global.reputation += 8;
     }
     counter = 0;

@@ -141,7 +141,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> text_box("I can't go in there yet, it feels like  need to be a true bro to be worthy!", 3.5, x, y);
+            <string> text_box("I can't go in there yet, it feels like need to be a true bro to be worthy!", 3.5, x, y);
 </string>
           </argument>
         </arguments>

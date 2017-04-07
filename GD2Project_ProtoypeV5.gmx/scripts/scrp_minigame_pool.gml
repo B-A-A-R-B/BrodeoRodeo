@@ -35,17 +35,21 @@ if (value >= 300 || timer >= 450) { //once the maximum number of points as been 
     global.minigame_pool = 0;
     global.once = 1;
     if (timer >= 450 && value > 90) { //if player didn't complete the minigame in time
-        global.reputation += 16;
-    }
-    else if (timer >= 450 && value >= 250) { //if it was close enough
         global.reputation += 24;
     }
-    else if (timer < 450 && value >= 300) { //if the player completed with time to spare
+    else if (timer >= 450 && value >= 250) { //if it was close enough
         global.reputation += 32;
+    }
+    else if (timer < 450 && value >= 300) { //if the player completed with time to spare
+        global.reputation += 48;
+    }
+    else if (timer >= 450 && value < 90) {
+        global.reputation += 8;
     }
     with(obj_minigame_pool) {
         instance_destroy();
     }
+    global.reputation += 4;
     global.mini_pool_health = 50;
     timer = 0;
     value = 0;
