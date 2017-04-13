@@ -3,13 +3,34 @@ var num1 = 0;
 var num2 = 0;
 var num3 = 0;
 var num4 = 0;
-
 if (keyboard_check_released(vk_left) && pos > 0) {
+    global.highlight_position--;
     pos--;
 }
 
 if (keyboard_check_released(vk_right) && pos < 3) {
+    global.highlight_position++
     pos++;
+}
+if(global.highlight_position == 0){
+    with(obj_lock_screen){
+        sprite_index = spr_lockerhighlight_1;
+    }
+}
+if(global.highlight_position == 1){
+    with(obj_lock_screen){
+        sprite_index = spr_lockerhighlight_2;
+    }
+}
+if(global.highlight_position == 2){
+    with(obj_lock_screen){
+        sprite_index = spr_lockerhighlight_3;
+    }
+} 
+if(global.highlight_position == 3){
+    with(obj_lock_screen){
+        sprite_index = spr_lockerhighlight_4;
+    }
 }    
 
 if (keyboard_check_released(vk_up) && pos == 0 && num1 < 10) {
